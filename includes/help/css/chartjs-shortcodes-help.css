@@ -1,0 +1,6018 @@
+/* Fix for WPEngine's stylesheets */
+#chartjs-shortcodes-help.modal {
+  display: none;
+  overflow: auto;
+  overflow-y: scroll;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 500000;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+  background-color: transparent;
+  width: auto;
+  margin: 0 auto;
+
+}
+#chartjs-shortcodes-help .modal-body {
+    max-height: none;
+}
+/* END Fix for WPEngine's stylesheets */
+
+#chartjs-shortcodes-help h1,
+#chartjs-shortcodes-help h1+p {
+    display: none;
+}
+#chartjs-shortcodes-help .nav-tabs {
+    border-bottom: 0px !important;
+}
+#chartjs-shortcodes-help .nav > li > a {
+    padding: 5px 10px !important;
+}
+#chartjs-shortcodes-help .modal-dialog {
+    margin: 40px auto 20px auto !important;
+}
+#chartjs-shortcodes-help a:link,
+#chartjs-shortcodes-help a:visited {
+    color: #428bca;
+    font-size: 14px;
+}
+
+.sticky-menu #TB_window {
+    background-color: #fff;
+}
+
+.chartjs-shortcodes-button {
+    padding-left: auto !important;
+    padding-right: 8px !important;
+}
+
+@media (min-width: 782px) {
+    .chartjs-shortcodes-button {
+        padding-left: 0px !important; 
+        padding-right: 0px !important;
+    }
+}
+
+
+/* CSS crunched with Crunch - http://crunchapp.net/ */
+#chartjs-shortcodes-help {
+  /*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+}
+#chartjs-shortcodes-help article,
+#chartjs-shortcodes-help aside,
+#chartjs-shortcodes-help details,
+#chartjs-shortcodes-help figcaption,
+#chartjs-shortcodes-help figure,
+#chartjs-shortcodes-help footer,
+#chartjs-shortcodes-help header,
+#chartjs-shortcodes-help hgroup,
+#chartjs-shortcodes-help main,
+#chartjs-shortcodes-help nav,
+#chartjs-shortcodes-help section,
+#chartjs-shortcodes-help summary {
+  display: block;
+}
+#chartjs-shortcodes-help audio,
+#chartjs-shortcodes-help canvas,
+#chartjs-shortcodes-help video {
+  display: inline-block;
+}
+#chartjs-shortcodes-help audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+#chartjs-shortcodes-help [hidden],
+#chartjs-shortcodes-help template {
+  display: none;
+}
+#chartjs-shortcodes-help html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+#chartjs-shortcodes-help body {
+  margin: 0;
+}
+#chartjs-shortcodes-help a {
+  background: transparent;
+}
+#chartjs-shortcodes-help a:focus {
+  outline: thin dotted;
+}
+#chartjs-shortcodes-help a:active,
+#chartjs-shortcodes-help a:hover {
+  outline: 0;
+}
+#chartjs-shortcodes-help h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+#chartjs-shortcodes-help abbr[title] {
+  border-bottom: 1px dotted;
+}
+#chartjs-shortcodes-help b,
+#chartjs-shortcodes-help strong {
+  font-weight: bold;
+}
+#chartjs-shortcodes-help dfn {
+  font-style: italic;
+}
+#chartjs-shortcodes-help hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+#chartjs-shortcodes-help mark {
+  background: #ff0;
+  color: #000;
+}
+#chartjs-shortcodes-help code,
+#chartjs-shortcodes-help kbd,
+#chartjs-shortcodes-help pre,
+#chartjs-shortcodes-help samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+#chartjs-shortcodes-help pre {
+  white-space: pre-wrap;
+}
+#chartjs-shortcodes-help q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+#chartjs-shortcodes-help small {
+  font-size: 80%;
+}
+#chartjs-shortcodes-help sub,
+#chartjs-shortcodes-help sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+#chartjs-shortcodes-help sup {
+  top: -0.5em;
+}
+#chartjs-shortcodes-help sub {
+  bottom: -0.25em;
+}
+#chartjs-shortcodes-help img {
+  border: 0;
+}
+#chartjs-shortcodes-help svg:not(:root) {
+  overflow: hidden;
+}
+#chartjs-shortcodes-help figure {
+  margin: 0;
+}
+#chartjs-shortcodes-help fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+#chartjs-shortcodes-help legend {
+  border: 0;
+  padding: 0;
+}
+#chartjs-shortcodes-help button,
+#chartjs-shortcodes-help input,
+#chartjs-shortcodes-help select,
+#chartjs-shortcodes-help textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+#chartjs-shortcodes-help button,
+#chartjs-shortcodes-help input {
+  line-height: normal;
+}
+#chartjs-shortcodes-help button,
+#chartjs-shortcodes-help select {
+  text-transform: none;
+}
+#chartjs-shortcodes-help button,
+#chartjs-shortcodes-help html input[type="button"],
+#chartjs-shortcodes-help input[type="reset"],
+#chartjs-shortcodes-help input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+#chartjs-shortcodes-help button[disabled],
+#chartjs-shortcodes-help html input[disabled] {
+  cursor: default;
+}
+#chartjs-shortcodes-help input[type="checkbox"],
+#chartjs-shortcodes-help input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+#chartjs-shortcodes-help input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+#chartjs-shortcodes-help input[type="search"]::-webkit-search-cancel-button,
+#chartjs-shortcodes-help input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+#chartjs-shortcodes-help button::-moz-focus-inner,
+#chartjs-shortcodes-help input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+#chartjs-shortcodes-help textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+#chartjs-shortcodes-help table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+@media print {
+  #chartjs-shortcodes-help * {
+    text-shadow: none !important;
+    color: #000 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+  #chartjs-shortcodes-help a,
+  #chartjs-shortcodes-help a:visited {
+    text-decoration: underline;
+  }
+  #chartjs-shortcodes-help a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  #chartjs-shortcodes-help abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  #chartjs-shortcodes-help a[href^="javascript:"]:after,
+  #chartjs-shortcodes-help a[href^="#"]:after {
+    content: "";
+  }
+  #chartjs-shortcodes-help pre,
+  #chartjs-shortcodes-help blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  #chartjs-shortcodes-help thead {
+    display: table-header-group;
+  }
+  #chartjs-shortcodes-help tr,
+  #chartjs-shortcodes-help img {
+    page-break-inside: avoid;
+  }
+  #chartjs-shortcodes-help img {
+    max-width: 100% !important;
+  }
+  @page {
+    margin: 2cm .5cm;
+  }
+  #chartjs-shortcodes-help p,
+  #chartjs-shortcodes-help h2,
+  #chartjs-shortcodes-help h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  #chartjs-shortcodes-help h2,
+  #chartjs-shortcodes-help h3 {
+    page-break-after: avoid;
+  }
+  #chartjs-shortcodes-help select {
+    background: #fff !important;
+  }
+  #chartjs-shortcodes-help .navbar {
+    display: none;
+  }
+  #chartjs-shortcodes-help .table td,
+  #chartjs-shortcodes-help .table th {
+    background-color: #fff !important;
+  }
+  #chartjs-shortcodes-help .btn > .caret,
+  #chartjs-shortcodes-help .dropup > .btn > .caret {
+    border-top-color: #000 !important;
+  }
+  #chartjs-shortcodes-help .label {
+    border: 1px solid #000;
+  }
+  #chartjs-shortcodes-help .table {
+    border-collapse: collapse !important;
+  }
+  #chartjs-shortcodes-help .table-bordered th,
+  #chartjs-shortcodes-help .table-bordered td {
+    border: 1px solid #ddd !important;
+  }
+}
+#chartjs-shortcodes-help *,
+#chartjs-shortcodes-help *:before,
+#chartjs-shortcodes-help *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#chartjs-shortcodes-help html {
+  font-size: 62.5%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+#chartjs-shortcodes-help body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #333333;
+  background-color: #ffffff;
+}
+#chartjs-shortcodes-help input,
+#chartjs-shortcodes-help button,
+#chartjs-shortcodes-help select,
+#chartjs-shortcodes-help textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+#chartjs-shortcodes-help a {
+  color: #428bca;
+  text-decoration: none;
+}
+#chartjs-shortcodes-help a:hover,
+#chartjs-shortcodes-help a:focus {
+  color: #2a6496;
+  text-decoration: underline;
+}
+#chartjs-shortcodes-help a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+#chartjs-shortcodes-help img {
+  vertical-align: middle;
+}
+#chartjs-shortcodes-help .img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+#chartjs-shortcodes-help .img-rounded {
+  border-radius: 6px;
+}
+#chartjs-shortcodes-help .img-thumbnail {
+  padding: 4px;
+  line-height: 1.428571429;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+#chartjs-shortcodes-help .img-circle {
+  border-radius: 50%;
+}
+#chartjs-shortcodes-help hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+}
+#chartjs-shortcodes-help .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+#chartjs-shortcodes-help h1,
+#chartjs-shortcodes-help h2,
+#chartjs-shortcodes-help h3,
+#chartjs-shortcodes-help h4,
+#chartjs-shortcodes-help h5,
+#chartjs-shortcodes-help h6,
+#chartjs-shortcodes-help .h1,
+#chartjs-shortcodes-help .h2,
+#chartjs-shortcodes-help .h3,
+#chartjs-shortcodes-help .h4,
+#chartjs-shortcodes-help .h5,
+#chartjs-shortcodes-help .h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+#chartjs-shortcodes-help h1 small,
+#chartjs-shortcodes-help h2 small,
+#chartjs-shortcodes-help h3 small,
+#chartjs-shortcodes-help h4 small,
+#chartjs-shortcodes-help h5 small,
+#chartjs-shortcodes-help h6 small,
+#chartjs-shortcodes-help .h1 small,
+#chartjs-shortcodes-help .h2 small,
+#chartjs-shortcodes-help .h3 small,
+#chartjs-shortcodes-help .h4 small,
+#chartjs-shortcodes-help .h5 small,
+#chartjs-shortcodes-help .h6 small,
+#chartjs-shortcodes-help h1 .small,
+#chartjs-shortcodes-help h2 .small,
+#chartjs-shortcodes-help h3 .small,
+#chartjs-shortcodes-help h4 .small,
+#chartjs-shortcodes-help h5 .small,
+#chartjs-shortcodes-help h6 .small,
+#chartjs-shortcodes-help .h1 .small,
+#chartjs-shortcodes-help .h2 .small,
+#chartjs-shortcodes-help .h3 .small,
+#chartjs-shortcodes-help .h4 .small,
+#chartjs-shortcodes-help .h5 .small,
+#chartjs-shortcodes-help .h6 .small {
+  font-weight: normal;
+  line-height: 1;
+  color: #999999;
+}
+#chartjs-shortcodes-help h1,
+#chartjs-shortcodes-help h2,
+#chartjs-shortcodes-help h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#chartjs-shortcodes-help h1 small,
+#chartjs-shortcodes-help h2 small,
+#chartjs-shortcodes-help h3 small,
+#chartjs-shortcodes-help h1 .small,
+#chartjs-shortcodes-help h2 .small,
+#chartjs-shortcodes-help h3 .small {
+  font-size: 65%;
+}
+#chartjs-shortcodes-help h4,
+#chartjs-shortcodes-help h5,
+#chartjs-shortcodes-help h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#chartjs-shortcodes-help h4 small,
+#chartjs-shortcodes-help h5 small,
+#chartjs-shortcodes-help h6 small,
+#chartjs-shortcodes-help h4 .small,
+#chartjs-shortcodes-help h5 .small,
+#chartjs-shortcodes-help h6 .small {
+  font-size: 75%;
+}
+#chartjs-shortcodes-help h1,
+#chartjs-shortcodes-help .h1 {
+  font-size: 36px;
+}
+#chartjs-shortcodes-help h2,
+#chartjs-shortcodes-help .h2 {
+  font-size: 30px;
+}
+#chartjs-shortcodes-help h3,
+#chartjs-shortcodes-help .h3 {
+  font-size: 24px;
+}
+#chartjs-shortcodes-help h4,
+#chartjs-shortcodes-help .h4 {
+  font-size: 18px;
+}
+#chartjs-shortcodes-help h5,
+#chartjs-shortcodes-help .h5 {
+  font-size: 14px;
+}
+#chartjs-shortcodes-help h6,
+#chartjs-shortcodes-help .h6 {
+  font-size: 12px;
+}
+#chartjs-shortcodes-help p {
+  margin: 0 0 10px;
+}
+#chartjs-shortcodes-help .lead {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.4;
+}
+@media (min-width: 768px) {
+  #chartjs-shortcodes-help .lead {
+    font-size: 21px;
+  }
+}
+#chartjs-shortcodes-help small,
+#chartjs-shortcodes-help .small {
+  font-size: 85%;
+}
+#chartjs-shortcodes-help cite {
+  font-style: normal;
+}
+#chartjs-shortcodes-help .text-muted {
+  color: #999999;
+}
+#chartjs-shortcodes-help .text-primary {
+  color: #428bca;
+}
+#chartjs-shortcodes-help .text-primary:hover {
+  color: #3071a9;
+}
+#chartjs-shortcodes-help .text-warning {
+  color: #8a6d3b;
+}
+#chartjs-shortcodes-help .text-warning:hover {
+  color: #66512c;
+}
+#chartjs-shortcodes-help .text-danger {
+  color: #a94442;
+}
+#chartjs-shortcodes-help .text-danger:hover {
+  color: #843534;
+}
+#chartjs-shortcodes-help .text-success {
+  color: #3c763d;
+}
+#chartjs-shortcodes-help .text-success:hover {
+  color: #2b542c;
+}
+#chartjs-shortcodes-help .text-info {
+  color: #31708f;
+}
+#chartjs-shortcodes-help .text-info:hover {
+  color: #245269;
+}
+#chartjs-shortcodes-help .text-left {
+  text-align: left;
+}
+#chartjs-shortcodes-help .text-right {
+  text-align: right;
+}
+#chartjs-shortcodes-help .text-center {
+  text-align: center;
+}
+#chartjs-shortcodes-help .page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eeeeee;
+}
+#chartjs-shortcodes-help ul,
+#chartjs-shortcodes-help ol {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+#chartjs-shortcodes-help ul ul,
+#chartjs-shortcodes-help ol ul,
+#chartjs-shortcodes-help ul ol,
+#chartjs-shortcodes-help ol ol {
+  margin-bottom: 0;
+}
+#chartjs-shortcodes-help .list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+#chartjs-shortcodes-help .list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+#chartjs-shortcodes-help .list-inline > li {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#chartjs-shortcodes-help .list-inline > li:first-child {
+  padding-left: 0;
+}
+#chartjs-shortcodes-help dl {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+#chartjs-shortcodes-help dt,
+#chartjs-shortcodes-help dd {
+  line-height: 1.428571429;
+}
+#chartjs-shortcodes-help dt {
+  font-weight: bold;
+}
+#chartjs-shortcodes-help dd {
+  margin-left: 0;
+}
+@media (min-width: 768px) {
+  #chartjs-shortcodes-help .dl-horizontal dt {
+    float: left;
+    width: 160px;
+    clear: left;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  #chartjs-shortcodes-help .dl-horizontal dd {
+    margin-left: 180px;
+  }
+  #chartjs-shortcodes-help .dl-horizontal dd:before,
+  #chartjs-shortcodes-help .dl-horizontal dd:after {
+    content: " ";
+    display: table;
+  }
+  #chartjs-shortcodes-help .dl-horizontal dd:after {
+    clear: both;
+  }
+  #chartjs-shortcodes-help .dl-horizontal dd:before,
+  #chartjs-shortcodes-help .dl-horizontal dd:after {
+    content: " ";
+    display: table;
+  }
+  #chartjs-shortcodes-help .dl-horizontal dd:after {
+    clear: both;
+  }
+}
+#chartjs-shortcodes-help abbr[title],
+#chartjs-shortcodes-help abbr[data-original-title] {
+  cursor: help;
+  border-bottom: 1px dotted #999999;
+}
+#chartjs-shortcodes-help .initialism {
+  font-size: 90%;
+  text-transform: uppercase;
+}
+#chartjs-shortcodes-help blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  border-left: 5px solid #eeeeee;
+}
+#chartjs-shortcodes-help blockquote p {
+  font-size: 17.5px;
+  font-weight: 300;
+  line-height: 1.25;
+}
+#chartjs-shortcodes-help blockquote p:last-child {
+  margin-bottom: 0;
+}
+#chartjs-shortcodes-help blockquote small,
+#chartjs-shortcodes-help blockquote .small {
+  display: block;
+  line-height: 1.428571429;
+  color: #999999;
+}
+#chartjs-shortcodes-help blockquote small:before,
+#chartjs-shortcodes-help blockquote .small:before {
+  content: '\2014 \00A0';
+}
+#chartjs-shortcodes-help blockquote.pull-right {
+  padding-right: 15px;
+  padding-left: 0;
+  border-right: 5px solid #eeeeee;
+  border-left: 0;
+}
+#chartjs-shortcodes-help blockquote.pull-right p,
+#chartjs-shortcodes-help blockquote.pull-right small,
+#chartjs-shortcodes-help blockquote.pull-right .small {
+  text-align: right;
+}
+#chartjs-shortcodes-help blockquote.pull-right small:before,
+#chartjs-shortcodes-help blockquote.pull-right .small:before {
+  content: '';
+}
+#chartjs-shortcodes-help blockquote.pull-right small:after,
+#chartjs-shortcodes-help blockquote.pull-right .small:after {
+  content: '\00A0 \2014';
+}
+#chartjs-shortcodes-help blockquote:before,
+#chartjs-shortcodes-help blockquote:after {
+  content: "";
+}
+#chartjs-shortcodes-help address {
+  margin-bottom: 20px;
+  font-style: normal;
+  line-height: 1.428571429;
+}
+#chartjs-shortcodes-help code,
+#chartjs-shortcodes-help kbd,
+#chartjs-shortcodes-help pre,
+#chartjs-shortcodes-help samp {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+#chartjs-shortcodes-help code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  white-space: nowrap;
+  border-radius: 4px;
+}
+#chartjs-shortcodes-help pre {
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 1.428571429;
+  word-break: break-all;
+  word-wrap: break-word;
+  color: #333333;
+  background-color: #f5f5f5;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+#chartjs-shortcodes-help pre code {
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+  white-space: pre-wrap;
+  background-color: transparent;
+  border-radius: 0;
+}
+#chartjs-shortcodes-help .pre-scrollable {
+  max-height: 340px;
+  overflow-y: scroll;
+}
+#chartjs-shortcodes-help .container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#chartjs-shortcodes-help .container:before,
+#chartjs-shortcodes-help .container:after {
+  content: " ";
+  display: table;
+}
+#chartjs-shortcodes-help .container:after {
+  clear: both;
+}
+#chartjs-shortcodes-help .container:before,
+#chartjs-shortcodes-help .container:after {
+  content: " ";
+  display: table;
+}
+#chartjs-shortcodes-help .container:after {
+  clear: both;
+}
+@media (min-width: 768px) {
+  #chartjs-shortcodes-help .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  #chartjs-shortcodes-help .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  #chartjs-shortcodes-help .container {
+    width: 1170px;
+  }
+}
+#chartjs-shortcodes-help .row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+#chartjs-shortcodes-help .row:before,
+#chartjs-shortcodes-help .row:after {
+  content: " ";
+  display: table;
+}
+#chartjs-shortcodes-help .row:after {
+  clear: both;
+}
+#chartjs-shortcodes-help .row:before,
+#chartjs-shortcodes-help .row:after {
+  content: " ";
+  display: table;
+}
+#chartjs-shortcodes-help .row:after {
+  clear: both;
+}
+#chartjs-shortcodes-help .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#chartjs-shortcodes-help .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  float: left;
+}
+#chartjs-shortcodes-help .col-xs-12 {
+  width: 100%;
+}
+#chartjs-shortcodes-help .col-xs-11 {
+  width: 91.66666666666666%;
+}
+#chartjs-shortcodes-help .col-xs-10 {
+  width: 83.33333333333334%;
+}
+#chartjs-shortcodes-help .col-xs-9 {
+  width: 75%;
+}
+#chartjs-shortcodes-help .col-xs-8 {
+  width: 66.66666666666666%;
+}
+#chartjs-shortcodes-help .col-xs-7 {
+  width: 58.333333333333336%;
+}
+#chartjs-shortcodes-help .col-xs-6 {
+  width: 50%;
+}
+#chartjs-shortcodes-help .col-xs-5 {
+  width: 41.66666666666667%;
+}
+#chartjs-shortcodes-help .col-xs-4 {
+  width: 33.33333333333333%;
+}
+#chartjs-shortcodes-help .col-xs-3 {
+  width: 25%;
+}
+#chartjs-shortcodes-help .col-xs-2 {
+  width: 16.666666666666664%;
+}
+#chartjs-shortcodes-help .col-xs-1 {
+  width: 8.333333333333332%;
+}
+#chartjs-shortcodes-help .col-xs-pull-12 {
+  right: 100%;
+}
+#chartjs-shortcodes-help .col-xs-pull-11 {
+  right: 91.66666666666666%;
+}
+#chartjs-shortcodes-help .col-xs-pull-10 {
+  right: 83.33333333333334%;
+}
+#chartjs-shortcodes-help .col-xs-pull-9 {
+  right: 75%;
+}
+#chartjs-shortcodes-help .col-xs-pull-8 {
+  right: 66.66666666666666%;
+}
+#chartjs-shortcodes-help .col-xs-pull-7 {
+  right: 58.333333333333336%;
+}
+#chartjs-shortcodes-help .col-xs-pull-6 {
+  right: 50%;
+}
+#chartjs-shortcodes-help .col-xs-pull-5 {
+  right: 41.66666666666667%;
+}
+#chartjs-shortcodes-help .col-xs-pull-4 {
+  right: 33.33333333333333%;
+}
+#chartjs-shortcodes-help .col-xs-pull-3 {
+  right: 25%;
+}
+#chartjs-shortcodes-help .col-xs-pull-2 {
+  right: 16.666666666666664%;
+}
+#chartjs-shortcodes-help .col-xs-pull-1 {
+  right: 8.333333333333332%;
+}
+#chartjs-shortcodes-help .col-xs-pull-0 {
+  right: 0%;
+}
+#chartjs-shortcodes-help .col-xs-push-12 {
+  left: 100%;
+}
+#chartjs-shortcodes-help .col-xs-push-11 {
+  left: 91.66666666666666%;
+}
+#chartjs-shortcodes-help .col-xs-push-10 {
+  left: 83.33333333333334%;
+}
+#chartjs-shortcodes-help .col-xs-push-9 {
+  left: 75%;
+}
+#chartjs-shortcodes-help .col-xs-push-8 {
+  left: 66.66666666666666%;
+}
+#chartjs-shortcodes-help .col-xs-push-7 {
+  left: 58.333333333333336%;
+}
+#chartjs-shortcodes-help .col-xs-push-6 {
+  left: 50%;
+}
+#chartjs-shortcodes-help .col-xs-push-5 {
+  left: 41.66666666666667%;
+}
+#chartjs-shortcodes-help .col-xs-push-4 {
+  left: 33.33333333333333%;
+}
+#chartjs-shortcodes-help .col-xs-push-3 {
+  left: 25%;
+}
+#chartjs-shortcodes-help .col-xs-push-2 {
+  left: 16.666666666666664%;
+}
+#chartjs-shortcodes-help .col-xs-push-1 {
+  left: 8.333333333333332%;
+}
+#chartjs-shortcodes-help .col-xs-push-0 {
+  left: 0%;
+}
+#chartjs-shortcodes-help .col-xs-offset-12 {
+  margin-left: 100%;
+}
+#chartjs-shortcodes-help .col-xs-offset-11 {
+  margin-left: 91.66666666666666%;
+}
+#chartjs-shortcodes-help .col-xs-offset-10 {
+  margin-left: 83.33333333333334%;
+}
+#chartjs-shortcodes-help .col-xs-offset-9 {
+  margin-left: 75%;
+}
+#chartjs-shortcodes-help .col-xs-offset-8 {
+  margin-left: 66.66666666666666%;
+}
+#chartjs-shortcodes-help .col-xs-offset-7 {
+  margin-left: 58.333333333333336%;
+}
+#chartjs-shortcodes-help .col-xs-offset-6 {
+  margin-left: 50%;
+}
+#chartjs-shortcodes-help .col-xs-offset-5 {
+  margin-left: 41.66666666666667%;
+}
+#chartjs-shortcodes-help .col-xs-offset-4 {
+  margin-left: 33.33333333333333%;
+}
+#chartjs-shortcodes-help .col-xs-offset-3 {
+  margin-left: 25%;
+}
+#chartjs-shortcodes-help .col-xs-offset-2 {
+  margin-left: 16.666666666666664%;
+}
+#chartjs-shortcodes-help .col-xs-offset-1 {
+  margin-left: 8.333333333333332%;
+}
+#chartjs-shortcodes-help .col-xs-offset-0 {
+  margin-left: 0%;
+}
+@media (min-width: 768px) {
+  #chartjs-shortcodes-help .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+  }
+  #chartjs-shortcodes-help .col-sm-12 {
+    width: 100%;
+  }
+  #chartjs-shortcodes-help .col-sm-11 {
+    width: 91.66666666666666%;
+  }
+  #chartjs-shortcodes-help .col-sm-10 {
+    width: 83.33333333333334%;
+  }
+  #chartjs-shortcodes-help .col-sm-9 {
+    width: 75%;
+  }
+  #chartjs-shortcodes-help .col-sm-8 {
+    width: 66.66666666666666%;
+  }
+  #chartjs-shortcodes-help .col-sm-7 {
+    width: 58.333333333333336%;
+  }
+  #chartjs-shortcodes-help .col-sm-6 {
+    width: 50%;
+  }
+  #chartjs-shortcodes-help .col-sm-5 {
+    width: 41.66666666666667%;
+  }
+  #chartjs-shortcodes-help .col-sm-4 {
+    width: 33.33333333333333%;
+  }
+  #chartjs-shortcodes-help .col-sm-3 {
+    width: 25%;
+  }
+  #chartjs-shortcodes-help .col-sm-2 {
+    width: 16.666666666666664%;
+  }
+  #chartjs-shortcodes-help .col-sm-1 {
+    width: 8.333333333333332%;
+  }
+  #chartjs-shortcodes-help .col-sm-pull-12 {
+    right: 100%;
+  }
+  #chartjs-shortcodes-help .col-sm-pull-11 {
+    right: 91.66666666666666%;
+  }
+  #chartjs-shortcodes-help .col-sm-pull-10 {
+    right: 83.33333333333334%;
+  }
+  #chartjs-shortcodes-help .col-sm-pull-9 {
+    right: 75%;
+  }
+  #chartjs-shortcodes-help .col-sm-pull-8 {
+    right: 66.66666666666666%;
+  }
+  #chartjs-shortcodes-help .col-sm-pull-7 {
+    right: 58.333333333333336%;
+  }
+  #chartjs-shortcodes-help .col-sm-pull-6 {
+    right: 50%;
+  }
+  #chartjs-shortcodes-help .col-sm-pull-5 {
+    right: 41.66666666666667%;
+  }
+  #chartjs-shortcodes-help .col-sm-pull-4 {
+    right: 33.33333333333333%;
+  }
+  #chartjs-shortcodes-help .col-sm-pull-3 {
+    right: 25%;
+  }
+  #chartjs-shortcodes-help .col-sm-pull-2 {
+    right: 16.666666666666664%;
+  }
+  #chartjs-shortcodes-help .col-sm-pull-1 {
+    right: 8.333333333333332%;
+  }
+  #chartjs-shortcodes-help .col-sm-pull-0 {
+    right: 0%;
+  }
+  #chartjs-shortcodes-help .col-sm-push-12 {
+    left: 100%;
+  }
+  #chartjs-shortcodes-help .col-sm-push-11 {
+    left: 91.66666666666666%;
+  }
+  #chartjs-shortcodes-help .col-sm-push-10 {
+    left: 83.33333333333334%;
+  }
+  #chartjs-shortcodes-help .col-sm-push-9 {
+    left: 75%;
+  }
+  #chartjs-shortcodes-help .col-sm-push-8 {
+    left: 66.66666666666666%;
+  }
+  #chartjs-shortcodes-help .col-sm-push-7 {
+    left: 58.333333333333336%;
+  }
+  #chartjs-shortcodes-help .col-sm-push-6 {
+    left: 50%;
+  }
+  #chartjs-shortcodes-help .col-sm-push-5 {
+    left: 41.66666666666667%;
+  }
+  #chartjs-shortcodes-help .col-sm-push-4 {
+    left: 33.33333333333333%;
+  }
+  #chartjs-shortcodes-help .col-sm-push-3 {
+    left: 25%;
+  }
+  #chartjs-shortcodes-help .col-sm-push-2 {
+    left: 16.666666666666664%;
+  }
+  #chartjs-shortcodes-help .col-sm-push-1 {
+    left: 8.333333333333332%;
+  }
+  #chartjs-shortcodes-help .col-sm-push-0 {
+    left: 0%;
+  }
+  #chartjs-shortcodes-help .col-sm-offset-12 {
+    margin-left: 100%;
+  }
+  #chartjs-shortcodes-help .col-sm-offset-11 {
+    margin-left: 91.66666666666666%;
+  }
+  #chartjs-shortcodes-help .col-sm-offset-10 {
+    margin-left: 83.33333333333334%;
+  }
+  #chartjs-shortcodes-help .col-sm-offset-9 {
+    margin-left: 75%;
+  }
+  #chartjs-shortcodes-help .col-sm-offset-8 {
+    margin-left: 66.66666666666666%;
+  }
+  #chartjs-shortcodes-help .col-sm-offset-7 {
+    margin-left: 58.333333333333336%;
+  }
+  #chartjs-shortcodes-help .col-sm-offset-6 {
+    margin-left: 50%;
+  }
+  #chartjs-shortcodes-help .col-sm-offset-5 {
+    margin-left: 41.66666666666667%;
+  }
+  #chartjs-shortcodes-help .col-sm-offset-4 {
+    margin-left: 33.33333333333333%;
+  }
+  #chartjs-shortcodes-help .col-sm-offset-3 {
+    margin-left: 25%;
+  }
+  #chartjs-shortcodes-help .col-sm-offset-2 {
+    margin-left: 16.666666666666664%;
+  }
+  #chartjs-shortcodes-help .col-sm-offset-1 {
+    margin-left: 8.333333333333332%;
+  }
+  #chartjs-shortcodes-help .col-sm-offset-0 {
+    margin-left: 0%;
+  }
+}
+@media (min-width: 992px) {
+  #chartjs-shortcodes-help .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+  #chartjs-shortcodes-help .col-md-12 {
+    width: 100%;
+  }
+  #chartjs-shortcodes-help .col-md-11 {
+    width: 91.66666666666666%;
+  }
+  #chartjs-shortcodes-help .col-md-10 {
+    width: 83.33333333333334%;
+  }
+  #chartjs-shortcodes-help .col-md-9 {
+    width: 75%;
+  }
+  #chartjs-shortcodes-help .col-md-8 {
+    width: 66.66666666666666%;
+  }
+  #chartjs-shortcodes-help .col-md-7 {
+    width: 58.333333333333336%;
+  }
+  #chartjs-shortcodes-help .col-md-6 {
+    width: 50%;
+  }
+  #chartjs-shortcodes-help .col-md-5 {
+    width: 41.66666666666667%;
+  }
+  #chartjs-shortcodes-help .col-md-4 {
+    width: 33.33333333333333%;
+  }
+  #chartjs-shortcodes-help .col-md-3 {
+    width: 25%;
+  }
+  #chartjs-shortcodes-help .col-md-2 {
+    width: 16.666666666666664%;
+  }
+  #chartjs-shortcodes-help .col-md-1 {
+    width: 8.333333333333332%;
+  }
+  #chartjs-shortcodes-help .col-md-pull-12 {
+    right: 100%;
+  }
+  #chartjs-shortcodes-help .col-md-pull-11 {
+    right: 91.66666666666666%;
+  }
+  #chartjs-shortcodes-help .col-md-pull-10 {
+    right: 83.33333333333334%;
+  }
+  #chartjs-shortcodes-help .col-md-pull-9 {
+    right: 75%;
+  }
+  #chartjs-shortcodes-help .col-md-pull-8 {
+    right: 66.66666666666666%;
+  }
+  #chartjs-shortcodes-help .col-md-pull-7 {
+    right: 58.333333333333336%;
+  }
+  #chartjs-shortcodes-help .col-md-pull-6 {
+    right: 50%;
+  }
+  #chartjs-shortcodes-help .col-md-pull-5 {
+    right: 41.66666666666667%;
+  }
+  #chartjs-shortcodes-help .col-md-pull-4 {
+    right: 33.33333333333333%;
+  }
+  #chartjs-shortcodes-help .col-md-pull-3 {
+    right: 25%;
+  }
+  #chartjs-shortcodes-help .col-md-pull-2 {
+    right: 16.666666666666664%;
+  }
+  #chartjs-shortcodes-help .col-md-pull-1 {
+    right: 8.333333333333332%;
+  }
+  #chartjs-shortcodes-help .col-md-pull-0 {
+    right: 0%;
+  }
+  #chartjs-shortcodes-help .col-md-push-12 {
+    left: 100%;
+  }
+  #chartjs-shortcodes-help .col-md-push-11 {
+    left: 91.66666666666666%;
+  }
+  #chartjs-shortcodes-help .col-md-push-10 {
+    left: 83.33333333333334%;
+  }
+  #chartjs-shortcodes-help .col-md-push-9 {
+    left: 75%;
+  }
+  #chartjs-shortcodes-help .col-md-push-8 {
+    left: 66.66666666666666%;
+  }
+  #chartjs-shortcodes-help .col-md-push-7 {
+    left: 58.333333333333336%;
+  }
+  #chartjs-shortcodes-help .col-md-push-6 {
+    left: 50%;
+  }
+  #chartjs-shortcodes-help .col-md-push-5 {
+    left: 41.66666666666667%;
+  }
+  #chartjs-shortcodes-help .col-md-push-4 {
+    left: 33.33333333333333%;
+  }
+  #chartjs-shortcodes-help .col-md-push-3 {
+    left: 25%;
+  }
+  #chartjs-shortcodes-help .col-md-push-2 {
+    left: 16.666666666666664%;
+  }
+  #chartjs-shortcodes-help .col-md-push-1 {
+    left: 8.333333333333332%;
+  }
+  #chartjs-shortcodes-help .col-md-push-0 {
+    left: 0%;
+  }
+  #chartjs-shortcodes-help .col-md-offset-12 {
+    margin-left: 100%;
+  }
+  #chartjs-shortcodes-help .col-md-offset-11 {
+    margin-left: 91.66666666666666%;
+  }
+  #chartjs-shortcodes-help .col-md-offset-10 {
+    margin-left: 83.33333333333334%;
+  }
+  #chartjs-shortcodes-help .col-md-offset-9 {
+    margin-left: 75%;
+  }
+  #chartjs-shortcodes-help .col-md-offset-8 {
+    margin-left: 66.66666666666666%;
+  }
+  #chartjs-shortcodes-help .col-md-offset-7 {
+    margin-left: 58.333333333333336%;
+  }
+  #chartjs-shortcodes-help .col-md-offset-6 {
+    margin-left: 50%;
+  }
+  #chartjs-shortcodes-help .col-md-offset-5 {
+    margin-left: 41.66666666666667%;
+  }
+  #chartjs-shortcodes-help .col-md-offset-4 {
+    margin-left: 33.33333333333333%;
+  }
+  #chartjs-shortcodes-help .col-md-offset-3 {
+    margin-left: 25%;
+  }
+  #chartjs-shortcodes-help .col-md-offset-2 {
+    margin-left: 16.666666666666664%;
+  }
+  #chartjs-shortcodes-help .col-md-offset-1 {
+    margin-left: 8.333333333333332%;
+  }
+  #chartjs-shortcodes-help .col-md-offset-0 {
+    margin-left: 0%;
+  }
+}
+@media (min-width: 1200px) {
+  #chartjs-shortcodes-help .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+  #chartjs-shortcodes-help .col-lg-12 {
+    width: 100%;
+  }
+  #chartjs-shortcodes-help .col-lg-11 {
+    width: 91.66666666666666%;
+  }
+  #chartjs-shortcodes-help .col-lg-10 {
+    width: 83.33333333333334%;
+  }
+  #chartjs-shortcodes-help .col-lg-9 {
+    width: 75%;
+  }
+  #chartjs-shortcodes-help .col-lg-8 {
+    width: 66.66666666666666%;
+  }
+  #chartjs-shortcodes-help .col-lg-7 {
+    width: 58.333333333333336%;
+  }
+  #chartjs-shortcodes-help .col-lg-6 {
+    width: 50%;
+  }
+  #chartjs-shortcodes-help .col-lg-5 {
+    width: 41.66666666666667%;
+  }
+  #chartjs-shortcodes-help .col-lg-4 {
+    width: 33.33333333333333%;
+  }
+  #chartjs-shortcodes-help .col-lg-3 {
+    width: 25%;
+  }
+  #chartjs-shortcodes-help .col-lg-2 {
+    width: 16.666666666666664%;
+  }
+  #chartjs-shortcodes-help .col-lg-1 {
+    width: 8.333333333333332%;
+  }
+  #chartjs-shortcodes-help .col-lg-pull-12 {
+    right: 100%;
+  }
+  #chartjs-shortcodes-help .col-lg-pull-11 {
+    right: 91.66666666666666%;
+  }
+  #chartjs-shortcodes-help .col-lg-pull-10 {
+    right: 83.33333333333334%;
+  }
+  #chartjs-shortcodes-help .col-lg-pull-9 {
+    right: 75%;
+  }
+  #chartjs-shortcodes-help .col-lg-pull-8 {
+    right: 66.66666666666666%;
+  }
+  #chartjs-shortcodes-help .col-lg-pull-7 {
+    right: 58.333333333333336%;
+  }
+  #chartjs-shortcodes-help .col-lg-pull-6 {
+    right: 50%;
+  }
+  #chartjs-shortcodes-help .col-lg-pull-5 {
+    right: 41.66666666666667%;
+  }
+  #chartjs-shortcodes-help .col-lg-pull-4 {
+    right: 33.33333333333333%;
+  }
+  #chartjs-shortcodes-help .col-lg-pull-3 {
+    right: 25%;
+  }
+  #chartjs-shortcodes-help .col-lg-pull-2 {
+    right: 16.666666666666664%;
+  }
+  #chartjs-shortcodes-help .col-lg-pull-1 {
+    right: 8.333333333333332%;
+  }
+  #chartjs-shortcodes-help .col-lg-pull-0 {
+    right: 0%;
+  }
+  #chartjs-shortcodes-help .col-lg-push-12 {
+    left: 100%;
+  }
+  #chartjs-shortcodes-help .col-lg-push-11 {
+    left: 91.66666666666666%;
+  }
+  #chartjs-shortcodes-help .col-lg-push-10 {
+    left: 83.33333333333334%;
+  }
+  #chartjs-shortcodes-help .col-lg-push-9 {
+    left: 75%;
+  }
+  #chartjs-shortcodes-help .col-lg-push-8 {
+    left: 66.66666666666666%;
+  }
+  #chartjs-shortcodes-help .col-lg-push-7 {
+    left: 58.333333333333336%;
+  }
+  #chartjs-shortcodes-help .col-lg-push-6 {
+    left: 50%;
+  }
+  #chartjs-shortcodes-help .col-lg-push-5 {
+    left: 41.66666666666667%;
+  }
+  #chartjs-shortcodes-help .col-lg-push-4 {
+    left: 33.33333333333333%;
+  }
+  #chartjs-shortcodes-help .col-lg-push-3 {
+    left: 25%;
+  }
+  #chartjs-shortcodes-help .col-lg-push-2 {
+    left: 16.666666666666664%;
+  }
+  #chartjs-shortcodes-help .col-lg-push-1 {
+    left: 8.333333333333332%;
+  }
+  #chartjs-shortcodes-help .col-lg-push-0 {
+    left: 0%;
+  }
+  #chartjs-shortcodes-help .col-lg-offset-12 {
+    margin-left: 100%;
+  }
+  #chartjs-shortcodes-help .col-lg-offset-11 {
+    margin-left: 91.66666666666666%;
+  }
+  #chartjs-shortcodes-help .col-lg-offset-10 {
+    margin-left: 83.33333333333334%;
+  }
+  #chartjs-shortcodes-help .col-lg-offset-9 {
+    margin-left: 75%;
+  }
+  #chartjs-shortcodes-help .col-lg-offset-8 {
+    margin-left: 66.66666666666666%;
+  }
+  #chartjs-shortcodes-help .col-lg-offset-7 {
+    margin-left: 58.333333333333336%;
+  }
+  #chartjs-shortcodes-help .col-lg-offset-6 {
+    margin-left: 50%;
+  }
+  #chartjs-shortcodes-help .col-lg-offset-5 {
+    margin-left: 41.66666666666667%;
+  }
+  #chartjs-shortcodes-help .col-lg-offset-4 {
+    margin-left: 33.33333333333333%;
+  }
+  #chartjs-shortcodes-help .col-lg-offset-3 {
+    margin-left: 25%;
+  }
+  #chartjs-shortcodes-help .col-lg-offset-2 {
+    margin-left: 16.666666666666664%;
+  }
+  #chartjs-shortcodes-help .col-lg-offset-1 {
+    margin-left: 8.333333333333332%;
+  }
+  #chartjs-shortcodes-help .col-lg-offset-0 {
+    margin-left: 0%;
+  }
+}
+#chartjs-shortcodes-help table {
+  max-width: 100%;
+  background-color: transparent;
+}
+#chartjs-shortcodes-help th {
+  text-align: left;
+}
+#chartjs-shortcodes-help .table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+#chartjs-shortcodes-help .table > thead > tr > th,
+#chartjs-shortcodes-help .table > tbody > tr > th,
+#chartjs-shortcodes-help .table > tfoot > tr > th,
+#chartjs-shortcodes-help .table > thead > tr > td,
+#chartjs-shortcodes-help .table > tbody > tr > td,
+#chartjs-shortcodes-help .table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.428571429;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+#chartjs-shortcodes-help .table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dddddd;
+}
+#chartjs-shortcodes-help .table > caption + thead > tr:first-child > th,
+#chartjs-shortcodes-help .table > colgroup + thead > tr:first-child > th,
+#chartjs-shortcodes-help .table > thead:first-child > tr:first-child > th,
+#chartjs-shortcodes-help .table > caption + thead > tr:first-child > td,
+#chartjs-shortcodes-help .table > colgroup + thead > tr:first-child > td,
+#chartjs-shortcodes-help .table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+#chartjs-shortcodes-help .table > tbody + tbody {
+  border-top: 2px solid #dddddd;
+}
+#chartjs-shortcodes-help .table .table {
+  background-color: #ffffff;
+}
+#chartjs-shortcodes-help .table-condensed > thead > tr > th,
+#chartjs-shortcodes-help .table-condensed > tbody > tr > th,
+#chartjs-shortcodes-help .table-condensed > tfoot > tr > th,
+#chartjs-shortcodes-help .table-condensed > thead > tr > td,
+#chartjs-shortcodes-help .table-condensed > tbody > tr > td,
+#chartjs-shortcodes-help .table-condensed > tfoot > tr > td {
+  padding: 5px;
+}
+#chartjs-shortcodes-help .table-bordered {
+  border: 1px solid #dddddd;
+}
+#chartjs-shortcodes-help .table-bordered > thead > tr > th,
+#chartjs-shortcodes-help .table-bordered > tbody > tr > th,
+#chartjs-shortcodes-help .table-bordered > tfoot > tr > th,
+#chartjs-shortcodes-help .table-bordered > thead > tr > td,
+#chartjs-shortcodes-help .table-bordered > tbody > tr > td,
+#chartjs-shortcodes-help .table-bordered > tfoot > tr > td {
+  border: 1px solid #dddddd;
+}
+#chartjs-shortcodes-help .table-bordered > thead > tr > th,
+#chartjs-shortcodes-help .table-bordered > thead > tr > td {
+  border-bottom-width: 2px;
+}
+#chartjs-shortcodes-help .table-striped > tbody > tr:nth-child(odd) > td,
+#chartjs-shortcodes-help .table-striped > tbody > tr:nth-child(odd) > th {
+  background-color: #f9f9f9;
+}
+#chartjs-shortcodes-help .table-hover > tbody > tr:hover > td,
+#chartjs-shortcodes-help .table-hover > tbody > tr:hover > th {
+  background-color: #f5f5f5;
+}
+#chartjs-shortcodes-help table col[class*="col-"] {
+  position: static;
+  float: none;
+  display: table-column;
+}
+#chartjs-shortcodes-help table td[class*="col-"],
+#chartjs-shortcodes-help table th[class*="col-"] {
+  float: none;
+  display: table-cell;
+}
+#chartjs-shortcodes-help .table > thead > tr > .active,
+#chartjs-shortcodes-help .table > tbody > tr > .active,
+#chartjs-shortcodes-help .table > tfoot > tr > .active,
+#chartjs-shortcodes-help .table > thead > .active > td,
+#chartjs-shortcodes-help .table > tbody > .active > td,
+#chartjs-shortcodes-help .table > tfoot > .active > td,
+#chartjs-shortcodes-help .table > thead > .active > th,
+#chartjs-shortcodes-help .table > tbody > .active > th,
+#chartjs-shortcodes-help .table > tfoot > .active > th {
+  background-color: #f5f5f5;
+}
+#chartjs-shortcodes-help .table-hover > tbody > tr > .active:hover,
+#chartjs-shortcodes-help .table-hover > tbody > .active:hover > td,
+#chartjs-shortcodes-help .table-hover > tbody > .active:hover > th {
+  background-color: #e8e8e8;
+}
+#chartjs-shortcodes-help .table > thead > tr > .success,
+#chartjs-shortcodes-help .table > tbody > tr > .success,
+#chartjs-shortcodes-help .table > tfoot > tr > .success,
+#chartjs-shortcodes-help .table > thead > .success > td,
+#chartjs-shortcodes-help .table > tbody > .success > td,
+#chartjs-shortcodes-help .table > tfoot > .success > td,
+#chartjs-shortcodes-help .table > thead > .success > th,
+#chartjs-shortcodes-help .table > tbody > .success > th,
+#chartjs-shortcodes-help .table > tfoot > .success > th {
+  background-color: #dff0d8;
+}
+#chartjs-shortcodes-help .table-hover > tbody > tr > .success:hover,
+#chartjs-shortcodes-help .table-hover > tbody > .success:hover > td,
+#chartjs-shortcodes-help .table-hover > tbody > .success:hover > th {
+  background-color: #d0e9c6;
+}
+#chartjs-shortcodes-help .table > thead > tr > .danger,
+#chartjs-shortcodes-help .table > tbody > tr > .danger,
+#chartjs-shortcodes-help .table > tfoot > tr > .danger,
+#chartjs-shortcodes-help .table > thead > .danger > td,
+#chartjs-shortcodes-help .table > tbody > .danger > td,
+#chartjs-shortcodes-help .table > tfoot > .danger > td,
+#chartjs-shortcodes-help .table > thead > .danger > th,
+#chartjs-shortcodes-help .table > tbody > .danger > th,
+#chartjs-shortcodes-help .table > tfoot > .danger > th {
+  background-color: #f2dede;
+}
+#chartjs-shortcodes-help .table-hover > tbody > tr > .danger:hover,
+#chartjs-shortcodes-help .table-hover > tbody > .danger:hover > td,
+#chartjs-shortcodes-help .table-hover > tbody > .danger:hover > th {
+  background-color: #ebcccc;
+}
+#chartjs-shortcodes-help .table > thead > tr > .warning,
+#chartjs-shortcodes-help .table > tbody > tr > .warning,
+#chartjs-shortcodes-help .table > tfoot > tr > .warning,
+#chartjs-shortcodes-help .table > thead > .warning > td,
+#chartjs-shortcodes-help .table > tbody > .warning > td,
+#chartjs-shortcodes-help .table > tfoot > .warning > td,
+#chartjs-shortcodes-help .table > thead > .warning > th,
+#chartjs-shortcodes-help .table > tbody > .warning > th,
+#chartjs-shortcodes-help .table > tfoot > .warning > th {
+  background-color: #fcf8e3;
+}
+#chartjs-shortcodes-help .table-hover > tbody > tr > .warning:hover,
+#chartjs-shortcodes-help .table-hover > tbody > .warning:hover > td,
+#chartjs-shortcodes-help .table-hover > tbody > .warning:hover > th {
+  background-color: #faf2cc;
+}
+@media (max-width: 767px) {
+  #chartjs-shortcodes-help .table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #dddddd;
+    -webkit-overflow-scrolling: touch;
+  }
+  #chartjs-shortcodes-help .table-responsive > .table {
+    margin-bottom: 0;
+  }
+  #chartjs-shortcodes-help .table-responsive > .table > thead > tr > th,
+  #chartjs-shortcodes-help .table-responsive > .table > tbody > tr > th,
+  #chartjs-shortcodes-help .table-responsive > .table > tfoot > tr > th,
+  #chartjs-shortcodes-help .table-responsive > .table > thead > tr > td,
+  #chartjs-shortcodes-help .table-responsive > .table > tbody > tr > td,
+  #chartjs-shortcodes-help .table-responsive > .table > tfoot > tr > td {
+    white-space: nowrap;
+  }
+  #chartjs-shortcodes-help .table-responsive > .table-bordered {
+    border: 0;
+  }
+  #chartjs-shortcodes-help .table-responsive > .table-bordered > thead > tr > th:first-child,
+  #chartjs-shortcodes-help .table-responsive > .table-bordered > tbody > tr > th:first-child,
+  #chartjs-shortcodes-help .table-responsive > .table-bordered > tfoot > tr > th:first-child,
+  #chartjs-shortcodes-help .table-responsive > .table-bordered > thead > tr > td:first-child,
+  #chartjs-shortcodes-help .table-responsive > .table-bordered > tbody > tr > td:first-child,
+  #chartjs-shortcodes-help .table-responsive > .table-bordered > tfoot > tr > td:first-child {
+    border-left: 0;
+  }
+  #chartjs-shortcodes-help .table-responsive > .table-bordered > thead > tr > th:last-child,
+  #chartjs-shortcodes-help .table-responsive > .table-bordered > tbody > tr > th:last-child,
+  #chartjs-shortcodes-help .table-responsive > .table-bordered > tfoot > tr > th:last-child,
+  #chartjs-shortcodes-help .table-responsive > .table-bordered > thead > tr > td:last-child,
+  #chartjs-shortcodes-help .table-responsive > .table-bordered > tbody > tr > td:last-child,
+  #chartjs-shortcodes-help .table-responsive > .table-bordered > tfoot > tr > td:last-child {
+    border-right: 0;
+  }
+  #chartjs-shortcodes-help .table-responsive > .table-bordered > tbody > tr:last-child > th,
+  #chartjs-shortcodes-help .table-responsive > .table-bordered > tfoot > tr:last-child > th,
+  #chartjs-shortcodes-help .table-responsive > .table-bordered > tbody > tr:last-child > td,
+  #chartjs-shortcodes-help .table-responsive > .table-bordered > tfoot > tr:last-child > td {
+    border-bottom: 0;
+  }
+}
+#chartjs-shortcodes-help fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+#chartjs-shortcodes-help legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 21px;
+  line-height: inherit;
+  color: #333333;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+#chartjs-shortcodes-help label {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+#chartjs-shortcodes-help input[type="search"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#chartjs-shortcodes-help input[type="radio"],
+#chartjs-shortcodes-help input[type="checkbox"] {
+  margin: 4px 0 0;
+  margin-top: 1px \9;
+  /* IE8-9 */
+  line-height: normal;
+}
+#chartjs-shortcodes-help input[type="file"] {
+  display: block;
+}
+#chartjs-shortcodes-help select[multiple],
+#chartjs-shortcodes-help select[size] {
+  height: auto;
+}
+#chartjs-shortcodes-help select optgroup {
+  font-size: inherit;
+  font-style: inherit;
+  font-family: inherit;
+}
+#chartjs-shortcodes-help input[type="file"]:focus,
+#chartjs-shortcodes-help input[type="radio"]:focus,
+#chartjs-shortcodes-help input[type="checkbox"]:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+#chartjs-shortcodes-help input[type="number"]::-webkit-outer-spin-button,
+#chartjs-shortcodes-help input[type="number"]::-webkit-inner-spin-button {
+  height: auto;
+}
+#chartjs-shortcodes-help output {
+  display: block;
+  padding-top: 7px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #555555;
+  vertical-align: middle;
+}
+#chartjs-shortcodes-help .form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #555555;
+  vertical-align: middle;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+#chartjs-shortcodes-help .form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+#chartjs-shortcodes-help .form-control:-moz-placeholder {
+  color: #999999;
+}
+#chartjs-shortcodes-help .form-control::-moz-placeholder {
+  color: #999999;
+  opacity: 1;
+}
+#chartjs-shortcodes-help .form-control:-ms-input-placeholder {
+  color: #999999;
+}
+#chartjs-shortcodes-help .form-control::-webkit-input-placeholder {
+  color: #999999;
+}
+#chartjs-shortcodes-help .form-control[disabled],
+#chartjs-shortcodes-help .form-control[readonly],
+fieldset[disabled] #chartjs-shortcodes-help .form-control {
+  cursor: not-allowed;
+  background-color: #eeeeee;
+}
+textarea#chartjs-shortcodes-help .form-control {
+  height: auto;
+}
+#chartjs-shortcodes-help .form-group {
+  margin-bottom: 15px;
+}
+#chartjs-shortcodes-help .radio,
+#chartjs-shortcodes-help .checkbox {
+  display: block;
+  min-height: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  vertical-align: middle;
+}
+#chartjs-shortcodes-help .radio label,
+#chartjs-shortcodes-help .checkbox label {
+  display: inline;
+  margin-bottom: 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+#chartjs-shortcodes-help .radio input[type="radio"],
+#chartjs-shortcodes-help .radio-inline input[type="radio"],
+#chartjs-shortcodes-help .checkbox input[type="checkbox"],
+#chartjs-shortcodes-help .checkbox-inline input[type="checkbox"] {
+  float: left;
+  margin-left: -20px;
+}
+#chartjs-shortcodes-help .radio + .radio,
+#chartjs-shortcodes-help .checkbox + .checkbox {
+  margin-top: -5px;
+}
+#chartjs-shortcodes-help .radio-inline,
+#chartjs-shortcodes-help .checkbox-inline {
+  display: inline-block;
+  padding-left: 20px;
+  margin-bottom: 0;
+  vertical-align: middle;
+  font-weight: normal;
+  cursor: pointer;
+}
+#chartjs-shortcodes-help .radio-inline + .radio-inline,
+#chartjs-shortcodes-help .checkbox-inline + .checkbox-inline {
+  margin-top: 0;
+  margin-left: 10px;
+}
+#chartjs-shortcodes-help input[type="radio"][disabled],
+#chartjs-shortcodes-help input[type="checkbox"][disabled],
+#chartjs-shortcodes-help .radio[disabled],
+#chartjs-shortcodes-help .radio-inline[disabled],
+#chartjs-shortcodes-help .checkbox[disabled],
+#chartjs-shortcodes-help .checkbox-inline[disabled],
+fieldset[disabled] #chartjs-shortcodes-help input[type="radio"],
+fieldset[disabled] #chartjs-shortcodes-help input[type="checkbox"],
+fieldset[disabled] #chartjs-shortcodes-help .radio,
+fieldset[disabled] #chartjs-shortcodes-help .radio-inline,
+fieldset[disabled] #chartjs-shortcodes-help .checkbox,
+fieldset[disabled] #chartjs-shortcodes-help .checkbox-inline {
+  cursor: not-allowed;
+}
+#chartjs-shortcodes-help .input-sm {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+select#chartjs-shortcodes-help .input-sm {
+  height: 30px;
+  line-height: 30px;
+}
+textarea#chartjs-shortcodes-help .input-sm {
+  height: auto;
+}
+#chartjs-shortcodes-help .input-lg {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+select#chartjs-shortcodes-help .input-lg {
+  height: 46px;
+  line-height: 46px;
+}
+textarea#chartjs-shortcodes-help .input-lg {
+  height: auto;
+}
+#chartjs-shortcodes-help .has-warning .help-block,
+#chartjs-shortcodes-help .has-warning .control-label,
+#chartjs-shortcodes-help .has-warning .radio,
+#chartjs-shortcodes-help .has-warning .checkbox,
+#chartjs-shortcodes-help .has-warning .radio-inline,
+#chartjs-shortcodes-help .has-warning .checkbox-inline {
+  color: #8a6d3b;
+}
+#chartjs-shortcodes-help .has-warning .form-control {
+  border-color: #8a6d3b;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+#chartjs-shortcodes-help .has-warning .form-control:focus {
+  border-color: #66512c;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
+}
+#chartjs-shortcodes-help .has-warning .input-group-addon {
+  color: #8a6d3b;
+  border-color: #8a6d3b;
+  background-color: #fcf8e3;
+}
+#chartjs-shortcodes-help .has-error .help-block,
+#chartjs-shortcodes-help .has-error .control-label,
+#chartjs-shortcodes-help .has-error .radio,
+#chartjs-shortcodes-help .has-error .checkbox,
+#chartjs-shortcodes-help .has-error .radio-inline,
+#chartjs-shortcodes-help .has-error .checkbox-inline {
+  color: #a94442;
+}
+#chartjs-shortcodes-help .has-error .form-control {
+  border-color: #a94442;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+#chartjs-shortcodes-help .has-error .form-control:focus {
+  border-color: #843534;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+}
+#chartjs-shortcodes-help .has-error .input-group-addon {
+  color: #a94442;
+  border-color: #a94442;
+  background-color: #f2dede;
+}
+#chartjs-shortcodes-help .has-success .help-block,
+#chartjs-shortcodes-help .has-success .control-label,
+#chartjs-shortcodes-help .has-success .radio,
+#chartjs-shortcodes-help .has-success .checkbox,
+#chartjs-shortcodes-help .has-success .radio-inline,
+#chartjs-shortcodes-help .has-success .checkbox-inline {
+  color: #3c763d;
+}
+#chartjs-shortcodes-help .has-success .form-control {
+  border-color: #3c763d;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+#chartjs-shortcodes-help .has-success .form-control:focus {
+  border-color: #2b542c;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
+}
+#chartjs-shortcodes-help .has-success .input-group-addon {
+  color: #3c763d;
+  border-color: #3c763d;
+  background-color: #dff0d8;
+}
+#chartjs-shortcodes-help .form-control-static {
+  margin-bottom: 0;
+}
+#chartjs-shortcodes-help .help-block {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #737373;
+}
+@media (min-width: 768px) {
+  #chartjs-shortcodes-help .form-inline .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  #chartjs-shortcodes-help .form-inline .form-control {
+    display: inline-block;
+  }
+  #chartjs-shortcodes-help .form-inline select.form-control {
+    width: auto;
+  }
+  #chartjs-shortcodes-help .form-inline .radio,
+  #chartjs-shortcodes-help .form-inline .checkbox {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  #chartjs-shortcodes-help .form-inline .radio input[type="radio"],
+  #chartjs-shortcodes-help .form-inline .checkbox input[type="checkbox"] {
+    float: none;
+    margin-left: 0;
+  }
+}
+#chartjs-shortcodes-help .form-horizontal .control-label,
+#chartjs-shortcodes-help .form-horizontal .radio,
+#chartjs-shortcodes-help .form-horizontal .checkbox,
+#chartjs-shortcodes-help .form-horizontal .radio-inline,
+#chartjs-shortcodes-help .form-horizontal .checkbox-inline {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 7px;
+}
+#chartjs-shortcodes-help .form-horizontal .radio,
+#chartjs-shortcodes-help .form-horizontal .checkbox {
+  min-height: 27px;
+}
+#chartjs-shortcodes-help .form-horizontal .form-group {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+#chartjs-shortcodes-help .form-horizontal .form-group:before,
+#chartjs-shortcodes-help .form-horizontal .form-group:after {
+  content: " ";
+  display: table;
+}
+#chartjs-shortcodes-help .form-horizontal .form-group:after {
+  clear: both;
+}
+#chartjs-shortcodes-help .form-horizontal .form-group:before,
+#chartjs-shortcodes-help .form-horizontal .form-group:after {
+  content: " ";
+  display: table;
+}
+#chartjs-shortcodes-help .form-horizontal .form-group:after {
+  clear: both;
+}
+#chartjs-shortcodes-help .form-horizontal .form-control-static {
+  padding-top: 7px;
+}
+@media (min-width: 768px) {
+  #chartjs-shortcodes-help .form-horizontal .control-label {
+    text-align: right;
+  }
+}
+#chartjs-shortcodes-help .btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+#chartjs-shortcodes-help .btn:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+#chartjs-shortcodes-help .btn:hover,
+#chartjs-shortcodes-help .btn:focus {
+  color: #333333;
+  text-decoration: none;
+}
+#chartjs-shortcodes-help .btn:active,
+#chartjs-shortcodes-help .btn.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+#chartjs-shortcodes-help .btn.disabled,
+#chartjs-shortcodes-help .btn[disabled],
+fieldset[disabled] #chartjs-shortcodes-help .btn {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#chartjs-shortcodes-help .btn-default {
+  color: #333333;
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+#chartjs-shortcodes-help .btn-default:hover,
+#chartjs-shortcodes-help .btn-default:focus,
+#chartjs-shortcodes-help .btn-default:active,
+#chartjs-shortcodes-help .btn-default.active,
+.open .dropdown-toggle#chartjs-shortcodes-help .btn-default {
+  color: #333333;
+  background-color: #ebebeb;
+  border-color: #adadad;
+}
+#chartjs-shortcodes-help .btn-default:active,
+#chartjs-shortcodes-help .btn-default.active,
+.open .dropdown-toggle#chartjs-shortcodes-help .btn-default {
+  background-image: none;
+}
+#chartjs-shortcodes-help .btn-default.disabled,
+#chartjs-shortcodes-help .btn-default[disabled],
+fieldset[disabled] #chartjs-shortcodes-help .btn-default,
+#chartjs-shortcodes-help .btn-default.disabled:hover,
+#chartjs-shortcodes-help .btn-default[disabled]:hover,
+fieldset[disabled] #chartjs-shortcodes-help .btn-default:hover,
+#chartjs-shortcodes-help .btn-default.disabled:focus,
+#chartjs-shortcodes-help .btn-default[disabled]:focus,
+fieldset[disabled] #chartjs-shortcodes-help .btn-default:focus,
+#chartjs-shortcodes-help .btn-default.disabled:active,
+#chartjs-shortcodes-help .btn-default[disabled]:active,
+fieldset[disabled] #chartjs-shortcodes-help .btn-default:active,
+#chartjs-shortcodes-help .btn-default.disabled.active,
+#chartjs-shortcodes-help .btn-default[disabled].active,
+fieldset[disabled] #chartjs-shortcodes-help .btn-default.active {
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+#chartjs-shortcodes-help .btn-default .badge {
+  color: #ffffff;
+  background-color: #fff;
+}
+#chartjs-shortcodes-help .btn-primary {
+  color: #ffffff;
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+#chartjs-shortcodes-help .btn-primary:hover,
+#chartjs-shortcodes-help .btn-primary:focus,
+#chartjs-shortcodes-help .btn-primary:active,
+#chartjs-shortcodes-help .btn-primary.active,
+.open .dropdown-toggle#chartjs-shortcodes-help .btn-primary {
+  color: #ffffff;
+  background-color: #3276b1;
+  border-color: #285e8e;
+}
+#chartjs-shortcodes-help .btn-primary:active,
+#chartjs-shortcodes-help .btn-primary.active,
+.open .dropdown-toggle#chartjs-shortcodes-help .btn-primary {
+  background-image: none;
+}
+#chartjs-shortcodes-help .btn-primary.disabled,
+#chartjs-shortcodes-help .btn-primary[disabled],
+fieldset[disabled] #chartjs-shortcodes-help .btn-primary,
+#chartjs-shortcodes-help .btn-primary.disabled:hover,
+#chartjs-shortcodes-help .btn-primary[disabled]:hover,
+fieldset[disabled] #chartjs-shortcodes-help .btn-primary:hover,
+#chartjs-shortcodes-help .btn-primary.disabled:focus,
+#chartjs-shortcodes-help .btn-primary[disabled]:focus,
+fieldset[disabled] #chartjs-shortcodes-help .btn-primary:focus,
+#chartjs-shortcodes-help .btn-primary.disabled:active,
+#chartjs-shortcodes-help .btn-primary[disabled]:active,
+fieldset[disabled] #chartjs-shortcodes-help .btn-primary:active,
+#chartjs-shortcodes-help .btn-primary.disabled.active,
+#chartjs-shortcodes-help .btn-primary[disabled].active,
+fieldset[disabled] #chartjs-shortcodes-help .btn-primary.active {
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+#chartjs-shortcodes-help .btn-primary .badge {
+  color: #428bca;
+  background-color: #fff;
+}
+#chartjs-shortcodes-help .btn-warning {
+  color: #ffffff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+#chartjs-shortcodes-help .btn-warning:hover,
+#chartjs-shortcodes-help .btn-warning:focus,
+#chartjs-shortcodes-help .btn-warning:active,
+#chartjs-shortcodes-help .btn-warning.active,
+.open .dropdown-toggle#chartjs-shortcodes-help .btn-warning {
+  color: #ffffff;
+  background-color: #ed9c28;
+  border-color: #d58512;
+}
+#chartjs-shortcodes-help .btn-warning:active,
+#chartjs-shortcodes-help .btn-warning.active,
+.open .dropdown-toggle#chartjs-shortcodes-help .btn-warning {
+  background-image: none;
+}
+#chartjs-shortcodes-help .btn-warning.disabled,
+#chartjs-shortcodes-help .btn-warning[disabled],
+fieldset[disabled] #chartjs-shortcodes-help .btn-warning,
+#chartjs-shortcodes-help .btn-warning.disabled:hover,
+#chartjs-shortcodes-help .btn-warning[disabled]:hover,
+fieldset[disabled] #chartjs-shortcodes-help .btn-warning:hover,
+#chartjs-shortcodes-help .btn-warning.disabled:focus,
+#chartjs-shortcodes-help .btn-warning[disabled]:focus,
+fieldset[disabled] #chartjs-shortcodes-help .btn-warning:focus,
+#chartjs-shortcodes-help .btn-warning.disabled:active,
+#chartjs-shortcodes-help .btn-warning[disabled]:active,
+fieldset[disabled] #chartjs-shortcodes-help .btn-warning:active,
+#chartjs-shortcodes-help .btn-warning.disabled.active,
+#chartjs-shortcodes-help .btn-warning[disabled].active,
+fieldset[disabled] #chartjs-shortcodes-help .btn-warning.active {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+#chartjs-shortcodes-help .btn-warning .badge {
+  color: #f0ad4e;
+  background-color: #fff;
+}
+#chartjs-shortcodes-help .btn-danger {
+  color: #ffffff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+#chartjs-shortcodes-help .btn-danger:hover,
+#chartjs-shortcodes-help .btn-danger:focus,
+#chartjs-shortcodes-help .btn-danger:active,
+#chartjs-shortcodes-help .btn-danger.active,
+.open .dropdown-toggle#chartjs-shortcodes-help .btn-danger {
+  color: #ffffff;
+  background-color: #d2322d;
+  border-color: #ac2925;
+}
+#chartjs-shortcodes-help .btn-danger:active,
+#chartjs-shortcodes-help .btn-danger.active,
+.open .dropdown-toggle#chartjs-shortcodes-help .btn-danger {
+  background-image: none;
+}
+#chartjs-shortcodes-help .btn-danger.disabled,
+#chartjs-shortcodes-help .btn-danger[disabled],
+fieldset[disabled] #chartjs-shortcodes-help .btn-danger,
+#chartjs-shortcodes-help .btn-danger.disabled:hover,
+#chartjs-shortcodes-help .btn-danger[disabled]:hover,
+fieldset[disabled] #chartjs-shortcodes-help .btn-danger:hover,
+#chartjs-shortcodes-help .btn-danger.disabled:focus,
+#chartjs-shortcodes-help .btn-danger[disabled]:focus,
+fieldset[disabled] #chartjs-shortcodes-help .btn-danger:focus,
+#chartjs-shortcodes-help .btn-danger.disabled:active,
+#chartjs-shortcodes-help .btn-danger[disabled]:active,
+fieldset[disabled] #chartjs-shortcodes-help .btn-danger:active,
+#chartjs-shortcodes-help .btn-danger.disabled.active,
+#chartjs-shortcodes-help .btn-danger[disabled].active,
+fieldset[disabled] #chartjs-shortcodes-help .btn-danger.active {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+#chartjs-shortcodes-help .btn-danger .badge {
+  color: #d9534f;
+  background-color: #fff;
+}
+#chartjs-shortcodes-help .btn-success {
+  color: #ffffff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+#chartjs-shortcodes-help .btn-success:hover,
+#chartjs-shortcodes-help .btn-success:focus,
+#chartjs-shortcodes-help .btn-success:active,
+#chartjs-shortcodes-help .btn-success.active,
+.open .dropdown-toggle#chartjs-shortcodes-help .btn-success {
+  color: #ffffff;
+  background-color: #47a447;
+  border-color: #398439;
+}
+#chartjs-shortcodes-help .btn-success:active,
+#chartjs-shortcodes-help .btn-success.active,
+.open .dropdown-toggle#chartjs-shortcodes-help .btn-success {
+  background-image: none;
+}
+#chartjs-shortcodes-help .btn-success.disabled,
+#chartjs-shortcodes-help .btn-success[disabled],
+fieldset[disabled] #chartjs-shortcodes-help .btn-success,
+#chartjs-shortcodes-help .btn-success.disabled:hover,
+#chartjs-shortcodes-help .btn-success[disabled]:hover,
+fieldset[disabled] #chartjs-shortcodes-help .btn-success:hover,
+#chartjs-shortcodes-help .btn-success.disabled:focus,
+#chartjs-shortcodes-help .btn-success[disabled]:focus,
+fieldset[disabled] #chartjs-shortcodes-help .btn-success:focus,
+#chartjs-shortcodes-help .btn-success.disabled:active,
+#chartjs-shortcodes-help .btn-success[disabled]:active,
+fieldset[disabled] #chartjs-shortcodes-help .btn-success:active,
+#chartjs-shortcodes-help .btn-success.disabled.active,
+#chartjs-shortcodes-help .btn-success[disabled].active,
+fieldset[disabled] #chartjs-shortcodes-help .btn-success.active {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+#chartjs-shortcodes-help .btn-success .badge {
+  color: #5cb85c;
+  background-color: #fff;
+}
+#chartjs-shortcodes-help .btn-info {
+  color: #ffffff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+#chartjs-shortcodes-help .btn-info:hover,
+#chartjs-shortcodes-help .btn-info:focus,
+#chartjs-shortcodes-help .btn-info:active,
+#chartjs-shortcodes-help .btn-info.active,
+.open .dropdown-toggle#chartjs-shortcodes-help .btn-info {
+  color: #ffffff;
+  background-color: #39b3d7;
+  border-color: #269abc;
+}
+#chartjs-shortcodes-help .btn-info:active,
+#chartjs-shortcodes-help .btn-info.active,
+.open .dropdown-toggle#chartjs-shortcodes-help .btn-info {
+  background-image: none;
+}
+#chartjs-shortcodes-help .btn-info.disabled,
+#chartjs-shortcodes-help .btn-info[disabled],
+fieldset[disabled] #chartjs-shortcodes-help .btn-info,
+#chartjs-shortcodes-help .btn-info.disabled:hover,
+#chartjs-shortcodes-help .btn-info[disabled]:hover,
+fieldset[disabled] #chartjs-shortcodes-help .btn-info:hover,
+#chartjs-shortcodes-help .btn-info.disabled:focus,
+#chartjs-shortcodes-help .btn-info[disabled]:focus,
+fieldset[disabled] #chartjs-shortcodes-help .btn-info:focus,
+#chartjs-shortcodes-help .btn-info.disabled:active,
+#chartjs-shortcodes-help .btn-info[disabled]:active,
+fieldset[disabled] #chartjs-shortcodes-help .btn-info:active,
+#chartjs-shortcodes-help .btn-info.disabled.active,
+#chartjs-shortcodes-help .btn-info[disabled].active,
+fieldset[disabled] #chartjs-shortcodes-help .btn-info.active {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+#chartjs-shortcodes-help .btn-info .badge {
+  color: #5bc0de;
+  background-color: #fff;
+}
+#chartjs-shortcodes-help .btn-link {
+  color: #428bca;
+  font-weight: normal;
+  cursor: pointer;
+  border-radius: 0;
+}
+#chartjs-shortcodes-help .btn-link,
+#chartjs-shortcodes-help .btn-link:active,
+#chartjs-shortcodes-help .btn-link[disabled],
+fieldset[disabled] #chartjs-shortcodes-help .btn-link {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#chartjs-shortcodes-help .btn-link,
+#chartjs-shortcodes-help .btn-link:hover,
+#chartjs-shortcodes-help .btn-link:focus,
+#chartjs-shortcodes-help .btn-link:active {
+  border-color: transparent;
+}
+#chartjs-shortcodes-help .btn-link:hover,
+#chartjs-shortcodes-help .btn-link:focus {
+  color: #2a6496;
+  text-decoration: underline;
+  background-color: transparent;
+}
+#chartjs-shortcodes-help .btn-link[disabled]:hover,
+fieldset[disabled] #chartjs-shortcodes-help .btn-link:hover,
+#chartjs-shortcodes-help .btn-link[disabled]:focus,
+fieldset[disabled] #chartjs-shortcodes-help .btn-link:focus {
+  color: #999999;
+  text-decoration: none;
+}
+#chartjs-shortcodes-help .btn-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+#chartjs-shortcodes-help .btn-sm {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+#chartjs-shortcodes-help .btn-xs {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+#chartjs-shortcodes-help .btn-block {
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+#chartjs-shortcodes-help .btn-block + .btn-block {
+  margin-top: 5px;
+}
+#chartjs-shortcodes-help input[type="submit"].btn-block,
+#chartjs-shortcodes-help input[type="reset"].btn-block,
+#chartjs-shortcodes-help input[type="button"].btn-block {
+  width: 100%;
+}
+#chartjs-shortcodes-help .fade {
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+}
+#chartjs-shortcodes-help .fade.in {
+  opacity: 1;
+}
+#chartjs-shortcodes-help .collapse {
+  display: none;
+}
+#chartjs-shortcodes-help .collapse.in {
+  display: block;
+}
+#chartjs-shortcodes-help .collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 0.35s ease;
+  transition: height 0.35s ease;
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+#chartjs-shortcodes-help .glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#chartjs-shortcodes-help .glyphicon:empty {
+  width: 1em;
+}
+#chartjs-shortcodes-help .glyphicon-asterisk:before {
+  content: "\2a";
+}
+#chartjs-shortcodes-help .glyphicon-plus:before {
+  content: "\2b";
+}
+#chartjs-shortcodes-help .glyphicon-euro:before {
+  content: "\20ac";
+}
+#chartjs-shortcodes-help .glyphicon-minus:before {
+  content: "\2212";
+}
+#chartjs-shortcodes-help .glyphicon-cloud:before {
+  content: "\2601";
+}
+#chartjs-shortcodes-help .glyphicon-envelope:before {
+  content: "\2709";
+}
+#chartjs-shortcodes-help .glyphicon-pencil:before {
+  content: "\270f";
+}
+#chartjs-shortcodes-help .glyphicon-glass:before {
+  content: "\e001";
+}
+#chartjs-shortcodes-help .glyphicon-music:before {
+  content: "\e002";
+}
+#chartjs-shortcodes-help .glyphicon-search:before {
+  content: "\e003";
+}
+#chartjs-shortcodes-help .glyphicon-heart:before {
+  content: "\e005";
+}
+#chartjs-shortcodes-help .glyphicon-star:before {
+  content: "\e006";
+}
+#chartjs-shortcodes-help .glyphicon-star-empty:before {
+  content: "\e007";
+}
+#chartjs-shortcodes-help .glyphicon-user:before {
+  content: "\e008";
+}
+#chartjs-shortcodes-help .glyphicon-film:before {
+  content: "\e009";
+}
+#chartjs-shortcodes-help .glyphicon-th-large:before {
+  content: "\e010";
+}
+#chartjs-shortcodes-help .glyphicon-th:before {
+  content: "\e011";
+}
+#chartjs-shortcodes-help .glyphicon-th-list:before {
+  content: "\e012";
+}
+#chartjs-shortcodes-help .glyphicon-ok:before {
+  content: "\e013";
+}
+#chartjs-shortcodes-help .glyphicon-remove:before {
+  content: "\e014";
+}
+#chartjs-shortcodes-help .glyphicon-zoom-in:before {
+  content: "\e015";
+}
+#chartjs-shortcodes-help .glyphicon-zoom-out:before {
+  content: "\e016";
+}
+#chartjs-shortcodes-help .glyphicon-off:before {
+  content: "\e017";
+}
+#chartjs-shortcodes-help .glyphicon-signal:before {
+  content: "\e018";
+}
+#chartjs-shortcodes-help .glyphicon-cog:before {
+  content: "\e019";
+}
+#chartjs-shortcodes-help .glyphicon-trash:before {
+  content: "\e020";
+}
+#chartjs-shortcodes-help .glyphicon-home:before {
+  content: "\e021";
+}
+#chartjs-shortcodes-help .glyphicon-file:before {
+  content: "\e022";
+}
+#chartjs-shortcodes-help .glyphicon-time:before {
+  content: "\e023";
+}
+#chartjs-shortcodes-help .glyphicon-road:before {
+  content: "\e024";
+}
+#chartjs-shortcodes-help .glyphicon-download-alt:before {
+  content: "\e025";
+}
+#chartjs-shortcodes-help .glyphicon-download:before {
+  content: "\e026";
+}
+#chartjs-shortcodes-help .glyphicon-upload:before {
+  content: "\e027";
+}
+#chartjs-shortcodes-help .glyphicon-inbox:before {
+  content: "\e028";
+}
+#chartjs-shortcodes-help .glyphicon-play-circle:before {
+  content: "\e029";
+}
+#chartjs-shortcodes-help .glyphicon-repeat:before {
+  content: "\e030";
+}
+#chartjs-shortcodes-help .glyphicon-refresh:before {
+  content: "\e031";
+}
+#chartjs-shortcodes-help .glyphicon-list-alt:before {
+  content: "\e032";
+}
+#chartjs-shortcodes-help .glyphicon-lock:before {
+  content: "\e033";
+}
+#chartjs-shortcodes-help .glyphicon-flag:before {
+  content: "\e034";
+}
+#chartjs-shortcodes-help .glyphicon-headphones:before {
+  content: "\e035";
+}
+#chartjs-shortcodes-help .glyphicon-volume-off:before {
+  content: "\e036";
+}
+#chartjs-shortcodes-help .glyphicon-volume-down:before {
+  content: "\e037";
+}
+#chartjs-shortcodes-help .glyphicon-volume-up:before {
+  content: "\e038";
+}
+#chartjs-shortcodes-help .glyphicon-qrcode:before {
+  content: "\e039";
+}
+#chartjs-shortcodes-help .glyphicon-barcode:before {
+  content: "\e040";
+}
+#chartjs-shortcodes-help .glyphicon-tag:before {
+  content: "\e041";
+}
+#chartjs-shortcodes-help .glyphicon-tags:before {
+  content: "\e042";
+}
+#chartjs-shortcodes-help .glyphicon-book:before {
+  content: "\e043";
+}
+#chartjs-shortcodes-help .glyphicon-bookmark:before {
+  content: "\e044";
+}
+#chartjs-shortcodes-help .glyphicon-print:before {
+  content: "\e045";
+}
+#chartjs-shortcodes-help .glyphicon-camera:before {
+  content: "\e046";
+}
+#chartjs-shortcodes-help .glyphicon-font:before {
+  content: "\e047";
+}
+#chartjs-shortcodes-help .glyphicon-bold:before {
+  content: "\e048";
+}
+#chartjs-shortcodes-help .glyphicon-italic:before {
+  content: "\e049";
+}
+#chartjs-shortcodes-help .glyphicon-text-height:before {
+  content: "\e050";
+}
+#chartjs-shortcodes-help .glyphicon-text-width:before {
+  content: "\e051";
+}
+#chartjs-shortcodes-help .glyphicon-align-left:before {
+  content: "\e052";
+}
+#chartjs-shortcodes-help .glyphicon-align-center:before {
+  content: "\e053";
+}
+#chartjs-shortcodes-help .glyphicon-align-right:before {
+  content: "\e054";
+}
+#chartjs-shortcodes-help .glyphicon-align-justify:before {
+  content: "\e055";
+}
+#chartjs-shortcodes-help .glyphicon-list:before {
+  content: "\e056";
+}
+#chartjs-shortcodes-help .glyphicon-indent-left:before {
+  content: "\e057";
+}
+#chartjs-shortcodes-help .glyphicon-indent-right:before {
+  content: "\e058";
+}
+#chartjs-shortcodes-help .glyphicon-facetime-video:before {
+  content: "\e059";
+}
+#chartjs-shortcodes-help .glyphicon-picture:before {
+  content: "\e060";
+}
+#chartjs-shortcodes-help .glyphicon-map-marker:before {
+  content: "\e062";
+}
+#chartjs-shortcodes-help .glyphicon-adjust:before {
+  content: "\e063";
+}
+#chartjs-shortcodes-help .glyphicon-tint:before {
+  content: "\e064";
+}
+#chartjs-shortcodes-help .glyphicon-edit:before {
+  content: "\e065";
+}
+#chartjs-shortcodes-help .glyphicon-share:before {
+  content: "\e066";
+}
+#chartjs-shortcodes-help .glyphicon-check:before {
+  content: "\e067";
+}
+#chartjs-shortcodes-help .glyphicon-move:before {
+  content: "\e068";
+}
+#chartjs-shortcodes-help .glyphicon-step-backward:before {
+  content: "\e069";
+}
+#chartjs-shortcodes-help .glyphicon-fast-backward:before {
+  content: "\e070";
+}
+#chartjs-shortcodes-help .glyphicon-backward:before {
+  content: "\e071";
+}
+#chartjs-shortcodes-help .glyphicon-play:before {
+  content: "\e072";
+}
+#chartjs-shortcodes-help .glyphicon-pause:before {
+  content: "\e073";
+}
+#chartjs-shortcodes-help .glyphicon-stop:before {
+  content: "\e074";
+}
+#chartjs-shortcodes-help .glyphicon-forward:before {
+  content: "\e075";
+}
+#chartjs-shortcodes-help .glyphicon-fast-forward:before {
+  content: "\e076";
+}
+#chartjs-shortcodes-help .glyphicon-step-forward:before {
+  content: "\e077";
+}
+#chartjs-shortcodes-help .glyphicon-eject:before {
+  content: "\e078";
+}
+#chartjs-shortcodes-help .glyphicon-chevron-left:before {
+  content: "\e079";
+}
+#chartjs-shortcodes-help .glyphicon-chevron-right:before {
+  content: "\e080";
+}
+#chartjs-shortcodes-help .glyphicon-plus-sign:before {
+  content: "\e081";
+}
+#chartjs-shortcodes-help .glyphicon-minus-sign:before {
+  content: "\e082";
+}
+#chartjs-shortcodes-help .glyphicon-remove-sign:before {
+  content: "\e083";
+}
+#chartjs-shortcodes-help .glyphicon-ok-sign:before {
+  content: "\e084";
+}
+#chartjs-shortcodes-help .glyphicon-question-sign:before {
+  content: "\e085";
+}
+#chartjs-shortcodes-help .glyphicon-info-sign:before {
+  content: "\e086";
+}
+#chartjs-shortcodes-help .glyphicon-screenshot:before {
+  content: "\e087";
+}
+#chartjs-shortcodes-help .glyphicon-remove-circle:before {
+  content: "\e088";
+}
+#chartjs-shortcodes-help .glyphicon-ok-circle:before {
+  content: "\e089";
+}
+#chartjs-shortcodes-help .glyphicon-ban-circle:before {
+  content: "\e090";
+}
+#chartjs-shortcodes-help .glyphicon-arrow-left:before {
+  content: "\e091";
+}
+#chartjs-shortcodes-help .glyphicon-arrow-right:before {
+  content: "\e092";
+}
+#chartjs-shortcodes-help .glyphicon-arrow-up:before {
+  content: "\e093";
+}
+#chartjs-shortcodes-help .glyphicon-arrow-down:before {
+  content: "\e094";
+}
+#chartjs-shortcodes-help .glyphicon-share-alt:before {
+  content: "\e095";
+}
+#chartjs-shortcodes-help .glyphicon-resize-full:before {
+  content: "\e096";
+}
+#chartjs-shortcodes-help .glyphicon-resize-small:before {
+  content: "\e097";
+}
+#chartjs-shortcodes-help .glyphicon-exclamation-sign:before {
+  content: "\e101";
+}
+#chartjs-shortcodes-help .glyphicon-gift:before {
+  content: "\e102";
+}
+#chartjs-shortcodes-help .glyphicon-leaf:before {
+  content: "\e103";
+}
+#chartjs-shortcodes-help .glyphicon-fire:before {
+  content: "\e104";
+}
+#chartjs-shortcodes-help .glyphicon-eye-open:before {
+  content: "\e105";
+}
+#chartjs-shortcodes-help .glyphicon-eye-close:before {
+  content: "\e106";
+}
+#chartjs-shortcodes-help .glyphicon-warning-sign:before {
+  content: "\e107";
+}
+#chartjs-shortcodes-help .glyphicon-plane:before {
+  content: "\e108";
+}
+#chartjs-shortcodes-help .glyphicon-calendar:before {
+  content: "\e109";
+}
+#chartjs-shortcodes-help .glyphicon-random:before {
+  content: "\e110";
+}
+#chartjs-shortcodes-help .glyphicon-comment:before {
+  content: "\e111";
+}
+#chartjs-shortcodes-help .glyphicon-magnet:before {
+  content: "\e112";
+}
+#chartjs-shortcodes-help .glyphicon-chevron-up:before {
+  content: "\e113";
+}
+#chartjs-shortcodes-help .glyphicon-chevron-down:before {
+  content: "\e114";
+}
+#chartjs-shortcodes-help .glyphicon-retweet:before {
+  content: "\e115";
+}
+#chartjs-shortcodes-help .glyphicon-shopping-cart:before {
+  content: "\e116";
+}
+#chartjs-shortcodes-help .glyphicon-folder-close:before {
+  content: "\e117";
+}
+#chartjs-shortcodes-help .glyphicon-folder-open:before {
+  content: "\e118";
+}
+#chartjs-shortcodes-help .glyphicon-resize-vertical:before {
+  content: "\e119";
+}
+#chartjs-shortcodes-help .glyphicon-resize-horizontal:before {
+  content: "\e120";
+}
+#chartjs-shortcodes-help .glyphicon-hdd:before {
+  content: "\e121";
+}
+#chartjs-shortcodes-help .glyphicon-bullhorn:before {
+  content: "\e122";
+}
+#chartjs-shortcodes-help .glyphicon-bell:before {
+  content: "\e123";
+}
+#chartjs-shortcodes-help .glyphicon-certificate:before {
+  content: "\e124";
+}
+#chartjs-shortcodes-help .glyphicon-thumbs-up:before {
+  content: "\e125";
+}
+#chartjs-shortcodes-help .glyphicon-thumbs-down:before {
+  content: "\e126";
+}
+#chartjs-shortcodes-help .glyphicon-hand-right:before {
+  content: "\e127";
+}
+#chartjs-shortcodes-help .glyphicon-hand-left:before {
+  content: "\e128";
+}
+#chartjs-shortcodes-help .glyphicon-hand-up:before {
+  content: "\e129";
+}
+#chartjs-shortcodes-help .glyphicon-hand-down:before {
+  content: "\e130";
+}
+#chartjs-shortcodes-help .glyphicon-circle-arrow-right:before {
+  content: "\e131";
+}
+#chartjs-shortcodes-help .glyphicon-circle-arrow-left:before {
+  content: "\e132";
+}
+#chartjs-shortcodes-help .glyphicon-circle-arrow-up:before {
+  content: "\e133";
+}
+#chartjs-shortcodes-help .glyphicon-circle-arrow-down:before {
+  content: "\e134";
+}
+#chartjs-shortcodes-help .glyphicon-globe:before {
+  content: "\e135";
+}
+#chartjs-shortcodes-help .glyphicon-wrench:before {
+  content: "\e136";
+}
+#chartjs-shortcodes-help .glyphicon-tasks:before {
+  content: "\e137";
+}
+#chartjs-shortcodes-help .glyphicon-filter:before {
+  content: "\e138";
+}
+#chartjs-shortcodes-help .glyphicon-briefcase:before {
+  content: "\e139";
+}
+#chartjs-shortcodes-help .glyphicon-fullscreen:before {
+  content: "\e140";
+}
+#chartjs-shortcodes-help .glyphicon-dashboard:before {
+  content: "\e141";
+}
+#chartjs-shortcodes-help .glyphicon-paperclip:before {
+  content: "\e142";
+}
+#chartjs-shortcodes-help .glyphicon-heart-empty:before {
+  content: "\e143";
+}
+#chartjs-shortcodes-help .glyphicon-link:before {
+  content: "\e144";
+}
+#chartjs-shortcodes-help .glyphicon-phone:before {
+  content: "\e145";
+}
+#chartjs-shortcodes-help .glyphicon-pushpin:before {
+  content: "\e146";
+}
+#chartjs-shortcodes-help .glyphicon-usd:before {
+  content: "\e148";
+}
+#chartjs-shortcodes-help .glyphicon-gbp:before {
+  content: "\e149";
+}
+#chartjs-shortcodes-help .glyphicon-sort:before {
+  content: "\e150";
+}
+#chartjs-shortcodes-help .glyphicon-sort-by-alphabet:before {
+  content: "\e151";
+}
+#chartjs-shortcodes-help .glyphicon-sort-by-alphabet-alt:before {
+  content: "\e152";
+}
+#chartjs-shortcodes-help .glyphicon-sort-by-order:before {
+  content: "\e153";
+}
+#chartjs-shortcodes-help .glyphicon-sort-by-order-alt:before {
+  content: "\e154";
+}
+#chartjs-shortcodes-help .glyphicon-sort-by-attributes:before {
+  content: "\e155";
+}
+#chartjs-shortcodes-help .glyphicon-sort-by-attributes-alt:before {
+  content: "\e156";
+}
+#chartjs-shortcodes-help .glyphicon-unchecked:before {
+  content: "\e157";
+}
+#chartjs-shortcodes-help .glyphicon-expand:before {
+  content: "\e158";
+}
+#chartjs-shortcodes-help .glyphicon-collapse-down:before {
+  content: "\e159";
+}
+#chartjs-shortcodes-help .glyphicon-collapse-up:before {
+  content: "\e160";
+}
+#chartjs-shortcodes-help .glyphicon-log-in:before {
+  content: "\e161";
+}
+#chartjs-shortcodes-help .glyphicon-flash:before {
+  content: "\e162";
+}
+#chartjs-shortcodes-help .glyphicon-log-out:before {
+  content: "\e163";
+}
+#chartjs-shortcodes-help .glyphicon-new-window:before {
+  content: "\e164";
+}
+#chartjs-shortcodes-help .glyphicon-record:before {
+  content: "\e165";
+}
+#chartjs-shortcodes-help .glyphicon-save:before {
+  content: "\e166";
+}
+#chartjs-shortcodes-help .glyphicon-open:before {
+  content: "\e167";
+}
+#chartjs-shortcodes-help .glyphicon-saved:before {
+  content: "\e168";
+}
+#chartjs-shortcodes-help .glyphicon-import:before {
+  content: "\e169";
+}
+#chartjs-shortcodes-help .glyphicon-export:before {
+  content: "\e170";
+}
+#chartjs-shortcodes-help .glyphicon-send:before {
+  content: "\e171";
+}
+#chartjs-shortcodes-help .glyphicon-floppy-disk:before {
+  content: "\e172";
+}
+#chartjs-shortcodes-help .glyphicon-floppy-saved:before {
+  content: "\e173";
+}
+#chartjs-shortcodes-help .glyphicon-floppy-remove:before {
+  content: "\e174";
+}
+#chartjs-shortcodes-help .glyphicon-floppy-save:before {
+  content: "\e175";
+}
+#chartjs-shortcodes-help .glyphicon-floppy-open:before {
+  content: "\e176";
+}
+#chartjs-shortcodes-help .glyphicon-credit-card:before {
+  content: "\e177";
+}
+#chartjs-shortcodes-help .glyphicon-transfer:before {
+  content: "\e178";
+}
+#chartjs-shortcodes-help .glyphicon-cutlery:before {
+  content: "\e179";
+}
+#chartjs-shortcodes-help .glyphicon-header:before {
+  content: "\e180";
+}
+#chartjs-shortcodes-help .glyphicon-compressed:before {
+  content: "\e181";
+}
+#chartjs-shortcodes-help .glyphicon-earphone:before {
+  content: "\e182";
+}
+#chartjs-shortcodes-help .glyphicon-phone-alt:before {
+  content: "\e183";
+}
+#chartjs-shortcodes-help .glyphicon-tower:before {
+  content: "\e184";
+}
+#chartjs-shortcodes-help .glyphicon-stats:before {
+  content: "\e185";
+}
+#chartjs-shortcodes-help .glyphicon-sd-video:before {
+  content: "\e186";
+}
+#chartjs-shortcodes-help .glyphicon-hd-video:before {
+  content: "\e187";
+}
+#chartjs-shortcodes-help .glyphicon-subtitles:before {
+  content: "\e188";
+}
+#chartjs-shortcodes-help .glyphicon-sound-stereo:before {
+  content: "\e189";
+}
+#chartjs-shortcodes-help .glyphicon-sound-dolby:before {
+  content: "\e190";
+}
+#chartjs-shortcodes-help .glyphicon-sound-5-1:before {
+  content: "\e191";
+}
+#chartjs-shortcodes-help .glyphicon-sound-6-1:before {
+  content: "\e192";
+}
+#chartjs-shortcodes-help .glyphicon-sound-7-1:before {
+  content: "\e193";
+}
+#chartjs-shortcodes-help .glyphicon-copyright-mark:before {
+  content: "\e194";
+}
+#chartjs-shortcodes-help .glyphicon-registration-mark:before {
+  content: "\e195";
+}
+#chartjs-shortcodes-help .glyphicon-cloud-download:before {
+  content: "\e197";
+}
+#chartjs-shortcodes-help .glyphicon-cloud-upload:before {
+  content: "\e198";
+}
+#chartjs-shortcodes-help .glyphicon-tree-conifer:before {
+  content: "\e199";
+}
+#chartjs-shortcodes-help .glyphicon-tree-deciduous:before {
+  content: "\e200";
+}
+#chartjs-shortcodes-help .caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px solid;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+#chartjs-shortcodes-help .dropdown {
+  position: relative;
+}
+#chartjs-shortcodes-help .dropdown-toggle:focus {
+  outline: 0;
+}
+#chartjs-shortcodes-help .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  font-size: 14px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
+}
+#chartjs-shortcodes-help .dropdown-menu.pull-right {
+  right: 0;
+  left: auto;
+}
+#chartjs-shortcodes-help .dropdown-menu .divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+#chartjs-shortcodes-help .dropdown-menu > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.428571429;
+  color: #333333;
+  white-space: nowrap;
+}
+#chartjs-shortcodes-help .dropdown-menu > li > a:hover,
+#chartjs-shortcodes-help .dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: #262626;
+  background-color: #f5f5f5;
+}
+#chartjs-shortcodes-help .dropdown-menu > .active > a,
+#chartjs-shortcodes-help .dropdown-menu > .active > a:hover,
+#chartjs-shortcodes-help .dropdown-menu > .active > a:focus {
+  color: #ffffff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #428bca;
+}
+#chartjs-shortcodes-help .dropdown-menu > .disabled > a,
+#chartjs-shortcodes-help .dropdown-menu > .disabled > a:hover,
+#chartjs-shortcodes-help .dropdown-menu > .disabled > a:focus {
+  color: #999999;
+}
+#chartjs-shortcodes-help .dropdown-menu > .disabled > a:hover,
+#chartjs-shortcodes-help .dropdown-menu > .disabled > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  cursor: not-allowed;
+}
+#chartjs-shortcodes-help .open > .dropdown-menu {
+  display: block;
+}
+#chartjs-shortcodes-help .open > a {
+  outline: 0;
+}
+#chartjs-shortcodes-help .dropdown-header {
+  display: block;
+  padding: 3px 20px;
+  font-size: 12px;
+  line-height: 1.428571429;
+  color: #999999;
+}
+#chartjs-shortcodes-help .dropdown-backdrop {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 990;
+}
+#chartjs-shortcodes-help .pull-right > .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+#chartjs-shortcodes-help .dropup .caret,
+#chartjs-shortcodes-help .navbar-fixed-bottom .dropdown .caret {
+  border-top: 0;
+  border-bottom: 4px solid;
+  content: "";
+}
+#chartjs-shortcodes-help .dropup .dropdown-menu,
+#chartjs-shortcodes-help .navbar-fixed-bottom .dropdown .dropdown-menu {
+  top: auto;
+  bottom: 100%;
+  margin-bottom: 1px;
+}
+@media (min-width: 768px) {
+  #chartjs-shortcodes-help .navbar-right .dropdown-menu {
+    right: 0;
+    left: auto;
+  }
+}
+#chartjs-shortcodes-help .btn-group,
+#chartjs-shortcodes-help .btn-group-vertical {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+#chartjs-shortcodes-help .btn-group > .btn,
+#chartjs-shortcodes-help .btn-group-vertical > .btn {
+  position: relative;
+  float: left;
+}
+#chartjs-shortcodes-help .btn-group > .btn:hover,
+#chartjs-shortcodes-help .btn-group-vertical > .btn:hover,
+#chartjs-shortcodes-help .btn-group > .btn:focus,
+#chartjs-shortcodes-help .btn-group-vertical > .btn:focus,
+#chartjs-shortcodes-help .btn-group > .btn:active,
+#chartjs-shortcodes-help .btn-group-vertical > .btn:active,
+#chartjs-shortcodes-help .btn-group > .btn.active,
+#chartjs-shortcodes-help .btn-group-vertical > .btn.active {
+  z-index: 2;
+}
+#chartjs-shortcodes-help .btn-group > .btn:focus,
+#chartjs-shortcodes-help .btn-group-vertical > .btn:focus {
+  outline: none;
+}
+#chartjs-shortcodes-help .btn-group .btn + .btn,
+#chartjs-shortcodes-help .btn-group .btn + .btn-group,
+#chartjs-shortcodes-help .btn-group .btn-group + .btn,
+#chartjs-shortcodes-help .btn-group .btn-group + .btn-group {
+  margin-left: -1px;
+}
+#chartjs-shortcodes-help .btn-toolbar:before,
+#chartjs-shortcodes-help .btn-toolbar:after {
+  content: " ";
+  display: table;
+}
+#chartjs-shortcodes-help .btn-toolbar:after {
+  clear: both;
+}
+#chartjs-shortcodes-help .btn-toolbar:before,
+#chartjs-shortcodes-help .btn-toolbar:after {
+  content: " ";
+  display: table;
+}
+#chartjs-shortcodes-help .btn-toolbar:after {
+  clear: both;
+}
+#chartjs-shortcodes-help .btn-toolbar .btn-group {
+  float: left;
+}
+#chartjs-shortcodes-help .btn-toolbar > .btn + .btn,
+#chartjs-shortcodes-help .btn-toolbar > .btn-group + .btn,
+#chartjs-shortcodes-help .btn-toolbar > .btn + .btn-group,
+#chartjs-shortcodes-help .btn-toolbar > .btn-group + .btn-group {
+  margin-left: 5px;
+}
+#chartjs-shortcodes-help .btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+  border-radius: 0;
+}
+#chartjs-shortcodes-help .btn-group > .btn:first-child {
+  margin-left: 0;
+}
+#chartjs-shortcodes-help .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+#chartjs-shortcodes-help .btn-group > .btn:last-child:not(:first-child),
+#chartjs-shortcodes-help .btn-group > .dropdown-toggle:not(:first-child) {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+#chartjs-shortcodes-help .btn-group > .btn-group {
+  float: left;
+}
+#chartjs-shortcodes-help .btn-group > .btn-group:not(:first-child):not(:last-child) > .btn {
+  border-radius: 0;
+}
+#chartjs-shortcodes-help .btn-group > .btn-group:first-child > .btn:last-child,
+#chartjs-shortcodes-help .btn-group > .btn-group:first-child > .dropdown-toggle {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+#chartjs-shortcodes-help .btn-group > .btn-group:last-child > .btn:first-child {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+#chartjs-shortcodes-help .btn-group .dropdown-toggle:active,
+#chartjs-shortcodes-help .btn-group.open .dropdown-toggle {
+  outline: 0;
+}
+#chartjs-shortcodes-help .btn-group-xs > .btn {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+#chartjs-shortcodes-help .btn-group-sm > .btn {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+#chartjs-shortcodes-help .btn-group-lg > .btn {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+#chartjs-shortcodes-help .btn-group > .btn + .dropdown-toggle {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+#chartjs-shortcodes-help .btn-group > .btn-lg + .dropdown-toggle {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+#chartjs-shortcodes-help .btn-group.open .dropdown-toggle {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+#chartjs-shortcodes-help .btn-group.open .dropdown-toggle.btn-link {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#chartjs-shortcodes-help .btn .caret {
+  margin-left: 0;
+}
+#chartjs-shortcodes-help .btn-lg .caret {
+  border-width: 5px 5px 0;
+  border-bottom-width: 0;
+}
+#chartjs-shortcodes-help .dropup .btn-lg .caret {
+  border-width: 0 5px 5px;
+}
+#chartjs-shortcodes-help .btn-group-vertical > .btn,
+#chartjs-shortcodes-help .btn-group-vertical > .btn-group,
+#chartjs-shortcodes-help .btn-group-vertical > .btn-group > .btn {
+  display: block;
+  float: none;
+  width: 100%;
+  max-width: 100%;
+}
+#chartjs-shortcodes-help .btn-group-vertical > .btn-group:before,
+#chartjs-shortcodes-help .btn-group-vertical > .btn-group:after {
+  content: " ";
+  display: table;
+}
+#chartjs-shortcodes-help .btn-group-vertical > .btn-group:after {
+  clear: both;
+}
+#chartjs-shortcodes-help .btn-group-vertical > .btn-group:before,
+#chartjs-shortcodes-help .btn-group-vertical > .btn-group:after {
+  content: " ";
+  display: table;
+}
+#chartjs-shortcodes-help .btn-group-vertical > .btn-group:after {
+  clear: both;
+}
+#chartjs-shortcodes-help .btn-group-vertical > .btn-group > .btn {
+  float: none;
+}
+#chartjs-shortcodes-help .btn-group-vertical > .btn + .btn,
+#chartjs-shortcodes-help .btn-group-vertical > .btn + .btn-group,
+#chartjs-shortcodes-help .btn-group-vertical > .btn-group + .btn,
+#chartjs-shortcodes-help .btn-group-vertical > .btn-group + .btn-group {
+  margin-top: -1px;
+  margin-left: 0;
+}
+#chartjs-shortcodes-help .btn-group-vertical > .btn:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+#chartjs-shortcodes-help .btn-group-vertical > .btn:first-child:not(:last-child) {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#chartjs-shortcodes-help .btn-group-vertical > .btn:last-child:not(:first-child) {
+  border-bottom-left-radius: 4px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+#chartjs-shortcodes-help .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn {
+  border-radius: 0;
+}
+#chartjs-shortcodes-help .btn-group-vertical > .btn-group:first-child > .btn:last-child,
+#chartjs-shortcodes-help .btn-group-vertical > .btn-group:first-child > .dropdown-toggle {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#chartjs-shortcodes-help .btn-group-vertical > .btn-group:last-child > .btn:first-child {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+#chartjs-shortcodes-help .btn-group-justified {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+}
+#chartjs-shortcodes-help .btn-group-justified > .btn,
+#chartjs-shortcodes-help .btn-group-justified > .btn-group {
+  float: none;
+  display: table-cell;
+  width: 1%;
+}
+#chartjs-shortcodes-help .btn-group-justified > .btn-group .btn {
+  width: 100%;
+}
+#chartjs-shortcodes-help [data-toggle="buttons"] > .btn > input[type="radio"],
+#chartjs-shortcodes-help [data-toggle="buttons"] > .btn > input[type="checkbox"] {
+  display: none;
+}
+#chartjs-shortcodes-help .input-group {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+}
+#chartjs-shortcodes-help .input-group[class*="col-"] {
+  float: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+#chartjs-shortcodes-help .input-group .form-control {
+  width: 100%;
+  margin-bottom: 0;
+}
+#chartjs-shortcodes-help .input-group-lg > .form-control,
+#chartjs-shortcodes-help .input-group-lg > .input-group-addon,
+#chartjs-shortcodes-help .input-group-lg > .input-group-btn > .btn {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+select#chartjs-shortcodes-help .input-group-lg > .form-control,
+select#chartjs-shortcodes-help .input-group-lg > .input-group-addon,
+select#chartjs-shortcodes-help .input-group-lg > .input-group-btn > .btn {
+  height: 46px;
+  line-height: 46px;
+}
+textarea#chartjs-shortcodes-help .input-group-lg > .form-control,
+textarea#chartjs-shortcodes-help .input-group-lg > .input-group-addon,
+textarea#chartjs-shortcodes-help .input-group-lg > .input-group-btn > .btn {
+  height: auto;
+}
+#chartjs-shortcodes-help .input-group-sm > .form-control,
+#chartjs-shortcodes-help .input-group-sm > .input-group-addon,
+#chartjs-shortcodes-help .input-group-sm > .input-group-btn > .btn {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+select#chartjs-shortcodes-help .input-group-sm > .form-control,
+select#chartjs-shortcodes-help .input-group-sm > .input-group-addon,
+select#chartjs-shortcodes-help .input-group-sm > .input-group-btn > .btn {
+  height: 30px;
+  line-height: 30px;
+}
+textarea#chartjs-shortcodes-help .input-group-sm > .form-control,
+textarea#chartjs-shortcodes-help .input-group-sm > .input-group-addon,
+textarea#chartjs-shortcodes-help .input-group-sm > .input-group-btn > .btn {
+  height: auto;
+}
+#chartjs-shortcodes-help .input-group-addon,
+#chartjs-shortcodes-help .input-group-btn,
+#chartjs-shortcodes-help .input-group .form-control {
+  display: table-cell;
+}
+#chartjs-shortcodes-help .input-group-addon:not(:first-child):not(:last-child),
+#chartjs-shortcodes-help .input-group-btn:not(:first-child):not(:last-child),
+#chartjs-shortcodes-help .input-group .form-control:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+#chartjs-shortcodes-help .input-group-addon,
+#chartjs-shortcodes-help .input-group-btn {
+  width: 1%;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+#chartjs-shortcodes-help .input-group-addon {
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1;
+  color: #555555;
+  text-align: center;
+  background-color: #eeeeee;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+#chartjs-shortcodes-help .input-group-addon.input-sm {
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 3px;
+}
+#chartjs-shortcodes-help .input-group-addon.input-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  border-radius: 6px;
+}
+#chartjs-shortcodes-help .input-group-addon input[type="radio"],
+#chartjs-shortcodes-help .input-group-addon input[type="checkbox"] {
+  margin-top: 0;
+}
+#chartjs-shortcodes-help .input-group .form-control:first-child,
+#chartjs-shortcodes-help .input-group-addon:first-child,
+#chartjs-shortcodes-help .input-group-btn:first-child > .btn,
+#chartjs-shortcodes-help .input-group-btn:first-child > .dropdown-toggle,
+#chartjs-shortcodes-help .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle) {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+#chartjs-shortcodes-help .input-group-addon:first-child {
+  border-right: 0;
+}
+#chartjs-shortcodes-help .input-group .form-control:last-child,
+#chartjs-shortcodes-help .input-group-addon:last-child,
+#chartjs-shortcodes-help .input-group-btn:last-child > .btn,
+#chartjs-shortcodes-help .input-group-btn:last-child > .dropdown-toggle,
+#chartjs-shortcodes-help .input-group-btn:first-child > .btn:not(:first-child) {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+#chartjs-shortcodes-help .input-group-addon:last-child {
+  border-left: 0;
+}
+#chartjs-shortcodes-help .input-group-btn {
+  position: relative;
+  white-space: nowrap;
+}
+#chartjs-shortcodes-help .input-group-btn:first-child > .btn {
+  margin-right: -1px;
+}
+#chartjs-shortcodes-help .input-group-btn:last-child > .btn {
+  margin-left: -1px;
+}
+#chartjs-shortcodes-help .input-group-btn > .btn {
+  position: relative;
+}
+#chartjs-shortcodes-help .input-group-btn > .btn + .btn {
+  margin-left: -4px;
+}
+#chartjs-shortcodes-help .input-group-btn > .btn:hover,
+#chartjs-shortcodes-help .input-group-btn > .btn:active {
+  z-index: 2;
+}
+#chartjs-shortcodes-help .nav {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+#chartjs-shortcodes-help .nav:before,
+#chartjs-shortcodes-help .nav:after {
+  content: " ";
+  display: table;
+}
+#chartjs-shortcodes-help .nav:after {
+  clear: both;
+}
+#chartjs-shortcodes-help .nav:before,
+#chartjs-shortcodes-help .nav:after {
+  content: " ";
+  display: table;
+}
+#chartjs-shortcodes-help .nav:after {
+  clear: both;
+}
+#chartjs-shortcodes-help .nav > li {
+  position: relative;
+  display: block;
+}
+#chartjs-shortcodes-help .nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+#chartjs-shortcodes-help .nav > li > a:hover,
+#chartjs-shortcodes-help .nav > li > a:focus {
+  text-decoration: none;
+  background-color: #eeeeee;
+}
+#chartjs-shortcodes-help .nav > li.disabled > a {
+  color: #999999;
+}
+#chartjs-shortcodes-help .nav > li.disabled > a:hover,
+#chartjs-shortcodes-help .nav > li.disabled > a:focus {
+  color: #999999;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: not-allowed;
+}
+#chartjs-shortcodes-help .nav .open > a,
+#chartjs-shortcodes-help .nav .open > a:hover,
+#chartjs-shortcodes-help .nav .open > a:focus {
+  background-color: #eeeeee;
+  border-color: #428bca;
+}
+#chartjs-shortcodes-help .nav .nav-divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+#chartjs-shortcodes-help .nav > li > a > img {
+  max-width: none;
+}
+#chartjs-shortcodes-help .nav-tabs {
+  border-bottom: 1px solid #dddddd;
+}
+#chartjs-shortcodes-help .nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+#chartjs-shortcodes-help .nav-tabs > li > a {
+  margin-right: 2px;
+  line-height: 1.428571429;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+}
+#chartjs-shortcodes-help .nav-tabs > li > a:hover {
+  border-color: #eeeeee #eeeeee #dddddd;
+}
+#chartjs-shortcodes-help .nav-tabs > li.active > a,
+#chartjs-shortcodes-help .nav-tabs > li.active > a:hover,
+#chartjs-shortcodes-help .nav-tabs > li.active > a:focus {
+  color: #555555;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-bottom-color: transparent;
+  cursor: default;
+}
+#chartjs-shortcodes-help .nav-tabs.nav-justified {
+  width: 100%;
+  border-bottom: 0;
+}
+#chartjs-shortcodes-help .nav-tabs.nav-justified > li {
+  float: none;
+}
+#chartjs-shortcodes-help .nav-tabs.nav-justified > li > a {
+  text-align: center;
+  margin-bottom: 5px;
+}
+#chartjs-shortcodes-help .nav-tabs.nav-justified > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+@media (min-width: 768px) {
+  #chartjs-shortcodes-help .nav-tabs.nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+  #chartjs-shortcodes-help .nav-tabs.nav-justified > li > a {
+    margin-bottom: 0;
+  }
+}
+#chartjs-shortcodes-help .nav-tabs.nav-justified > li > a {
+  margin-right: 0;
+  border-radius: 4px;
+}
+#chartjs-shortcodes-help .nav-tabs.nav-justified > .active > a,
+#chartjs-shortcodes-help .nav-tabs.nav-justified > .active > a:hover,
+#chartjs-shortcodes-help .nav-tabs.nav-justified > .active > a:focus {
+  border: 1px solid #dddddd;
+}
+@media (min-width: 768px) {
+  #chartjs-shortcodes-help .nav-tabs.nav-justified > li > a {
+    border-bottom: 1px solid #dddddd;
+    border-radius: 4px 4px 0 0;
+  }
+  #chartjs-shortcodes-help .nav-tabs.nav-justified > .active > a,
+  #chartjs-shortcodes-help .nav-tabs.nav-justified > .active > a:hover,
+  #chartjs-shortcodes-help .nav-tabs.nav-justified > .active > a:focus {
+    border-bottom-color: #ffffff;
+  }
+}
+#chartjs-shortcodes-help .nav-pills > li {
+  float: left;
+}
+#chartjs-shortcodes-help .nav-pills > li > a {
+  border-radius: 4px;
+}
+#chartjs-shortcodes-help .nav-pills > li + li {
+  margin-left: 2px;
+}
+#chartjs-shortcodes-help .nav-pills > li.active > a,
+#chartjs-shortcodes-help .nav-pills > li.active > a:hover,
+#chartjs-shortcodes-help .nav-pills > li.active > a:focus {
+  color: #ffffff;
+  background-color: #428bca;
+}
+#chartjs-shortcodes-help .nav-stacked > li {
+  float: none;
+}
+#chartjs-shortcodes-help .nav-stacked > li + li {
+  margin-top: 2px;
+  margin-left: 0;
+}
+#chartjs-shortcodes-help .nav-justified {
+  width: 100%;
+}
+#chartjs-shortcodes-help .nav-justified > li {
+  float: none;
+}
+#chartjs-shortcodes-help .nav-justified > li > a {
+  text-align: center;
+  margin-bottom: 5px;
+}
+#chartjs-shortcodes-help .nav-justified > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+@media (min-width: 768px) {
+  #chartjs-shortcodes-help .nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+  #chartjs-shortcodes-help .nav-justified > li > a {
+    margin-bottom: 0;
+  }
+}
+#chartjs-shortcodes-help .nav-tabs-justified {
+  border-bottom: 0;
+}
+#chartjs-shortcodes-help .nav-tabs-justified > li > a {
+  margin-right: 0;
+  border-radius: 4px;
+}
+#chartjs-shortcodes-help .nav-tabs-justified > .active > a,
+#chartjs-shortcodes-help .nav-tabs-justified > .active > a:hover,
+#chartjs-shortcodes-help .nav-tabs-justified > .active > a:focus {
+  border: 1px solid #dddddd;
+}
+@media (min-width: 768px) {
+  #chartjs-shortcodes-help .nav-tabs-justified > li > a {
+    border-bottom: 1px solid #dddddd;
+    border-radius: 4px 4px 0 0;
+  }
+  #chartjs-shortcodes-help .nav-tabs-justified > .active > a,
+  #chartjs-shortcodes-help .nav-tabs-justified > .active > a:hover,
+  #chartjs-shortcodes-help .nav-tabs-justified > .active > a:focus {
+    border-bottom-color: #ffffff;
+  }
+}
+#chartjs-shortcodes-help .tab-content > .tab-pane {
+  display: none;
+}
+#chartjs-shortcodes-help .tab-content > .active {
+  display: block;
+}
+#chartjs-shortcodes-help .nav-tabs .dropdown-menu {
+  margin-top: -1px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+#chartjs-shortcodes-help .navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+}
+#chartjs-shortcodes-help .navbar:before,
+#chartjs-shortcodes-help .navbar:after {
+  content: " ";
+  display: table;
+}
+#chartjs-shortcodes-help .navbar:after {
+  clear: both;
+}
+#chartjs-shortcodes-help .navbar:before,
+#chartjs-shortcodes-help .navbar:after {
+  content: " ";
+  display: table;
+}
+#chartjs-shortcodes-help .navbar:after {
+  clear: both;
+}
+@media (min-width: 768px) {
+  #chartjs-shortcodes-help .navbar {
+    border-radius: 4px;
+  }
+}
+#chartjs-shortcodes-help .navbar-header:before,
+#chartjs-shortcodes-help .navbar-header:after {
+  content: " ";
+  display: table;
+}
+#chartjs-shortcodes-help .navbar-header:after {
+  clear: both;
+}
+#chartjs-shortcodes-help .navbar-header:before,
+#chartjs-shortcodes-help .navbar-header:after {
+  content: " ";
+  display: table;
+}
+#chartjs-shortcodes-help .navbar-header:after {
+  clear: both;
+}
+@media (min-width: 768px) {
+  #chartjs-shortcodes-help .navbar-header {
+    float: left;
+  }
+}
+#chartjs-shortcodes-help .navbar-collapse {
+  max-height: 340px;
+  overflow-x: visible;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-top: 1px solid transparent;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  -webkit-overflow-scrolling: touch;
+}
+#chartjs-shortcodes-help .navbar-collapse:before,
+#chartjs-shortcodes-help .navbar-collapse:after {
+  content: " ";
+  display: table;
+}
+#chartjs-shortcodes-help .navbar-collapse:after {
+  clear: both;
+}
+#chartjs-shortcodes-help .navbar-collapse:before,
+#chartjs-shortcodes-help .navbar-collapse:after {
+  content: " ";
+  display: table;
+}
+#chartjs-shortcodes-help .navbar-collapse:after {
+  clear: both;
+}
+#chartjs-shortcodes-help .navbar-collapse.in {
+  overflow-y: auto;
+}
+@media (min-width: 768px) {
+  #chartjs-shortcodes-help .navbar-collapse {
+    width: auto;
+    border-top: 0;
+    box-shadow: none;
+  }
+  #chartjs-shortcodes-help .navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+  #chartjs-shortcodes-help .navbar-collapse.in {
+    overflow-y: visible;
+  }
+  .navbar-fixed-top #chartjs-shortcodes-help .navbar-collapse,
+  .navbar-static-top #chartjs-shortcodes-help .navbar-collapse,
+  .navbar-fixed-bottom #chartjs-shortcodes-help .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+#chartjs-shortcodes-help .container > .navbar-header,
+#chartjs-shortcodes-help .container > .navbar-collapse {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+@media (min-width: 768px) {
+  #chartjs-shortcodes-help .container > .navbar-header,
+  #chartjs-shortcodes-help .container > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+#chartjs-shortcodes-help .navbar-static-top {
+  z-index: 1000;
+  border-width: 0 0 1px;
+}
+@media (min-width: 768px) {
+  #chartjs-shortcodes-help .navbar-static-top {
+    border-radius: 0;
+  }
+}
+#chartjs-shortcodes-help .navbar-fixed-top,
+#chartjs-shortcodes-help .navbar-fixed-bottom {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+@media (min-width: 768px) {
+  #chartjs-shortcodes-help .navbar-fixed-top,
+  #chartjs-shortcodes-help .navbar-fixed-bottom {
+    border-radius: 0;
+  }
+}
+#chartjs-shortcodes-help .navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 1px;
+}
+#chartjs-shortcodes-help .navbar-fixed-bottom {
+  bottom: 0;
+  margin-bottom: 0;
+  border-width: 1px 0 0;
+}
+#chartjs-shortcodes-help .navbar-brand {
+  float: left;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+#chartjs-shortcodes-help .navbar-brand:hover,
+#chartjs-shortcodes-help .navbar-brand:focus {
+  text-decoration: none;
+}
+@media (min-width: 768px) {
+  .navbar > .container #chartjs-shortcodes-help .navbar-brand {
+    margin-left: -15px;
+  }
+}
+#chartjs-shortcodes-help .navbar-toggle {
+  position: relative;
+  float: right;
+  margin-right: 15px;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+#chartjs-shortcodes-help .navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+#chartjs-shortcodes-help .navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+@media (min-width: 768px) {
+  #chartjs-shortcodes-help .navbar-toggle {
+    display: none;
+  }
+}
+#chartjs-shortcodes-help .navbar-nav {
+  margin: 7.5px -15px;
+}
+#chartjs-shortcodes-help .navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+}
+@media (max-width: 767px) {
+  #chartjs-shortcodes-help .navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+  }
+  #chartjs-shortcodes-help .navbar-nav .open .dropdown-menu > li > a,
+  #chartjs-shortcodes-help .navbar-nav .open .dropdown-menu .dropdown-header {
+    padding: 5px 15px 5px 25px;
+  }
+  #chartjs-shortcodes-help .navbar-nav .open .dropdown-menu > li > a {
+    line-height: 20px;
+  }
+  #chartjs-shortcodes-help .navbar-nav .open .dropdown-menu > li > a:hover,
+  #chartjs-shortcodes-help .navbar-nav .open .dropdown-menu > li > a:focus {
+    background-image: none;
+  }
+}
+@media (min-width: 768px) {
+  #chartjs-shortcodes-help .navbar-nav {
+    float: left;
+    margin: 0;
+  }
+  #chartjs-shortcodes-help .navbar-nav > li {
+    float: left;
+  }
+  #chartjs-shortcodes-help .navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  #chartjs-shortcodes-help .navbar-nav.navbar-right:last-child {
+    margin-right: -15px;
+  }
+}
+@media (min-width: 768px) {
+  #chartjs-shortcodes-help .navbar-left {
+    float: left !important;
+  }
+  #chartjs-shortcodes-help .navbar-right {
+    float: right !important;
+  }
+}
+#chartjs-shortcodes-help .navbar-form {
+  margin-left: -15px;
+  margin-right: -15px;
+  padding: 10px 15px;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+@media (min-width: 768px) {
+  #chartjs-shortcodes-help .navbar-form .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  #chartjs-shortcodes-help .navbar-form .form-control {
+    display: inline-block;
+  }
+  #chartjs-shortcodes-help .navbar-form select.form-control {
+    width: auto;
+  }
+  #chartjs-shortcodes-help .navbar-form .radio,
+  #chartjs-shortcodes-help .navbar-form .checkbox {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  #chartjs-shortcodes-help .navbar-form .radio input[type="radio"],
+  #chartjs-shortcodes-help .navbar-form .checkbox input[type="checkbox"] {
+    float: none;
+    margin-left: 0;
+  }
+}
+@media (max-width: 767px) {
+  #chartjs-shortcodes-help .navbar-form .form-group {
+    margin-bottom: 5px;
+  }
+}
+@media (min-width: 768px) {
+  #chartjs-shortcodes-help .navbar-form {
+    width: auto;
+    border: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  #chartjs-shortcodes-help .navbar-form.navbar-right:last-child {
+    margin-right: -15px;
+  }
+}
+#chartjs-shortcodes-help .navbar-nav > li > .dropdown-menu {
+  margin-top: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+#chartjs-shortcodes-help .navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#chartjs-shortcodes-help .navbar-nav.pull-right > li > .dropdown-menu,
+#chartjs-shortcodes-help .navbar-nav > li > .dropdown-menu.pull-right {
+  left: auto;
+  right: 0;
+}
+#chartjs-shortcodes-help .navbar-btn {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+#chartjs-shortcodes-help .navbar-btn.btn-sm {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#chartjs-shortcodes-help .navbar-btn.btn-xs {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+#chartjs-shortcodes-help .navbar-text {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+@media (min-width: 768px) {
+  #chartjs-shortcodes-help .navbar-text {
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  #chartjs-shortcodes-help .navbar-text.navbar-right:last-child {
+    margin-right: 0;
+  }
+}
+#chartjs-shortcodes-help .navbar-default {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+#chartjs-shortcodes-help .navbar-default .navbar-brand {
+  color: #777777;
+}
+#chartjs-shortcodes-help .navbar-default .navbar-brand:hover,
+#chartjs-shortcodes-help .navbar-default .navbar-brand:focus {
+  color: #5e5e5e;
+  background-color: transparent;
+}
+#chartjs-shortcodes-help .navbar-default .navbar-text {
+  color: #777777;
+}
+#chartjs-shortcodes-help .navbar-default .navbar-nav > li > a {
+  color: #777777;
+}
+#chartjs-shortcodes-help .navbar-default .navbar-nav > li > a:hover,
+#chartjs-shortcodes-help .navbar-default .navbar-nav > li > a:focus {
+  color: #333333;
+  background-color: transparent;
+}
+#chartjs-shortcodes-help .navbar-default .navbar-nav > .active > a,
+#chartjs-shortcodes-help .navbar-default .navbar-nav > .active > a:hover,
+#chartjs-shortcodes-help .navbar-default .navbar-nav > .active > a:focus {
+  color: #555555;
+  background-color: #e7e7e7;
+}
+#chartjs-shortcodes-help .navbar-default .navbar-nav > .disabled > a,
+#chartjs-shortcodes-help .navbar-default .navbar-nav > .disabled > a:hover,
+#chartjs-shortcodes-help .navbar-default .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+#chartjs-shortcodes-help .navbar-default .navbar-toggle {
+  border-color: #dddddd;
+}
+#chartjs-shortcodes-help .navbar-default .navbar-toggle:hover,
+#chartjs-shortcodes-help .navbar-default .navbar-toggle:focus {
+  background-color: #dddddd;
+}
+#chartjs-shortcodes-help .navbar-default .navbar-toggle .icon-bar {
+  background-color: #cccccc;
+}
+#chartjs-shortcodes-help .navbar-default .navbar-collapse,
+#chartjs-shortcodes-help .navbar-default .navbar-form {
+  border-color: #e7e7e7;
+}
+#chartjs-shortcodes-help .navbar-default .navbar-nav > .open > a,
+#chartjs-shortcodes-help .navbar-default .navbar-nav > .open > a:hover,
+#chartjs-shortcodes-help .navbar-default .navbar-nav > .open > a:focus {
+  background-color: #e7e7e7;
+  color: #555555;
+}
+@media (max-width: 767px) {
+  #chartjs-shortcodes-help .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #777777;
+  }
+  #chartjs-shortcodes-help .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  #chartjs-shortcodes-help .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333333;
+    background-color: transparent;
+  }
+  #chartjs-shortcodes-help .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  #chartjs-shortcodes-help .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  #chartjs-shortcodes-help .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #555555;
+    background-color: #e7e7e7;
+  }
+  #chartjs-shortcodes-help .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+  #chartjs-shortcodes-help .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  #chartjs-shortcodes-help .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #cccccc;
+    background-color: transparent;
+  }
+}
+#chartjs-shortcodes-help .navbar-default .navbar-link {
+  color: #777777;
+}
+#chartjs-shortcodes-help .navbar-default .navbar-link:hover {
+  color: #333333;
+}
+#chartjs-shortcodes-help .navbar-inverse {
+  background-color: #222222;
+  border-color: #080808;
+}
+#chartjs-shortcodes-help .navbar-inverse .navbar-brand {
+  color: #999999;
+}
+#chartjs-shortcodes-help .navbar-inverse .navbar-brand:hover,
+#chartjs-shortcodes-help .navbar-inverse .navbar-brand:focus {
+  color: #ffffff;
+  background-color: transparent;
+}
+#chartjs-shortcodes-help .navbar-inverse .navbar-text {
+  color: #999999;
+}
+#chartjs-shortcodes-help .navbar-inverse .navbar-nav > li > a {
+  color: #999999;
+}
+#chartjs-shortcodes-help .navbar-inverse .navbar-nav > li > a:hover,
+#chartjs-shortcodes-help .navbar-inverse .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: transparent;
+}
+#chartjs-shortcodes-help .navbar-inverse .navbar-nav > .active > a,
+#chartjs-shortcodes-help .navbar-inverse .navbar-nav > .active > a:hover,
+#chartjs-shortcodes-help .navbar-inverse .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #080808;
+}
+#chartjs-shortcodes-help .navbar-inverse .navbar-nav > .disabled > a,
+#chartjs-shortcodes-help .navbar-inverse .navbar-nav > .disabled > a:hover,
+#chartjs-shortcodes-help .navbar-inverse .navbar-nav > .disabled > a:focus {
+  color: #444444;
+  background-color: transparent;
+}
+#chartjs-shortcodes-help .navbar-inverse .navbar-toggle {
+  border-color: #333333;
+}
+#chartjs-shortcodes-help .navbar-inverse .navbar-toggle:hover,
+#chartjs-shortcodes-help .navbar-inverse .navbar-toggle:focus {
+  background-color: #333333;
+}
+#chartjs-shortcodes-help .navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+#chartjs-shortcodes-help .navbar-inverse .navbar-collapse,
+#chartjs-shortcodes-help .navbar-inverse .navbar-form {
+  border-color: #101010;
+}
+#chartjs-shortcodes-help .navbar-inverse .navbar-nav > .open > a,
+#chartjs-shortcodes-help .navbar-inverse .navbar-nav > .open > a:hover,
+#chartjs-shortcodes-help .navbar-inverse .navbar-nav > .open > a:focus {
+  background-color: #080808;
+  color: #ffffff;
+}
+@media (max-width: 767px) {
+  #chartjs-shortcodes-help .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
+    border-color: #080808;
+  }
+  #chartjs-shortcodes-help .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+    background-color: #080808;
+  }
+  #chartjs-shortcodes-help .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #999999;
+  }
+  #chartjs-shortcodes-help .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+  #chartjs-shortcodes-help .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+    background-color: transparent;
+  }
+  #chartjs-shortcodes-help .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
+  #chartjs-shortcodes-help .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
+  #chartjs-shortcodes-help .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #080808;
+  }
+  #chartjs-shortcodes-help .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
+  #chartjs-shortcodes-help .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  #chartjs-shortcodes-help .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #444444;
+    background-color: transparent;
+  }
+}
+#chartjs-shortcodes-help .navbar-inverse .navbar-link {
+  color: #999999;
+}
+#chartjs-shortcodes-help .navbar-inverse .navbar-link:hover {
+  color: #ffffff;
+}
+#chartjs-shortcodes-help .breadcrumb {
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  list-style: none;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+#chartjs-shortcodes-help .breadcrumb > li {
+  display: inline-block;
+}
+#chartjs-shortcodes-help .breadcrumb > li + li:before {
+  content: "/\00a0";
+  padding: 0 5px;
+  color: #cccccc;
+}
+#chartjs-shortcodes-help .breadcrumb > .active {
+  color: #999999;
+}
+#chartjs-shortcodes-help .pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+#chartjs-shortcodes-help .pagination > li {
+  display: inline;
+}
+#chartjs-shortcodes-help .pagination > li > a,
+#chartjs-shortcodes-help .pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  line-height: 1.428571429;
+  text-decoration: none;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  margin-left: -1px;
+}
+#chartjs-shortcodes-help .pagination > li:first-child > a,
+#chartjs-shortcodes-help .pagination > li:first-child > span {
+  margin-left: 0;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+}
+#chartjs-shortcodes-help .pagination > li:last-child > a,
+#chartjs-shortcodes-help .pagination > li:last-child > span {
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+#chartjs-shortcodes-help .pagination > li > a:hover,
+#chartjs-shortcodes-help .pagination > li > span:hover,
+#chartjs-shortcodes-help .pagination > li > a:focus,
+#chartjs-shortcodes-help .pagination > li > span:focus {
+  background-color: #eeeeee;
+}
+#chartjs-shortcodes-help .pagination > .active > a,
+#chartjs-shortcodes-help .pagination > .active > span,
+#chartjs-shortcodes-help .pagination > .active > a:hover,
+#chartjs-shortcodes-help .pagination > .active > span:hover,
+#chartjs-shortcodes-help .pagination > .active > a:focus,
+#chartjs-shortcodes-help .pagination > .active > span:focus {
+  z-index: 2;
+  color: #ffffff;
+  background-color: #428bca;
+  border-color: #428bca;
+  cursor: default;
+}
+#chartjs-shortcodes-help .pagination > .disabled > span,
+#chartjs-shortcodes-help .pagination > .disabled > span:hover,
+#chartjs-shortcodes-help .pagination > .disabled > span:focus,
+#chartjs-shortcodes-help .pagination > .disabled > a,
+#chartjs-shortcodes-help .pagination > .disabled > a:hover,
+#chartjs-shortcodes-help .pagination > .disabled > a:focus {
+  color: #999999;
+  background-color: #ffffff;
+  border-color: #dddddd;
+  cursor: not-allowed;
+}
+#chartjs-shortcodes-help .pagination-lg > li > a,
+#chartjs-shortcodes-help .pagination-lg > li > span {
+  padding: 10px 16px;
+  font-size: 18px;
+}
+#chartjs-shortcodes-help .pagination-lg > li:first-child > a,
+#chartjs-shortcodes-help .pagination-lg > li:first-child > span {
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+}
+#chartjs-shortcodes-help .pagination-lg > li:last-child > a,
+#chartjs-shortcodes-help .pagination-lg > li:last-child > span {
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+}
+#chartjs-shortcodes-help .pagination-sm > li > a,
+#chartjs-shortcodes-help .pagination-sm > li > span {
+  padding: 5px 10px;
+  font-size: 12px;
+}
+#chartjs-shortcodes-help .pagination-sm > li:first-child > a,
+#chartjs-shortcodes-help .pagination-sm > li:first-child > span {
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+#chartjs-shortcodes-help .pagination-sm > li:last-child > a,
+#chartjs-shortcodes-help .pagination-sm > li:last-child > span {
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+#chartjs-shortcodes-help .pager {
+  padding-left: 0;
+  margin: 20px 0;
+  list-style: none;
+  text-align: center;
+}
+#chartjs-shortcodes-help .pager:before,
+#chartjs-shortcodes-help .pager:after {
+  content: " ";
+  display: table;
+}
+#chartjs-shortcodes-help .pager:after {
+  clear: both;
+}
+#chartjs-shortcodes-help .pager:before,
+#chartjs-shortcodes-help .pager:after {
+  content: " ";
+  display: table;
+}
+#chartjs-shortcodes-help .pager:after {
+  clear: both;
+}
+#chartjs-shortcodes-help .pager li {
+  display: inline;
+}
+#chartjs-shortcodes-help .pager li > a,
+#chartjs-shortcodes-help .pager li > span {
+  display: inline-block;
+  padding: 5px 14px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 15px;
+}
+#chartjs-shortcodes-help .pager li > a:hover,
+#chartjs-shortcodes-help .pager li > a:focus {
+  text-decoration: none;
+  background-color: #eeeeee;
+}
+#chartjs-shortcodes-help .pager .next > a,
+#chartjs-shortcodes-help .pager .next > span {
+  float: right;
+}
+#chartjs-shortcodes-help .pager .previous > a,
+#chartjs-shortcodes-help .pager .previous > span {
+  float: left;
+}
+#chartjs-shortcodes-help .pager .disabled > a,
+#chartjs-shortcodes-help .pager .disabled > a:hover,
+#chartjs-shortcodes-help .pager .disabled > a:focus,
+#chartjs-shortcodes-help .pager .disabled > span {
+  color: #999999;
+  background-color: #ffffff;
+  cursor: not-allowed;
+}
+#chartjs-shortcodes-help .label {
+  display: inline;
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  font-weight: bold;
+  line-height: 1;
+  color: #ffffff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+}
+#chartjs-shortcodes-help .label[href]:hover,
+#chartjs-shortcodes-help .label[href]:focus {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+#chartjs-shortcodes-help .label:empty {
+  display: none;
+}
+.btn #chartjs-shortcodes-help .label {
+  position: relative;
+  top: -1px;
+}
+#chartjs-shortcodes-help .label-default {
+  background-color: #999999;
+}
+#chartjs-shortcodes-help .label-default[href]:hover,
+#chartjs-shortcodes-help .label-default[href]:focus {
+  background-color: #808080;
+}
+#chartjs-shortcodes-help .label-primary {
+  background-color: #428bca;
+}
+#chartjs-shortcodes-help .label-primary[href]:hover,
+#chartjs-shortcodes-help .label-primary[href]:focus {
+  background-color: #3071a9;
+}
+#chartjs-shortcodes-help .label-success {
+  background-color: #5cb85c;
+}
+#chartjs-shortcodes-help .label-success[href]:hover,
+#chartjs-shortcodes-help .label-success[href]:focus {
+  background-color: #449d44;
+}
+#chartjs-shortcodes-help .label-info {
+  background-color: #5bc0de;
+}
+#chartjs-shortcodes-help .label-info[href]:hover,
+#chartjs-shortcodes-help .label-info[href]:focus {
+  background-color: #31b0d5;
+}
+#chartjs-shortcodes-help .label-warning {
+  background-color: #f0ad4e;
+}
+#chartjs-shortcodes-help .label-warning[href]:hover,
+#chartjs-shortcodes-help .label-warning[href]:focus {
+  background-color: #ec971f;
+}
+#chartjs-shortcodes-help .label-danger {
+  background-color: #d9534f;
+}
+#chartjs-shortcodes-help .label-danger[href]:hover,
+#chartjs-shortcodes-help .label-danger[href]:focus {
+  background-color: #c9302c;
+}
+#chartjs-shortcodes-help .badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 1;
+  vertical-align: baseline;
+  white-space: nowrap;
+  text-align: center;
+  background-color: #999999;
+  border-radius: 10px;
+}
+#chartjs-shortcodes-help .badge:empty {
+  display: none;
+}
+.btn #chartjs-shortcodes-help .badge {
+  position: relative;
+  top: -1px;
+}
+#chartjs-shortcodes-help a.badge:hover,
+#chartjs-shortcodes-help a.badge:focus {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+#chartjs-shortcodes-help a.list-group-item.active > .badge,
+#chartjs-shortcodes-help .nav-pills > .active > a > .badge {
+  color: #428bca;
+  background-color: #ffffff;
+}
+#chartjs-shortcodes-help .nav-pills > li > a > .badge {
+  margin-left: 3px;
+}
+#chartjs-shortcodes-help .jumbotron {
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 2.1428571435;
+  color: inherit;
+  background-color: #eeeeee;
+}
+#chartjs-shortcodes-help .jumbotron h1,
+#chartjs-shortcodes-help .jumbotron .h1 {
+  line-height: 1;
+  color: inherit;
+}
+#chartjs-shortcodes-help .jumbotron p {
+  line-height: 1.4;
+}
+.container #chartjs-shortcodes-help .jumbotron {
+  border-radius: 6px;
+}
+#chartjs-shortcodes-help .jumbotron .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  #chartjs-shortcodes-help .jumbotron {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container #chartjs-shortcodes-help .jumbotron {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  #chartjs-shortcodes-help .jumbotron h1,
+  #chartjs-shortcodes-help .jumbotron .h1 {
+    font-size: 63px;
+  }
+}
+#chartjs-shortcodes-help .thumbnail {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.428571429;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+#chartjs-shortcodes-help .thumbnail > img,
+#chartjs-shortcodes-help .thumbnail a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+a#chartjs-shortcodes-help .thumbnail:hover,
+a#chartjs-shortcodes-help .thumbnail:focus,
+a#chartjs-shortcodes-help .thumbnail.active {
+  border-color: #428bca;
+}
+#chartjs-shortcodes-help .thumbnail .caption {
+  padding: 9px;
+  color: #333333;
+}
+#chartjs-shortcodes-help .alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+#chartjs-shortcodes-help .alert h4 {
+  margin-top: 0;
+  color: inherit;
+}
+#chartjs-shortcodes-help .alert .alert-link {
+  font-weight: bold;
+}
+#chartjs-shortcodes-help .alert > p,
+#chartjs-shortcodes-help .alert > ul {
+  margin-bottom: 0;
+}
+#chartjs-shortcodes-help .alert > p + p {
+  margin-top: 5px;
+}
+#chartjs-shortcodes-help .alert-dismissable {
+  padding-right: 35px;
+}
+#chartjs-shortcodes-help .alert-dismissable .close {
+  position: relative;
+  top: -2px;
+  right: -21px;
+  color: inherit;
+}
+#chartjs-shortcodes-help .alert-success {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #3c763d;
+}
+#chartjs-shortcodes-help .alert-success hr {
+  border-top-color: #c9e2b3;
+}
+#chartjs-shortcodes-help .alert-success .alert-link {
+  color: #2b542c;
+}
+#chartjs-shortcodes-help .alert-info {
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  color: #31708f;
+}
+#chartjs-shortcodes-help .alert-info hr {
+  border-top-color: #a6e1ec;
+}
+#chartjs-shortcodes-help .alert-info .alert-link {
+  color: #245269;
+}
+#chartjs-shortcodes-help .alert-warning {
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+  color: #8a6d3b;
+}
+#chartjs-shortcodes-help .alert-warning hr {
+  border-top-color: #f7e1b5;
+}
+#chartjs-shortcodes-help .alert-warning .alert-link {
+  color: #66512c;
+}
+#chartjs-shortcodes-help .alert-danger {
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  color: #a94442;
+}
+#chartjs-shortcodes-help .alert-danger hr {
+  border-top-color: #e4b9c0;
+}
+#chartjs-shortcodes-help .alert-danger .alert-link {
+  color: #843534;
+}
+@-webkit-keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+@keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+#chartjs-shortcodes-help .progress {
+  overflow: hidden;
+  height: 20px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+#chartjs-shortcodes-help .progress-bar {
+  float: left;
+  width: 0%;
+  height: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #428bca;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+}
+#chartjs-shortcodes-help .progress-striped .progress-bar {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-size: 40px 40px;
+}
+#chartjs-shortcodes-help .progress.active .progress-bar {
+  -webkit-animation: progress-bar-stripes 2s linear infinite;
+  animation: progress-bar-stripes 2s linear infinite;
+}
+#chartjs-shortcodes-help .progress-bar-success {
+  background-color: #5cb85c;
+}
+.progress-striped #chartjs-shortcodes-help .progress-bar-success {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+#chartjs-shortcodes-help .progress-bar-info {
+  background-color: #5bc0de;
+}
+.progress-striped #chartjs-shortcodes-help .progress-bar-info {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+#chartjs-shortcodes-help .progress-bar-warning {
+  background-color: #f0ad4e;
+}
+.progress-striped #chartjs-shortcodes-help .progress-bar-warning {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+#chartjs-shortcodes-help .progress-bar-danger {
+  background-color: #d9534f;
+}
+.progress-striped #chartjs-shortcodes-help .progress-bar-danger {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+#chartjs-shortcodes-help .media,
+#chartjs-shortcodes-help .media-body {
+  overflow: hidden;
+  zoom: 1;
+}
+#chartjs-shortcodes-help .media,
+#chartjs-shortcodes-help .media .media {
+  margin-top: 15px;
+}
+#chartjs-shortcodes-help .media:first-child {
+  margin-top: 0;
+}
+#chartjs-shortcodes-help .media-object {
+  display: block;
+}
+#chartjs-shortcodes-help .media-heading {
+  margin: 0 0 5px;
+}
+#chartjs-shortcodes-help .media > .pull-left {
+  margin-right: 10px;
+}
+#chartjs-shortcodes-help .media > .pull-right {
+  margin-left: 10px;
+}
+#chartjs-shortcodes-help .media-list {
+  padding-left: 0;
+  list-style: none;
+}
+#chartjs-shortcodes-help .list-group {
+  margin-bottom: 20px;
+  padding-left: 0;
+}
+#chartjs-shortcodes-help .list-group-item {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+}
+#chartjs-shortcodes-help .list-group-item:first-child {
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+#chartjs-shortcodes-help .list-group-item:last-child {
+  margin-bottom: 0;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+#chartjs-shortcodes-help .list-group-item > .badge {
+  float: right;
+}
+#chartjs-shortcodes-help .list-group-item > .badge + .badge {
+  margin-right: 5px;
+}
+#chartjs-shortcodes-help a.list-group-item {
+  color: #555555;
+}
+#chartjs-shortcodes-help a.list-group-item .list-group-item-heading {
+  color: #333333;
+}
+#chartjs-shortcodes-help a.list-group-item:hover,
+#chartjs-shortcodes-help a.list-group-item:focus {
+  text-decoration: none;
+  background-color: #f5f5f5;
+}
+#chartjs-shortcodes-help a.list-group-item.active,
+#chartjs-shortcodes-help a.list-group-item.active:hover,
+#chartjs-shortcodes-help a.list-group-item.active:focus {
+  z-index: 2;
+  color: #ffffff;
+  background-color: #428bca;
+  border-color: #428bca;
+}
+#chartjs-shortcodes-help a.list-group-item.active .list-group-item-heading,
+#chartjs-shortcodes-help a.list-group-item.active:hover .list-group-item-heading,
+#chartjs-shortcodes-help a.list-group-item.active:focus .list-group-item-heading {
+  color: inherit;
+}
+#chartjs-shortcodes-help a.list-group-item.active .list-group-item-text,
+#chartjs-shortcodes-help a.list-group-item.active:hover .list-group-item-text,
+#chartjs-shortcodes-help a.list-group-item.active:focus .list-group-item-text {
+  color: #e1edf7;
+}
+#chartjs-shortcodes-help .list-group-item-heading {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+#chartjs-shortcodes-help .list-group-item-text {
+  margin-bottom: 0;
+  line-height: 1.3;
+}
+#chartjs-shortcodes-help .panel {
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+#chartjs-shortcodes-help .panel-body {
+  padding: 15px;
+}
+#chartjs-shortcodes-help .panel-body:before,
+#chartjs-shortcodes-help .panel-body:after {
+  content: " ";
+  display: table;
+}
+#chartjs-shortcodes-help .panel-body:after {
+  clear: both;
+}
+#chartjs-shortcodes-help .panel-body:before,
+#chartjs-shortcodes-help .panel-body:after {
+  content: " ";
+  display: table;
+}
+#chartjs-shortcodes-help .panel-body:after {
+  clear: both;
+}
+#chartjs-shortcodes-help .panel > .list-group {
+  margin-bottom: 0;
+}
+#chartjs-shortcodes-help .panel > .list-group .list-group-item {
+  border-width: 1px 0;
+}
+#chartjs-shortcodes-help .panel > .list-group .list-group-item:first-child {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+#chartjs-shortcodes-help .panel > .list-group .list-group-item:last-child {
+  border-bottom: 0;
+}
+#chartjs-shortcodes-help .panel-heading + .list-group .list-group-item:first-child {
+  border-top-width: 0;
+}
+#chartjs-shortcodes-help .panel > .table,
+#chartjs-shortcodes-help .panel > .table-responsive > .table {
+  margin-bottom: 0;
+}
+#chartjs-shortcodes-help .panel > .panel-body + .table,
+#chartjs-shortcodes-help .panel > .panel-body + .table-responsive {
+  border-top: 1px solid #dddddd;
+}
+#chartjs-shortcodes-help .panel > .table > tbody:first-child th,
+#chartjs-shortcodes-help .panel > .table > tbody:first-child td {
+  border-top: 0;
+}
+#chartjs-shortcodes-help .panel > .table-bordered,
+#chartjs-shortcodes-help .panel > .table-responsive > .table-bordered {
+  border: 0;
+}
+#chartjs-shortcodes-help .panel > .table-bordered > thead > tr > th:first-child,
+#chartjs-shortcodes-help .panel > .table-responsive > .table-bordered > thead > tr > th:first-child,
+#chartjs-shortcodes-help .panel > .table-bordered > tbody > tr > th:first-child,
+#chartjs-shortcodes-help .panel > .table-responsive > .table-bordered > tbody > tr > th:first-child,
+#chartjs-shortcodes-help .panel > .table-bordered > tfoot > tr > th:first-child,
+#chartjs-shortcodes-help .panel > .table-responsive > .table-bordered > tfoot > tr > th:first-child,
+#chartjs-shortcodes-help .panel > .table-bordered > thead > tr > td:first-child,
+#chartjs-shortcodes-help .panel > .table-responsive > .table-bordered > thead > tr > td:first-child,
+#chartjs-shortcodes-help .panel > .table-bordered > tbody > tr > td:first-child,
+#chartjs-shortcodes-help .panel > .table-responsive > .table-bordered > tbody > tr > td:first-child,
+#chartjs-shortcodes-help .panel > .table-bordered > tfoot > tr > td:first-child,
+#chartjs-shortcodes-help .panel > .table-responsive > .table-bordered > tfoot > tr > td:first-child {
+  border-left: 0;
+}
+#chartjs-shortcodes-help .panel > .table-bordered > thead > tr > th:last-child,
+#chartjs-shortcodes-help .panel > .table-responsive > .table-bordered > thead > tr > th:last-child,
+#chartjs-shortcodes-help .panel > .table-bordered > tbody > tr > th:last-child,
+#chartjs-shortcodes-help .panel > .table-responsive > .table-bordered > tbody > tr > th:last-child,
+#chartjs-shortcodes-help .panel > .table-bordered > tfoot > tr > th:last-child,
+#chartjs-shortcodes-help .panel > .table-responsive > .table-bordered > tfoot > tr > th:last-child,
+#chartjs-shortcodes-help .panel > .table-bordered > thead > tr > td:last-child,
+#chartjs-shortcodes-help .panel > .table-responsive > .table-bordered > thead > tr > td:last-child,
+#chartjs-shortcodes-help .panel > .table-bordered > tbody > tr > td:last-child,
+#chartjs-shortcodes-help .panel > .table-responsive > .table-bordered > tbody > tr > td:last-child,
+#chartjs-shortcodes-help .panel > .table-bordered > tfoot > tr > td:last-child,
+#chartjs-shortcodes-help .panel > .table-responsive > .table-bordered > tfoot > tr > td:last-child {
+  border-right: 0;
+}
+#chartjs-shortcodes-help .panel > .table-bordered > thead > tr:last-child > th,
+#chartjs-shortcodes-help .panel > .table-responsive > .table-bordered > thead > tr:last-child > th,
+#chartjs-shortcodes-help .panel > .table-bordered > tbody > tr:last-child > th,
+#chartjs-shortcodes-help .panel > .table-responsive > .table-bordered > tbody > tr:last-child > th,
+#chartjs-shortcodes-help .panel > .table-bordered > tfoot > tr:last-child > th,
+#chartjs-shortcodes-help .panel > .table-responsive > .table-bordered > tfoot > tr:last-child > th,
+#chartjs-shortcodes-help .panel > .table-bordered > thead > tr:last-child > td,
+#chartjs-shortcodes-help .panel > .table-responsive > .table-bordered > thead > tr:last-child > td,
+#chartjs-shortcodes-help .panel > .table-bordered > tbody > tr:last-child > td,
+#chartjs-shortcodes-help .panel > .table-responsive > .table-bordered > tbody > tr:last-child > td,
+#chartjs-shortcodes-help .panel > .table-bordered > tfoot > tr:last-child > td,
+#chartjs-shortcodes-help .panel > .table-responsive > .table-bordered > tfoot > tr:last-child > td {
+  border-bottom: 0;
+}
+#chartjs-shortcodes-help .panel > .table-responsive {
+  border: 0;
+  margin-bottom: 0;
+}
+#chartjs-shortcodes-help .panel-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+#chartjs-shortcodes-help .panel-heading > .dropdown .dropdown-toggle {
+  color: inherit;
+}
+#chartjs-shortcodes-help .panel-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  color: inherit;
+}
+#chartjs-shortcodes-help .panel-title > a {
+  color: inherit;
+}
+#chartjs-shortcodes-help .panel-footer {
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #dddddd;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+#chartjs-shortcodes-help .panel-group .panel {
+  margin-bottom: 0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+#chartjs-shortcodes-help .panel-group .panel + .panel {
+  margin-top: 5px;
+}
+#chartjs-shortcodes-help .panel-group .panel-heading {
+  border-bottom: 0;
+}
+#chartjs-shortcodes-help .panel-group .panel-heading + .panel-collapse .panel-body {
+  border-top: 1px solid #dddddd;
+}
+#chartjs-shortcodes-help .panel-group .panel-footer {
+  border-top: 0;
+}
+#chartjs-shortcodes-help .panel-group .panel-footer + .panel-collapse .panel-body {
+  border-bottom: 1px solid #dddddd;
+}
+#chartjs-shortcodes-help .panel-default {
+  border-color: #dddddd;
+}
+#chartjs-shortcodes-help .panel-default > .panel-heading {
+  color: #333333;
+  background-color: #f5f5f5;
+  border-color: #dddddd;
+}
+#chartjs-shortcodes-help .panel-default > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #dddddd;
+}
+#chartjs-shortcodes-help .panel-default > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #dddddd;
+}
+#chartjs-shortcodes-help .panel-primary {
+  border-color: #428bca;
+}
+#chartjs-shortcodes-help .panel-primary > .panel-heading {
+  color: #ffffff;
+  background-color: #428bca;
+  border-color: #428bca;
+}
+#chartjs-shortcodes-help .panel-primary > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #428bca;
+}
+#chartjs-shortcodes-help .panel-primary > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #428bca;
+}
+#chartjs-shortcodes-help .panel-success {
+  border-color: #d6e9c6;
+}
+#chartjs-shortcodes-help .panel-success > .panel-heading {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+#chartjs-shortcodes-help .panel-success > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #d6e9c6;
+}
+#chartjs-shortcodes-help .panel-success > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #d6e9c6;
+}
+#chartjs-shortcodes-help .panel-warning {
+  border-color: #faebcc;
+}
+#chartjs-shortcodes-help .panel-warning > .panel-heading {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+#chartjs-shortcodes-help .panel-warning > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #faebcc;
+}
+#chartjs-shortcodes-help .panel-warning > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #faebcc;
+}
+#chartjs-shortcodes-help .panel-danger {
+  border-color: #ebccd1;
+}
+#chartjs-shortcodes-help .panel-danger > .panel-heading {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+#chartjs-shortcodes-help .panel-danger > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #ebccd1;
+}
+#chartjs-shortcodes-help .panel-danger > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #ebccd1;
+}
+#chartjs-shortcodes-help .panel-info {
+  border-color: #bce8f1;
+}
+#chartjs-shortcodes-help .panel-info > .panel-heading {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+#chartjs-shortcodes-help .panel-info > .panel-heading + .panel-collapse .panel-body {
+  border-top-color: #bce8f1;
+}
+#chartjs-shortcodes-help .panel-info > .panel-footer + .panel-collapse .panel-body {
+  border-bottom-color: #bce8f1;
+}
+#chartjs-shortcodes-help .well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+#chartjs-shortcodes-help .well blockquote {
+  border-color: #ddd;
+  border-color: rgba(0, 0, 0, 0.15);
+}
+#chartjs-shortcodes-help .well-lg {
+  padding: 24px;
+  border-radius: 6px;
+}
+#chartjs-shortcodes-help .well-sm {
+  padding: 9px;
+  border-radius: 3px;
+}
+#chartjs-shortcodes-help .close {
+  float: right;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1;
+  color: #000000;
+  text-shadow: 0 1px 0 #ffffff;
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+}
+#chartjs-shortcodes-help .close:hover,
+#chartjs-shortcodes-help .close:focus {
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+button#chartjs-shortcodes-help .close {
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+}
+#chartjs-shortcodes-help .modal-open {
+  overflow: hidden;
+}
+#chartjs-shortcodes-help .modal {
+  display: none;
+  overflow: auto;
+  overflow-y: scroll;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+}
+#chartjs-shortcodes-help .modal.fade .modal-dialog {
+  -webkit-transform: translate(0, -25%);
+  -ms-transform: translate(0, -25%);
+  transform: translate(0, -25%);
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  -moz-transition: -moz-transform 0.3s ease-out;
+  -o-transition: -o-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+}
+#chartjs-shortcodes-help .modal.in .modal-dialog {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+#chartjs-shortcodes-help .modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 10px;
+  z-index: 1050;
+}
+#chartjs-shortcodes-help .modal-content {
+  position: relative;
+  background-color: #ffffff;
+  border: 1px solid #999999;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  background-clip: padding-box;
+  outline: none;
+}
+#chartjs-shortcodes-help .modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1030;
+  background-color: #000000;
+}
+#chartjs-shortcodes-help .modal-backdrop.fade {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+#chartjs-shortcodes-help .modal-backdrop.in {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+#chartjs-shortcodes-help .modal-header {
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+  min-height: 16.428571429px;
+}
+#chartjs-shortcodes-help .modal-header .close {
+  margin-top: -2px;
+}
+#chartjs-shortcodes-help .modal-title {
+  margin: 0;
+  line-height: 1.428571429;
+}
+#chartjs-shortcodes-help .modal-body {
+  position: relative;
+  padding: 20px;
+}
+#chartjs-shortcodes-help .modal-footer {
+  margin-top: 15px;
+  padding: 19px 20px 20px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+#chartjs-shortcodes-help .modal-footer:before,
+#chartjs-shortcodes-help .modal-footer:after {
+  content: " ";
+  display: table;
+}
+#chartjs-shortcodes-help .modal-footer:after {
+  clear: both;
+}
+#chartjs-shortcodes-help .modal-footer:before,
+#chartjs-shortcodes-help .modal-footer:after {
+  content: " ";
+  display: table;
+}
+#chartjs-shortcodes-help .modal-footer:after {
+  clear: both;
+}
+#chartjs-shortcodes-help .modal-footer .btn + .btn {
+  margin-left: 5px;
+  margin-bottom: 0;
+}
+#chartjs-shortcodes-help .modal-footer .btn-group .btn + .btn {
+  margin-left: -1px;
+}
+#chartjs-shortcodes-help .modal-footer .btn-block + .btn-block {
+  margin-left: 0;
+}
+@media screen and (min-width: 768px) {
+  #chartjs-shortcodes-help .modal-dialog {
+    width: 600px;
+    margin: 30px auto;
+  }
+  #chartjs-shortcodes-help .modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+}
+#chartjs-shortcodes-help .tooltip {
+  position: absolute;
+  z-index: 1030;
+  display: block;
+  visibility: visible;
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+#chartjs-shortcodes-help .tooltip.in {
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+#chartjs-shortcodes-help .tooltip.top {
+  margin-top: -3px;
+  padding: 5px 0;
+}
+#chartjs-shortcodes-help .tooltip.right {
+  margin-left: 3px;
+  padding: 0 5px;
+}
+#chartjs-shortcodes-help .tooltip.bottom {
+  margin-top: 3px;
+  padding: 5px 0;
+}
+#chartjs-shortcodes-help .tooltip.left {
+  margin-left: -3px;
+  padding: 0 5px;
+}
+#chartjs-shortcodes-help .tooltip-inner {
+  max-width: 200px;
+  padding: 3px 8px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background-color: #000000;
+  border-radius: 4px;
+}
+#chartjs-shortcodes-help .tooltip-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+#chartjs-shortcodes-help .tooltip.top .tooltip-arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px 5px 0;
+  border-top-color: #000000;
+}
+#chartjs-shortcodes-help .tooltip.top-left .tooltip-arrow {
+  bottom: 0;
+  left: 5px;
+  border-width: 5px 5px 0;
+  border-top-color: #000000;
+}
+#chartjs-shortcodes-help .tooltip.top-right .tooltip-arrow {
+  bottom: 0;
+  right: 5px;
+  border-width: 5px 5px 0;
+  border-top-color: #000000;
+}
+#chartjs-shortcodes-help .tooltip.right .tooltip-arrow {
+  top: 50%;
+  left: 0;
+  margin-top: -5px;
+  border-width: 5px 5px 5px 0;
+  border-right-color: #000000;
+}
+#chartjs-shortcodes-help .tooltip.left .tooltip-arrow {
+  top: 50%;
+  right: 0;
+  margin-top: -5px;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #000000;
+}
+#chartjs-shortcodes-help .tooltip.bottom .tooltip-arrow {
+  top: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: #000000;
+}
+#chartjs-shortcodes-help .tooltip.bottom-left .tooltip-arrow {
+  top: 0;
+  left: 5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: #000000;
+}
+#chartjs-shortcodes-help .tooltip.bottom-right .tooltip-arrow {
+  top: 0;
+  right: 5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: #000000;
+}
+#chartjs-shortcodes-help .popover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1010;
+  display: none;
+  max-width: 276px;
+  padding: 1px;
+  text-align: left;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 1px solid #cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  white-space: normal;
+}
+#chartjs-shortcodes-help .popover.top {
+  margin-top: -10px;
+}
+#chartjs-shortcodes-help .popover.right {
+  margin-left: 10px;
+}
+#chartjs-shortcodes-help .popover.bottom {
+  margin-top: 10px;
+}
+#chartjs-shortcodes-help .popover.left {
+  margin-left: -10px;
+}
+#chartjs-shortcodes-help .popover-title {
+  margin: 0;
+  padding: 8px 14px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ebebeb;
+  border-radius: 5px 5px 0 0;
+}
+#chartjs-shortcodes-help .popover-content {
+  padding: 9px 14px;
+}
+#chartjs-shortcodes-help .popover .arrow,
+#chartjs-shortcodes-help .popover .arrow:after {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+#chartjs-shortcodes-help .popover .arrow {
+  border-width: 11px;
+}
+#chartjs-shortcodes-help .popover .arrow:after {
+  border-width: 10px;
+  content: "";
+}
+#chartjs-shortcodes-help .popover.top .arrow {
+  left: 50%;
+  margin-left: -11px;
+  border-bottom-width: 0;
+  border-top-color: #999999;
+  border-top-color: rgba(0, 0, 0, 0.25);
+  bottom: -11px;
+}
+#chartjs-shortcodes-help .popover.top .arrow:after {
+  content: " ";
+  bottom: 1px;
+  margin-left: -10px;
+  border-bottom-width: 0;
+  border-top-color: #ffffff;
+}
+#chartjs-shortcodes-help .popover.right .arrow {
+  top: 50%;
+  left: -11px;
+  margin-top: -11px;
+  border-left-width: 0;
+  border-right-color: #999999;
+  border-right-color: rgba(0, 0, 0, 0.25);
+}
+#chartjs-shortcodes-help .popover.right .arrow:after {
+  content: " ";
+  left: 1px;
+  bottom: -10px;
+  border-left-width: 0;
+  border-right-color: #ffffff;
+}
+#chartjs-shortcodes-help .popover.bottom .arrow {
+  left: 50%;
+  margin-left: -11px;
+  border-top-width: 0;
+  border-bottom-color: #999999;
+  border-bottom-color: rgba(0, 0, 0, 0.25);
+  top: -11px;
+}
+#chartjs-shortcodes-help .popover.bottom .arrow:after {
+  content: " ";
+  top: 1px;
+  margin-left: -10px;
+  border-top-width: 0;
+  border-bottom-color: #ffffff;
+}
+#chartjs-shortcodes-help .popover.left .arrow {
+  top: 50%;
+  right: -11px;
+  margin-top: -11px;
+  border-right-width: 0;
+  border-left-color: #999999;
+  border-left-color: rgba(0, 0, 0, 0.25);
+}
+#chartjs-shortcodes-help .popover.left .arrow:after {
+  content: " ";
+  right: 1px;
+  border-right-width: 0;
+  border-left-color: #ffffff;
+  bottom: -10px;
+}
+#chartjs-shortcodes-help .carousel {
+  position: relative;
+}
+#chartjs-shortcodes-help .carousel-inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+#chartjs-shortcodes-help .carousel-inner > .item {
+  display: none;
+  position: relative;
+  -webkit-transition: 0.6s ease-in-out left;
+  transition: 0.6s ease-in-out left;
+}
+#chartjs-shortcodes-help .carousel-inner > .item > img,
+#chartjs-shortcodes-help .carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  line-height: 1;
+}
+#chartjs-shortcodes-help .carousel-inner > .active,
+#chartjs-shortcodes-help .carousel-inner > .next,
+#chartjs-shortcodes-help .carousel-inner > .prev {
+  display: block;
+}
+#chartjs-shortcodes-help .carousel-inner > .active {
+  left: 0;
+}
+#chartjs-shortcodes-help .carousel-inner > .next,
+#chartjs-shortcodes-help .carousel-inner > .prev {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+#chartjs-shortcodes-help .carousel-inner > .next {
+  left: 100%;
+}
+#chartjs-shortcodes-help .carousel-inner > .prev {
+  left: -100%;
+}
+#chartjs-shortcodes-help .carousel-inner > .next.left,
+#chartjs-shortcodes-help .carousel-inner > .prev.right {
+  left: 0;
+}
+#chartjs-shortcodes-help .carousel-inner > .active.left {
+  left: -100%;
+}
+#chartjs-shortcodes-help .carousel-inner > .active.right {
+  left: 100%;
+}
+#chartjs-shortcodes-help .carousel-control {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 15%;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+#chartjs-shortcodes-help .carousel-control.left {
+  background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.5) 0%), color-stop(rgba(0, 0, 0, 0.0001) 100%));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+}
+#chartjs-shortcodes-help .carousel-control.right {
+  left: auto;
+  right: 0;
+  background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.0001) 0%), color-stop(rgba(0, 0, 0, 0.5) 100%));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+}
+#chartjs-shortcodes-help .carousel-control:hover,
+#chartjs-shortcodes-help .carousel-control:focus {
+  outline: none;
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+#chartjs-shortcodes-help .carousel-control .icon-prev,
+#chartjs-shortcodes-help .carousel-control .icon-next,
+#chartjs-shortcodes-help .carousel-control .glyphicon-chevron-left,
+#chartjs-shortcodes-help .carousel-control .glyphicon-chevron-right {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+}
+#chartjs-shortcodes-help .carousel-control .icon-prev,
+#chartjs-shortcodes-help .carousel-control .glyphicon-chevron-left {
+  left: 50%;
+}
+#chartjs-shortcodes-help .carousel-control .icon-next,
+#chartjs-shortcodes-help .carousel-control .glyphicon-chevron-right {
+  right: 50%;
+}
+#chartjs-shortcodes-help .carousel-control .icon-prev,
+#chartjs-shortcodes-help .carousel-control .icon-next {
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  margin-left: -10px;
+  font-family: serif;
+}
+#chartjs-shortcodes-help .carousel-control .icon-prev:before {
+  content: '\2039';
+}
+#chartjs-shortcodes-help .carousel-control .icon-next:before {
+  content: '\203a';
+}
+#chartjs-shortcodes-help .carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  margin-left: -30%;
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+}
+#chartjs-shortcodes-help .carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #000 \9;
+  background-color: rgba(0, 0, 0, 0);
+}
+#chartjs-shortcodes-help .carousel-indicators .active {
+  margin: 0;
+  width: 12px;
+  height: 12px;
+  background-color: #ffffff;
+}
+#chartjs-shortcodes-help .carousel-caption {
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  bottom: 20px;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+#chartjs-shortcodes-help .carousel-caption .btn {
+  text-shadow: none;
+}
+@media screen and (min-width: 768px) {
+  #chartjs-shortcodes-help .carousel-control .glyphicons-chevron-left,
+  #chartjs-shortcodes-help .carousel-control .glyphicons-chevron-right,
+  #chartjs-shortcodes-help .carousel-control .icon-prev,
+  #chartjs-shortcodes-help .carousel-control .icon-next {
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    margin-left: -15px;
+    font-size: 30px;
+  }
+  #chartjs-shortcodes-help .carousel-caption {
+    left: 20%;
+    right: 20%;
+    padding-bottom: 30px;
+  }
+  #chartjs-shortcodes-help .carousel-indicators {
+    bottom: 20px;
+  }
+}
+#chartjs-shortcodes-help .clearfix:before,
+#chartjs-shortcodes-help .clearfix:after {
+  content: " ";
+  display: table;
+}
+#chartjs-shortcodes-help .clearfix:after {
+  clear: both;
+}
+#chartjs-shortcodes-help .center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#chartjs-shortcodes-help .pull-right {
+  float: right !important;
+}
+#chartjs-shortcodes-help .pull-left {
+  float: left !important;
+}
+#chartjs-shortcodes-help .hide {
+  display: none !important;
+}
+#chartjs-shortcodes-help .show {
+  display: block !important;
+}
+#chartjs-shortcodes-help .invisible {
+  visibility: hidden;
+}
+#chartjs-shortcodes-help .text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+#chartjs-shortcodes-help .hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+#chartjs-shortcodes-help .affix {
+  position: fixed;
+}
+@-ms-viewport {
+  width: device-width;
+}
+#chartjs-shortcodes-help .visible-xs,
+tr#chartjs-shortcodes-help .visible-xs,
+th#chartjs-shortcodes-help .visible-xs,
+td#chartjs-shortcodes-help .visible-xs {
+  display: none !important;
+}
+@media (max-width: 767px) {
+  #chartjs-shortcodes-help .visible-xs {
+    display: block !important;
+  }
+  table#chartjs-shortcodes-help .visible-xs {
+    display: table;
+  }
+  tr#chartjs-shortcodes-help .visible-xs {
+    display: table-row !important;
+  }
+  th#chartjs-shortcodes-help .visible-xs,
+  td#chartjs-shortcodes-help .visible-xs {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #chartjs-shortcodes-help .visible-xs.visible-sm {
+    display: block !important;
+  }
+  table#chartjs-shortcodes-help .visible-xs.visible-sm {
+    display: table;
+  }
+  tr#chartjs-shortcodes-help .visible-xs.visible-sm {
+    display: table-row !important;
+  }
+  th#chartjs-shortcodes-help .visible-xs.visible-sm,
+  td#chartjs-shortcodes-help .visible-xs.visible-sm {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #chartjs-shortcodes-help .visible-xs.visible-md {
+    display: block !important;
+  }
+  table#chartjs-shortcodes-help .visible-xs.visible-md {
+    display: table;
+  }
+  tr#chartjs-shortcodes-help .visible-xs.visible-md {
+    display: table-row !important;
+  }
+  th#chartjs-shortcodes-help .visible-xs.visible-md,
+  td#chartjs-shortcodes-help .visible-xs.visible-md {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 1200px) {
+  #chartjs-shortcodes-help .visible-xs.visible-lg {
+    display: block !important;
+  }
+  table#chartjs-shortcodes-help .visible-xs.visible-lg {
+    display: table;
+  }
+  tr#chartjs-shortcodes-help .visible-xs.visible-lg {
+    display: table-row !important;
+  }
+  th#chartjs-shortcodes-help .visible-xs.visible-lg,
+  td#chartjs-shortcodes-help .visible-xs.visible-lg {
+    display: table-cell !important;
+  }
+}
+#chartjs-shortcodes-help .visible-sm,
+tr#chartjs-shortcodes-help .visible-sm,
+th#chartjs-shortcodes-help .visible-sm,
+td#chartjs-shortcodes-help .visible-sm {
+  display: none !important;
+}
+@media (max-width: 767px) {
+  #chartjs-shortcodes-help .visible-sm.visible-xs {
+    display: block !important;
+  }
+  table#chartjs-shortcodes-help .visible-sm.visible-xs {
+    display: table;
+  }
+  tr#chartjs-shortcodes-help .visible-sm.visible-xs {
+    display: table-row !important;
+  }
+  th#chartjs-shortcodes-help .visible-sm.visible-xs,
+  td#chartjs-shortcodes-help .visible-sm.visible-xs {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #chartjs-shortcodes-help .visible-sm {
+    display: block !important;
+  }
+  table#chartjs-shortcodes-help .visible-sm {
+    display: table;
+  }
+  tr#chartjs-shortcodes-help .visible-sm {
+    display: table-row !important;
+  }
+  th#chartjs-shortcodes-help .visible-sm,
+  td#chartjs-shortcodes-help .visible-sm {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #chartjs-shortcodes-help .visible-sm.visible-md {
+    display: block !important;
+  }
+  table#chartjs-shortcodes-help .visible-sm.visible-md {
+    display: table;
+  }
+  tr#chartjs-shortcodes-help .visible-sm.visible-md {
+    display: table-row !important;
+  }
+  th#chartjs-shortcodes-help .visible-sm.visible-md,
+  td#chartjs-shortcodes-help .visible-sm.visible-md {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 1200px) {
+  #chartjs-shortcodes-help .visible-sm.visible-lg {
+    display: block !important;
+  }
+  table#chartjs-shortcodes-help .visible-sm.visible-lg {
+    display: table;
+  }
+  tr#chartjs-shortcodes-help .visible-sm.visible-lg {
+    display: table-row !important;
+  }
+  th#chartjs-shortcodes-help .visible-sm.visible-lg,
+  td#chartjs-shortcodes-help .visible-sm.visible-lg {
+    display: table-cell !important;
+  }
+}
+#chartjs-shortcodes-help .visible-md,
+tr#chartjs-shortcodes-help .visible-md,
+th#chartjs-shortcodes-help .visible-md,
+td#chartjs-shortcodes-help .visible-md {
+  display: none !important;
+}
+@media (max-width: 767px) {
+  #chartjs-shortcodes-help .visible-md.visible-xs {
+    display: block !important;
+  }
+  table#chartjs-shortcodes-help .visible-md.visible-xs {
+    display: table;
+  }
+  tr#chartjs-shortcodes-help .visible-md.visible-xs {
+    display: table-row !important;
+  }
+  th#chartjs-shortcodes-help .visible-md.visible-xs,
+  td#chartjs-shortcodes-help .visible-md.visible-xs {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #chartjs-shortcodes-help .visible-md.visible-sm {
+    display: block !important;
+  }
+  table#chartjs-shortcodes-help .visible-md.visible-sm {
+    display: table;
+  }
+  tr#chartjs-shortcodes-help .visible-md.visible-sm {
+    display: table-row !important;
+  }
+  th#chartjs-shortcodes-help .visible-md.visible-sm,
+  td#chartjs-shortcodes-help .visible-md.visible-sm {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #chartjs-shortcodes-help .visible-md {
+    display: block !important;
+  }
+  table#chartjs-shortcodes-help .visible-md {
+    display: table;
+  }
+  tr#chartjs-shortcodes-help .visible-md {
+    display: table-row !important;
+  }
+  th#chartjs-shortcodes-help .visible-md,
+  td#chartjs-shortcodes-help .visible-md {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 1200px) {
+  #chartjs-shortcodes-help .visible-md.visible-lg {
+    display: block !important;
+  }
+  table#chartjs-shortcodes-help .visible-md.visible-lg {
+    display: table;
+  }
+  tr#chartjs-shortcodes-help .visible-md.visible-lg {
+    display: table-row !important;
+  }
+  th#chartjs-shortcodes-help .visible-md.visible-lg,
+  td#chartjs-shortcodes-help .visible-md.visible-lg {
+    display: table-cell !important;
+  }
+}
+#chartjs-shortcodes-help .visible-lg,
+tr#chartjs-shortcodes-help .visible-lg,
+th#chartjs-shortcodes-help .visible-lg,
+td#chartjs-shortcodes-help .visible-lg {
+  display: none !important;
+}
+@media (max-width: 767px) {
+  #chartjs-shortcodes-help .visible-lg.visible-xs {
+    display: block !important;
+  }
+  table#chartjs-shortcodes-help .visible-lg.visible-xs {
+    display: table;
+  }
+  tr#chartjs-shortcodes-help .visible-lg.visible-xs {
+    display: table-row !important;
+  }
+  th#chartjs-shortcodes-help .visible-lg.visible-xs,
+  td#chartjs-shortcodes-help .visible-lg.visible-xs {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #chartjs-shortcodes-help .visible-lg.visible-sm {
+    display: block !important;
+  }
+  table#chartjs-shortcodes-help .visible-lg.visible-sm {
+    display: table;
+  }
+  tr#chartjs-shortcodes-help .visible-lg.visible-sm {
+    display: table-row !important;
+  }
+  th#chartjs-shortcodes-help .visible-lg.visible-sm,
+  td#chartjs-shortcodes-help .visible-lg.visible-sm {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #chartjs-shortcodes-help .visible-lg.visible-md {
+    display: block !important;
+  }
+  table#chartjs-shortcodes-help .visible-lg.visible-md {
+    display: table;
+  }
+  tr#chartjs-shortcodes-help .visible-lg.visible-md {
+    display: table-row !important;
+  }
+  th#chartjs-shortcodes-help .visible-lg.visible-md,
+  td#chartjs-shortcodes-help .visible-lg.visible-md {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 1200px) {
+  #chartjs-shortcodes-help .visible-lg {
+    display: block !important;
+  }
+  table#chartjs-shortcodes-help .visible-lg {
+    display: table;
+  }
+  tr#chartjs-shortcodes-help .visible-lg {
+    display: table-row !important;
+  }
+  th#chartjs-shortcodes-help .visible-lg,
+  td#chartjs-shortcodes-help .visible-lg {
+    display: table-cell !important;
+  }
+}
+#chartjs-shortcodes-help .hidden-xs {
+  display: block !important;
+}
+table#chartjs-shortcodes-help .hidden-xs {
+  display: table;
+}
+tr#chartjs-shortcodes-help .hidden-xs {
+  display: table-row !important;
+}
+th#chartjs-shortcodes-help .hidden-xs,
+td#chartjs-shortcodes-help .hidden-xs {
+  display: table-cell !important;
+}
+@media (max-width: 767px) {
+  #chartjs-shortcodes-help .hidden-xs,
+  tr#chartjs-shortcodes-help .hidden-xs,
+  th#chartjs-shortcodes-help .hidden-xs,
+  td#chartjs-shortcodes-help .hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #chartjs-shortcodes-help .hidden-xs.hidden-sm,
+  tr#chartjs-shortcodes-help .hidden-xs.hidden-sm,
+  th#chartjs-shortcodes-help .hidden-xs.hidden-sm,
+  td#chartjs-shortcodes-help .hidden-xs.hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #chartjs-shortcodes-help .hidden-xs.hidden-md,
+  tr#chartjs-shortcodes-help .hidden-xs.hidden-md,
+  th#chartjs-shortcodes-help .hidden-xs.hidden-md,
+  td#chartjs-shortcodes-help .hidden-xs.hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  #chartjs-shortcodes-help .hidden-xs.hidden-lg,
+  tr#chartjs-shortcodes-help .hidden-xs.hidden-lg,
+  th#chartjs-shortcodes-help .hidden-xs.hidden-lg,
+  td#chartjs-shortcodes-help .hidden-xs.hidden-lg {
+    display: none !important;
+  }
+}
+#chartjs-shortcodes-help .hidden-sm {
+  display: block !important;
+}
+table#chartjs-shortcodes-help .hidden-sm {
+  display: table;
+}
+tr#chartjs-shortcodes-help .hidden-sm {
+  display: table-row !important;
+}
+th#chartjs-shortcodes-help .hidden-sm,
+td#chartjs-shortcodes-help .hidden-sm {
+  display: table-cell !important;
+}
+@media (max-width: 767px) {
+  #chartjs-shortcodes-help .hidden-sm.hidden-xs,
+  tr#chartjs-shortcodes-help .hidden-sm.hidden-xs,
+  th#chartjs-shortcodes-help .hidden-sm.hidden-xs,
+  td#chartjs-shortcodes-help .hidden-sm.hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #chartjs-shortcodes-help .hidden-sm,
+  tr#chartjs-shortcodes-help .hidden-sm,
+  th#chartjs-shortcodes-help .hidden-sm,
+  td#chartjs-shortcodes-help .hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #chartjs-shortcodes-help .hidden-sm.hidden-md,
+  tr#chartjs-shortcodes-help .hidden-sm.hidden-md,
+  th#chartjs-shortcodes-help .hidden-sm.hidden-md,
+  td#chartjs-shortcodes-help .hidden-sm.hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  #chartjs-shortcodes-help .hidden-sm.hidden-lg,
+  tr#chartjs-shortcodes-help .hidden-sm.hidden-lg,
+  th#chartjs-shortcodes-help .hidden-sm.hidden-lg,
+  td#chartjs-shortcodes-help .hidden-sm.hidden-lg {
+    display: none !important;
+  }
+}
+#chartjs-shortcodes-help .hidden-md {
+  display: block !important;
+}
+table#chartjs-shortcodes-help .hidden-md {
+  display: table;
+}
+tr#chartjs-shortcodes-help .hidden-md {
+  display: table-row !important;
+}
+th#chartjs-shortcodes-help .hidden-md,
+td#chartjs-shortcodes-help .hidden-md {
+  display: table-cell !important;
+}
+@media (max-width: 767px) {
+  #chartjs-shortcodes-help .hidden-md.hidden-xs,
+  tr#chartjs-shortcodes-help .hidden-md.hidden-xs,
+  th#chartjs-shortcodes-help .hidden-md.hidden-xs,
+  td#chartjs-shortcodes-help .hidden-md.hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #chartjs-shortcodes-help .hidden-md.hidden-sm,
+  tr#chartjs-shortcodes-help .hidden-md.hidden-sm,
+  th#chartjs-shortcodes-help .hidden-md.hidden-sm,
+  td#chartjs-shortcodes-help .hidden-md.hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #chartjs-shortcodes-help .hidden-md,
+  tr#chartjs-shortcodes-help .hidden-md,
+  th#chartjs-shortcodes-help .hidden-md,
+  td#chartjs-shortcodes-help .hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  #chartjs-shortcodes-help .hidden-md.hidden-lg,
+  tr#chartjs-shortcodes-help .hidden-md.hidden-lg,
+  th#chartjs-shortcodes-help .hidden-md.hidden-lg,
+  td#chartjs-shortcodes-help .hidden-md.hidden-lg {
+    display: none !important;
+  }
+}
+#chartjs-shortcodes-help .hidden-lg {
+  display: block !important;
+}
+table#chartjs-shortcodes-help .hidden-lg {
+  display: table;
+}
+tr#chartjs-shortcodes-help .hidden-lg {
+  display: table-row !important;
+}
+th#chartjs-shortcodes-help .hidden-lg,
+td#chartjs-shortcodes-help .hidden-lg {
+  display: table-cell !important;
+}
+@media (max-width: 767px) {
+  #chartjs-shortcodes-help .hidden-lg.hidden-xs,
+  tr#chartjs-shortcodes-help .hidden-lg.hidden-xs,
+  th#chartjs-shortcodes-help .hidden-lg.hidden-xs,
+  td#chartjs-shortcodes-help .hidden-lg.hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #chartjs-shortcodes-help .hidden-lg.hidden-sm,
+  tr#chartjs-shortcodes-help .hidden-lg.hidden-sm,
+  th#chartjs-shortcodes-help .hidden-lg.hidden-sm,
+  td#chartjs-shortcodes-help .hidden-lg.hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #chartjs-shortcodes-help .hidden-lg.hidden-md,
+  tr#chartjs-shortcodes-help .hidden-lg.hidden-md,
+  th#chartjs-shortcodes-help .hidden-lg.hidden-md,
+  td#chartjs-shortcodes-help .hidden-lg.hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  #chartjs-shortcodes-help .hidden-lg,
+  tr#chartjs-shortcodes-help .hidden-lg,
+  th#chartjs-shortcodes-help .hidden-lg,
+  td#chartjs-shortcodes-help .hidden-lg {
+    display: none !important;
+  }
+}
+#chartjs-shortcodes-help .visible-print,
+tr#chartjs-shortcodes-help .visible-print,
+th#chartjs-shortcodes-help .visible-print,
+td#chartjs-shortcodes-help .visible-print {
+  display: none !important;
+}
+@media print {
+  #chartjs-shortcodes-help .visible-print {
+    display: block !important;
+  }
+  table#chartjs-shortcodes-help .visible-print {
+    display: table;
+  }
+  tr#chartjs-shortcodes-help .visible-print {
+    display: table-row !important;
+  }
+  th#chartjs-shortcodes-help .visible-print,
+  td#chartjs-shortcodes-help .visible-print {
+    display: table-cell !important;
+  }
+  #chartjs-shortcodes-help .hidden-print,
+  tr#chartjs-shortcodes-help .hidden-print,
+  th#chartjs-shortcodes-help .hidden-print,
+  td#chartjs-shortcodes-help .hidden-print {
+    display: none !important;
+  }
+}

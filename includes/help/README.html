@@ -1,0 +1,165 @@
+<h1 id="chart-js-shortcodes-for-wordpress">Chart.js Shortcodes for WordPress</h1>
+<p>WordPress plugin that provides shortcodes for easier use of the Chart.js charts in your content.</p>
+<h2 id="requirements">Requirements</h2>
+<p>This plugin won&#39;t do anything if you don&#39;t have WordPress theme built with the <a href="http://www.chartjs.org/">Chart.js</a> framework. <strong>This plugin does not include the Chart.js scripts</strong>.</p>
+<p>The plugin is tested to work with <code>WordPress 4.0</code>.</p>
+<p>This plugin contains a <code>composer.json</code> file for those of you who manage your PHP dependencies with <a href="https://getcomposer.org">Composer</a>.</p>
+<h2 id="shortcode-reference">Shortcode Reference</h2>
+<h3 id="chart-examples">Chart Examples</h3>
+<ul>
+<li><a href="#line">Line</a></li>
+<li><a href="#bar">Bar</a></li>
+<li><a href="#polar-area">Polar Area</a></li>
+<li><a href="#pie">Pie</a></li>
+<li><a href="#doughnut">Doughnut</a></li>
+<li><a href="#shortcode-parameters">Shortcode Parameters</a></li>
+</ul>
+<h1 id="usage">Usage</h1>
+<h3 id="charts">Charts</h3>
+<h3 id="line">Line</h3>
+<pre><code>  [chart width=&quot;600&quot; height=&quot;400&quot; type=&quot;line&quot; labels=&quot;a, b, c, d&quot;]
+    [data data=&quot;10, 50, 90, 40&quot; fillcolor=&quot;blue&quot;]
+    [data data=&quot;10, 20, 30, 40&quot; fillcolor=&quot;red&quot;]
+  [/chart]</code></pre>
+<h3 id="bar">Bar</h3>
+<pre><code>  [chart width=&quot;600&quot; height=&quot;400&quot; type=&quot;bar&quot; labels=&quot;a, b, c, d&quot;]
+    [data data=&quot;10, 50, 90, 40&quot; fillcolor=&quot;blue&quot;]
+    [data data=&quot;10, 20, 30, 40&quot; fillcolor=&quot;red&quot;]
+  [/chart]</code></pre>
+<h3 id="polar-area">Polar Area</h3>
+<pre><code>  [chart width=&quot;600&quot; height=&quot;400&quot; type=&quot;polararea&quot;]
+    [data label=&quot;A&quot; value=&quot;75&quot; color=&quot;blue&quot;]
+    [data label=&quot;B&quot; value=&quot;25&quot; color=&quot;red&quot;]
+  [/chart]</code></pre>
+<h3 id="pie">Pie</h3>
+<pre><code>  [chart width=&quot;600&quot; height=&quot;400&quot; type=&quot;pie&quot;]
+    [data label=&quot;A&quot; value=&quot;75&quot; color=&quot;blue&quot;]
+    [data label=&quot;B&quot; value=&quot;25&quot; color=&quot;red&quot;]
+  [/chart]</code></pre>
+<h3 id="doughnut">Doughnut</h3>
+<pre><code>  [chart width=&quot;600&quot; height=&quot;400&quot; type=&quot;doughnut&quot;]
+    [data label=&quot;A&quot; value=&quot;75&quot; color=&quot;blue&quot;]
+    [data label=&quot;B&quot; value=&quot;25&quot; color=&quot;red&quot;]
+  [/chart]</code></pre>
+<h3 id="shortcode-parameters">Shortcode Parameters</h3>
+<h4 id="-chart-parameters">[chart] parameters</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+<th>Required</th>
+<th>Values</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>width</td>
+<td>width, in pixels, of the chart</td>
+<td>required</td>
+<td>any number</td>
+<td>false</td>
+</tr>
+<tr>
+<td>height</td>
+<td>height, in pixels, of the chart</td>
+<td>required</td>
+<td>any number</td>
+<td>false</td>
+</tr>
+<tr>
+<td>labels</td>
+<td>Data point labels separated by a comma. Number of labels must match the number of data points in the [data] shortcodes</td>
+<td>optional</td>
+<td>any text</td>
+<td>none</td>
+</tr>
+</tbody>
+</table>
+<h4 id="-data-parameters-for-polar-area-pie-and-doughnut-charts">[data] parameters for Polar Area, Pie and Doughnut charts</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+<th>Required</th>
+<th>Values</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>value</td>
+<td>Data point value</td>
+<td>optional</td>
+<td>any number</td>
+<td>false</td>
+</tr>
+<tr>
+<td>label</td>
+<td>Data point label</td>
+<td>optional</td>
+<td>any text</td>
+<td>false</td>
+</tr>
+<tr>
+<td>color</td>
+<td>Area fill color</td>
+<td>optional</td>
+<td>any valid CSS color value. You can use HEX notation, RGB, RGBA or HSL.</td>
+<td>false</td>
+</tr>
+</tbody>
+</table>
+<h4 id="-data-parameters-for-line-and-bar-charts">[data] parameters for Line and Bar charts</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+<th>Required</th>
+<th>Values</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>data</td>
+<td>Data points separated by a comma for use in Line and Bar charts. Number of data points must match the number of labels in the [chart] shortcode</td>
+<td>optional</td>
+<td>any text</td>
+<td>none</td>
+</tr>
+<tr>
+<td>fillcolor</td>
+<td>Line or bar fill color</td>
+<td>optional</td>
+<td>any valid CSS color value. You can use HEX notation, RGB, RGBA or HSL.</td>
+<td>false</td>
+</tr>
+<tr>
+<td>strokecolor</td>
+<td>Line or bar stroke (outline) color</td>
+<td>optional</td>
+<td>any valid CSS color value. You can use HEX notation, RGB, RGBA or HSL.</td>
+<td>false</td>
+</tr>
+<tr>
+<td>highlightfill</td>
+<td>Line or bar fill highlight (mouse-over) color</td>
+<td>optional</td>
+<td>any valid CSS color value. You can use HEX notation, RGB, RGBA or HSL.</td>
+<td>false</td>
+</tr>
+<tr>
+<td>highlightstroke</td>
+<td>Line or bar stroke (outline) highlight (mouse-over) color</td>
+<td>optional</td>
+<td>any valid CSS color value. You can use HEX notation, RGB, RGBA or HSL.</td>
+<td>false</td>
+</tr>
+</tbody>
+</table>
+<hr>
+

@@ -1,0 +1,33 @@
+@font-face {
+	font-family: 'chartjs4wp';
+	src:url('fonts/chartjs-font.eot?-o1r0ap') format('embedded-opentype');
+	src:url('fonts/chartjs-font.eot?#iefix-o1r0ap') format('embedded-opentype'),
+		url('fonts/chartjs-font.woff?-o1r0ap') format('woff'),
+		url('fonts/chartjs-font.ttf?-o1r0ap') format('truetype'),
+		url('fonts/chartjs-font.svg?-o1r0ap#chartjs-font') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.chartjs-logo {
+    padding: 0 3px;
+}
+.wp-media-buttons .add_media span.chartjs-logo:before,
+.mce-i-chartjs-shortcodes:before {
+    font-family: 'chartjs4wp' !important;
+	content: "\e600" !important;
+    color: #5A8FBF !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+#wp_fs_chartjs-shortcodes {
+    font-size: 14px !important;
+}

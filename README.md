@@ -38,20 +38,20 @@ This plugin contains a ```composer.json``` file for those of you who manage your
       
 ### Polar Area
 	  [chart width="600" height="400" type="polararea"]
-        [data value="75" color="blue"]
-	    [data value="25" color="red"]
+        [data label="A" value="75" color="blue"]
+	    [data label="B" value="25" color="red"]
 	  [/chart]
       
 ### Pie
 	  [chart width="600" height="400" type="pie"]
-        [data value="75" color="blue"]
-	    [data value="25" color="red"]
+        [data label="A" value="75" color="blue"]
+	    [data label="B" value="25" color="red"]
 	  [/chart]
       
 ### Doughnut
 	  [chart width="600" height="400" type="doughnut"]
-        [data value="75" color="blue"]
-	    [data value="25" color="red"]
+        [data label="A" value="75" color="blue"]
+	    [data label="B" value="25" color="red"]
 	  [/chart]
 
 ### Shortcode Parameters
