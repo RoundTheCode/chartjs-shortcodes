@@ -140,7 +140,7 @@ class ChartjsShortcodes {
     ), $atts ) );
       
     $attributes  = '';
-    $attributes .= ( $values )                  ? ' data: [' . $data . '],' : '';
+    $attributes .= ( $values )                  ? ' data: [' . $values . '],' : '';
     $attributes .= ( $value )                   ? ' value: ' . $value . ',' : '';
     $attributes .= ( $label )                   ? ' label: "' . $label . '",' : '';
     $attributes .= ( $color )                   ? ' color: "' . $color . '",' : '';
