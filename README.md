@@ -28,19 +28,19 @@ This plugin contains a ```composer.json``` file for those of you who manage your
 ### Line
 	  [chart width="600" height="400" type="line" labels="a, b, c, d"]
         [data values="10, 50, 90, 40" label="Blue Line" fillcolor="LightBlue" strokecolor="CornflowerBlue" pointcolor="CornflowerBlue" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="CornflowerBlue"]
-        [data values="10, 20, 30, 40" labe="Purple Line" fillcolor="Plum" strokecolor="MediumOrchid" pointcolor="MediumOrchid" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="MediumOrchid"]
+        [data values="10, 20, 30, 40" label="Purple Line" fillcolor="Plum" strokecolor="MediumOrchid" pointcolor="MediumOrchid" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="MediumOrchid"]
 	  [/chart]
       
 ### Bar
 	  [chart width="600" height="400" type="bar" labels="a, b, c, d"]
         [data values="10, 50, 90, 40" label="Blue Bars" fillcolor="LightBlue" strokecolor="CornflowerBlue" pointcolor="CornflowerBlue" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="CornflowerBlue"]
-        [data values="10, 20, 30, 40" labe="Purple Bars" fillcolor="Plum" strokecolor="MediumOrchid" pointcolor="MediumOrchid" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="MediumOrchid"]
+        [data values="10, 20, 30, 40" label="Purple Bars" fillcolor="Plum" strokecolor="MediumOrchid" pointcolor="MediumOrchid" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="MediumOrchid"]
 	  [/chart]
       
 ### Radar
 	  [chart width="600" height="400" type="radar" labels="a, b, c, d"]
         [data values="10, 50, 90, 40" label="Blue Radar" fillcolor="LightBlue" strokecolor="CornflowerBlue" pointcolor="CornflowerBlue" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="CornflowerBlue"]
-        [data values="10, 20, 30, 40" labe="Purple Radar" fillcolor="Plum" strokecolor="MediumOrchid" pointcolor="MediumOrchid" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="MediumOrchid"]
+        [data values="10, 20, 30, 40" label="Purple Radar" fillcolor="Plum" strokecolor="MediumOrchid" pointcolor="MediumOrchid" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="MediumOrchid"]
 	  [/chart]
       
 ### Polar Area
