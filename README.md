@@ -27,20 +27,20 @@ This plugin contains a ```composer.json``` file for those of you who manage your
 
 ### Line
 	  [chart width="600" height="400" type="line" labels="a, b, c, d"]
-        [data data="10, 50, 90, 40" fillcolor="LightBlue" strokecolor="CornflowerBlue" pointcolor="CornflowerBlue" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="CornflowerBlue"]
-        [data data="10, 20, 30, 40" fillcolor="Plum" strokecolor="MediumOrchid" pointcolor="MediumOrchid" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="MediumOrchid"]
+        [data data="10, 50, 90, 40" label="Blue Line" fillcolor="LightBlue" strokecolor="CornflowerBlue" pointcolor="CornflowerBlue" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="CornflowerBlue"]
+        [data data="10, 20, 30, 40" labe="Purple Line" fillcolor="Plum" strokecolor="MediumOrchid" pointcolor="MediumOrchid" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="MediumOrchid"]
 	  [/chart]
       
 ### Bar
 	  [chart width="600" height="400" type="bar" labels="a, b, c, d"]
-        [data data="10, 50, 90, 40" fillcolor="LightBlue" strokecolor="CornflowerBlue" pointcolor="CornflowerBlue" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="CornflowerBlue"]
-        [data data="10, 20, 30, 40" fillcolor="Plum" strokecolor="MediumOrchid" pointcolor="MediumOrchid" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="MediumOrchid"]
+        [data data="10, 50, 90, 40" label="Blue Bars" fillcolor="LightBlue" strokecolor="CornflowerBlue" pointcolor="CornflowerBlue" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="CornflowerBlue"]
+        [data data="10, 20, 30, 40" labe="Purple Bars" fillcolor="Plum" strokecolor="MediumOrchid" pointcolor="MediumOrchid" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="MediumOrchid"]
 	  [/chart]
       
 ### Radar
 	  [chart width="600" height="400" type="radar" labels="a, b, c, d"]
-        [data data="10, 50, 90, 40" fillcolor="LightBlue" strokecolor="CornflowerBlue" pointcolor="CornflowerBlue" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="CornflowerBlue"]
-        [data data="10, 20, 30, 40" fillcolor="Plum" strokecolor="MediumOrchid" pointcolor="MediumOrchid" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="MediumOrchid"]
+        [data data="10, 50, 90, 40" label="Blue Radar" fillcolor="LightBlue" strokecolor="CornflowerBlue" pointcolor="CornflowerBlue" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="CornflowerBlue"]
+        [data data="10, 20, 30, 40" labe="Purple Radar" fillcolor="Plum" strokecolor="MediumOrchid" pointcolor="MediumOrchid" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="MediumOrchid"]
 	  [/chart]
       
 ### Polar Area
@@ -75,6 +75,7 @@ legend | Generate legend for this chart. **Note: legend requires additional styl
 Parameter | Description | Required | Values | Default
 --- | --- | --- | --- | ---
 data | Data points separated by a comma. Number of data points must match the number of labels in the [chart] shortcode | optional | any text | none
+label | Data set label | optional | any text | false
 fillcolor | Line or bar fill color | optional | any valid CSS color value. You can use HEX notation, RGB, RGBA or HSL. | false
 strokecolor | Line or bar stroke (outline) color | optional | any valid CSS color value. You can use HEX notation, RGB, RGBA or HSL. | false
 highlightfill | Line or bar fill highlight (mouse-over) color | optional | any valid CSS color value. You can use HEX notation, RGB, RGBA or HSL. | false
