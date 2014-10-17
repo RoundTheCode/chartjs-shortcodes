@@ -9,6 +9,7 @@
 <ul>
 <li><a href="#line">Line</a></li>
 <li><a href="#bar">Bar</a></li>
+<li><a href="#radar">Radar</a></li>
 <li><a href="#polar-area">Polar Area</a></li>
 <li><a href="#pie">Pie</a></li>
 <li><a href="#doughnut">Doughnut</a></li>
@@ -18,28 +19,33 @@
 <h3 id="charts">Charts</h3>
 <h3 id="line">Line</h3>
 <pre><code>  [chart width=&quot;600&quot; height=&quot;400&quot; type=&quot;line&quot; labels=&quot;a, b, c, d&quot;]
-    [data data=&quot;10, 50, 90, 40&quot; fillcolor=&quot;blue&quot;]
-    [data data=&quot;10, 20, 30, 40&quot; fillcolor=&quot;red&quot;]
+    [data data=&quot;10, 50, 90, 40&quot; fillcolor=&quot;LightBlue&quot; strokecolor=&quot;CornflowerBlue&quot; pointcolor=&quot;CornflowerBlue&quot; pointstrokecolor=&quot;#fff&quot; pointhighlightfill=&quot;#fff&quot; pointhighlightstroke=&quot;CornflowerBlue&quot;]
+    [data data=&quot;10, 20, 30, 40&quot; fillcolor=&quot;Plum&quot; strokecolor=&quot;MediumOrchid&quot; pointcolor=&quot;MediumOrchid&quot; pointstrokecolor=&quot;#fff&quot; pointhighlightfill=&quot;#fff&quot; pointhighlightstroke=&quot;MediumOrchid&quot;]
   [/chart]</code></pre>
 <h3 id="bar">Bar</h3>
 <pre><code>  [chart width=&quot;600&quot; height=&quot;400&quot; type=&quot;bar&quot; labels=&quot;a, b, c, d&quot;]
-    [data data=&quot;10, 50, 90, 40&quot; fillcolor=&quot;blue&quot;]
-    [data data=&quot;10, 20, 30, 40&quot; fillcolor=&quot;red&quot;]
+    [data data=&quot;10, 50, 90, 40&quot; fillcolor=&quot;LightBlue&quot; strokecolor=&quot;CornflowerBlue&quot; pointcolor=&quot;CornflowerBlue&quot; pointstrokecolor=&quot;#fff&quot; pointhighlightfill=&quot;#fff&quot; pointhighlightstroke=&quot;CornflowerBlue&quot;]
+    [data data=&quot;10, 20, 30, 40&quot; fillcolor=&quot;Plum&quot; strokecolor=&quot;MediumOrchid&quot; pointcolor=&quot;MediumOrchid&quot; pointstrokecolor=&quot;#fff&quot; pointhighlightfill=&quot;#fff&quot; pointhighlightstroke=&quot;MediumOrchid&quot;]
+  [/chart]</code></pre>
+<h3 id="radar">Radar</h3>
+<pre><code>  [chart width=&quot;600&quot; height=&quot;400&quot; type=&quot;radar&quot; labels=&quot;a, b, c, d&quot;]
+    [data data=&quot;10, 50, 90, 40&quot; fillcolor=&quot;LightBlue&quot; strokecolor=&quot;CornflowerBlue&quot; pointcolor=&quot;CornflowerBlue&quot; pointstrokecolor=&quot;#fff&quot; pointhighlightfill=&quot;#fff&quot; pointhighlightstroke=&quot;CornflowerBlue&quot;]
+    [data data=&quot;10, 20, 30, 40&quot; fillcolor=&quot;Plum&quot; strokecolor=&quot;MediumOrchid&quot; pointcolor=&quot;MediumOrchid&quot; pointstrokecolor=&quot;#fff&quot; pointhighlightfill=&quot;#fff&quot; pointhighlightstroke=&quot;MediumOrchid&quot;]
   [/chart]</code></pre>
 <h3 id="polar-area">Polar Area</h3>
 <pre><code>  [chart width=&quot;600&quot; height=&quot;400&quot; type=&quot;polararea&quot;]
-    [data label=&quot;A&quot; value=&quot;75&quot; color=&quot;blue&quot;]
-    [data label=&quot;B&quot; value=&quot;25&quot; color=&quot;red&quot;]
+    [data label=&quot;Blue&quot; value=&quot;75&quot; color=&quot;CornflowerBlue&quot; highlight=&quot;LightBlue&quot;]
+    [data label=&quot;Purple&quot; value=&quot;25&quot; color=&quot;MediumOrchid&quot; highlight=&quot;Plum&quot;]
   [/chart]</code></pre>
 <h3 id="pie">Pie</h3>
 <pre><code>  [chart width=&quot;600&quot; height=&quot;400&quot; type=&quot;pie&quot;]
-    [data label=&quot;A&quot; value=&quot;75&quot; color=&quot;blue&quot;]
-    [data label=&quot;B&quot; value=&quot;25&quot; color=&quot;red&quot;]
+    [data label=&quot;Blue&quot; value=&quot;75&quot; color=&quot;CornflowerBlue&quot; highlight=&quot;LightBlue&quot;]
+    [data label=&quot;Purple&quot; value=&quot;25&quot; color=&quot;MediumOrchid&quot; highlight=&quot;Plum&quot;]
   [/chart]</code></pre>
 <h3 id="doughnut">Doughnut</h3>
 <pre><code>  [chart width=&quot;600&quot; height=&quot;400&quot; type=&quot;doughnut&quot;]
-    [data label=&quot;A&quot; value=&quot;75&quot; color=&quot;blue&quot;]
-    [data label=&quot;B&quot; value=&quot;25&quot; color=&quot;red&quot;]
+    [data label=&quot;Blue&quot; value=&quot;75&quot; color=&quot;CornflowerBlue&quot; highlight=&quot;LightBlue&quot;]
+    [data label=&quot;Purple&quot; value=&quot;25&quot; color=&quot;MediumOrchid&quot; highlight=&quot;Plum&quot;]
   [/chart]</code></pre>
 <h3 id="shortcode-parameters">Shortcode Parameters</h3>
 <h4 id="-chart-parameters">[chart] parameters</h4>
@@ -74,6 +80,90 @@
 <td>optional</td>
 <td>any text</td>
 <td>none</td>
+</tr>
+<tr>
+<td>legend</td>
+<td>Generate legend for this chart. <strong>Note: legend requires additional styling in your WordPress theme</strong></td>
+<td>optional</td>
+<td>true/false</td>
+<td>false</td>
+</tr>
+</tbody>
+</table>
+<h4 id="-data-parameters-for-line-bar-and-radar-charts">[data] parameters for Line, Bar, and Radar charts</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+<th>Required</th>
+<th>Values</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>data</td>
+<td>Data points separated by a comma. Number of data points must match the number of labels in the [chart] shortcode</td>
+<td>optional</td>
+<td>any text</td>
+<td>none</td>
+</tr>
+<tr>
+<td>fillcolor</td>
+<td>Line or bar fill color</td>
+<td>optional</td>
+<td>any valid CSS color value. You can use HEX notation, RGB, RGBA or HSL.</td>
+<td>false</td>
+</tr>
+<tr>
+<td>strokecolor</td>
+<td>Line or bar stroke (outline) color</td>
+<td>optional</td>
+<td>any valid CSS color value. You can use HEX notation, RGB, RGBA or HSL.</td>
+<td>false</td>
+</tr>
+<tr>
+<td>highlightfill</td>
+<td>Line or bar fill highlight (mouse-over) color</td>
+<td>optional</td>
+<td>any valid CSS color value. You can use HEX notation, RGB, RGBA or HSL.</td>
+<td>false</td>
+</tr>
+<tr>
+<td>highlightstroke</td>
+<td>Line or bar stroke (outline) highlight (mouse-over) color</td>
+<td>optional</td>
+<td>any valid CSS color value. You can use HEX notation, RGB, RGBA or HSL.</td>
+<td>false</td>
+</tr>
+<tr>
+<td>pointcolor</td>
+<td>Data point color</td>
+<td>optional</td>
+<td>any valid CSS color value. You can use HEX notation, RGB, RGBA or HSL.</td>
+<td>false</td>
+</tr>
+<tr>
+<td>pointstrokecolor</td>
+<td>Data point stroke (outline) color</td>
+<td>optional</td>
+<td>any valid CSS color value. You can use HEX notation, RGB, RGBA or HSL.</td>
+<td>false</td>
+</tr>
+<tr>
+<td>pointhighlightfill</td>
+<td>Data point highlight (mouse-over) color</td>
+<td>optional</td>
+<td>any valid CSS color value. You can use HEX notation, RGB, RGBA or HSL.</td>
+<td>false</td>
+</tr>
+<tr>
+<td>pointHighlightStroke</td>
+<td>Data point stroke (outline) highlight (mouse-over) color</td>
+<td>optional</td>
+<td>any valid CSS color value. You can use HEX notation, RGB, RGBA or HSL.</td>
+<td>false</td>
 </tr>
 </tbody>
 </table>
@@ -110,51 +200,9 @@
 <td>any valid CSS color value. You can use HEX notation, RGB, RGBA or HSL.</td>
 <td>false</td>
 </tr>
-</tbody>
-</table>
-<h4 id="-data-parameters-for-line-and-bar-charts">[data] parameters for Line and Bar charts</h4>
-<table>
-<thead>
 <tr>
-<th>Parameter</th>
-<th>Description</th>
-<th>Required</th>
-<th>Values</th>
-<th>Default</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>data</td>
-<td>Data points separated by a comma for use in Line and Bar charts. Number of data points must match the number of labels in the [chart] shortcode</td>
-<td>optional</td>
-<td>any text</td>
-<td>none</td>
-</tr>
-<tr>
-<td>fillcolor</td>
-<td>Line or bar fill color</td>
-<td>optional</td>
-<td>any valid CSS color value. You can use HEX notation, RGB, RGBA or HSL.</td>
-<td>false</td>
-</tr>
-<tr>
-<td>strokecolor</td>
-<td>Line or bar stroke (outline) color</td>
-<td>optional</td>
-<td>any valid CSS color value. You can use HEX notation, RGB, RGBA or HSL.</td>
-<td>false</td>
-</tr>
-<tr>
-<td>highlightfill</td>
-<td>Line or bar fill highlight (mouse-over) color</td>
-<td>optional</td>
-<td>any valid CSS color value. You can use HEX notation, RGB, RGBA or HSL.</td>
-<td>false</td>
-</tr>
-<tr>
-<td>highlightstroke</td>
-<td>Line or bar stroke (outline) highlight (mouse-over) color</td>
+<td>highlight</td>
+<td>Area highlight (mouse-over) color</td>
 <td>optional</td>
 <td>any valid CSS color value. You can use HEX notation, RGB, RGBA or HSL.</td>
 <td>false</td>

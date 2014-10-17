@@ -15,6 +15,7 @@ This plugin contains a ```composer.json``` file for those of you who manage your
 ### Chart Examples
 * [Line](#line)
 * [Bar](#bar)
+* [Radar](#radar)
 * [Polar Area](#polar-area)
 * [Pie](#pie)
 * [Doughnut](#doughnut)
@@ -26,32 +27,38 @@ This plugin contains a ```composer.json``` file for those of you who manage your
 
 ### Line
 	  [chart width="600" height="400" type="line" labels="a, b, c, d"]
-        [data data="10, 50, 90, 40" fillcolor="blue"]
-	    [data data="10, 20, 30, 40" fillcolor="red"]
+        [data data="10, 50, 90, 40" fillcolor="LightBlue" strokecolor="CornflowerBlue" pointcolor="CornflowerBlue" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="CornflowerBlue"]
+        [data data="10, 20, 30, 40" fillcolor="Plum" strokecolor="MediumOrchid" pointcolor="MediumOrchid" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="MediumOrchid"]
 	  [/chart]
       
 ### Bar
 	  [chart width="600" height="400" type="bar" labels="a, b, c, d"]
-        [data data="10, 50, 90, 40" fillcolor="blue"]
-	    [data data="10, 20, 30, 40" fillcolor="red"]
+        [data data="10, 50, 90, 40" fillcolor="LightBlue" strokecolor="CornflowerBlue" pointcolor="CornflowerBlue" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="CornflowerBlue"]
+        [data data="10, 20, 30, 40" fillcolor="Plum" strokecolor="MediumOrchid" pointcolor="MediumOrchid" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="MediumOrchid"]
+	  [/chart]
+      
+### Radar
+	  [chart width="600" height="400" type="radar" labels="a, b, c, d"]
+        [data data="10, 50, 90, 40" fillcolor="LightBlue" strokecolor="CornflowerBlue" pointcolor="CornflowerBlue" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="CornflowerBlue"]
+        [data data="10, 20, 30, 40" fillcolor="Plum" strokecolor="MediumOrchid" pointcolor="MediumOrchid" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="MediumOrchid"]
 	  [/chart]
       
 ### Polar Area
 	  [chart width="600" height="400" type="polararea"]
-        [data label="A" value="75" color="blue"]
-	    [data label="B" value="25" color="red"]
+        [data label="Blue" value="75" color="CornflowerBlue" highlight="LightBlue"]
+	    [data label="Purple" value="25" color="MediumOrchid" highlight="Plum"]
 	  [/chart]
       
 ### Pie
 	  [chart width="600" height="400" type="pie"]
-        [data label="A" value="75" color="blue"]
-	    [data label="B" value="25" color="red"]
+        [data label="Blue" value="75" color="CornflowerBlue" highlight="LightBlue"]
+	    [data label="Purple" value="25" color="MediumOrchid" highlight="Plum"]
 	  [/chart]
       
 ### Doughnut
 	  [chart width="600" height="400" type="doughnut"]
-        [data label="A" value="75" color="blue"]
-	    [data label="B" value="25" color="red"]
+        [data label="Blue" value="75" color="CornflowerBlue" highlight="LightBlue"]
+	    [data label="Purple" value="25" color="MediumOrchid" highlight="Plum"]
 	  [/chart]
 
 ### Shortcode Parameters
@@ -62,6 +69,20 @@ Parameter | Description | Required | Values | Default
 width | width, in pixels, of the chart | required | any number | false
 height | height, in pixels, of the chart | required | any number | false
 labels | Data point labels separated by a comma. Number of labels must match the number of data points in the [data] shortcodes | optional | any text | none
+legend | Generate legend for this chart. **Note: legend requires additional styling in your WordPress theme** | optional | true/false | false
+
+#### [data] parameters for Line, Bar, and Radar charts
+Parameter | Description | Required | Values | Default
+--- | --- | --- | --- | ---
+data | Data points separated by a comma. Number of data points must match the number of labels in the [chart] shortcode | optional | any text | none
+fillcolor | Line or bar fill color | optional | any valid CSS color value. You can use HEX notation, RGB, RGBA or HSL. | false
+strokecolor | Line or bar stroke (outline) color | optional | any valid CSS color value. You can use HEX notation, RGB, RGBA or HSL. | false
+highlightfill | Line or bar fill highlight (mouse-over) color | optional | any valid CSS color value. You can use HEX notation, RGB, RGBA or HSL. | false
+highlightstroke | Line or bar stroke (outline) highlight (mouse-over) color | optional | any valid CSS color value. You can use HEX notation, RGB, RGBA or HSL. | false
+pointcolor | Data point color | optional | any valid CSS color value. You can use HEX notation, RGB, RGBA or HSL. | false
+pointstrokecolor | Data point stroke (outline) color | optional | any valid CSS color value. You can use HEX notation, RGB, RGBA or HSL. | false
+pointhighlightfill | Data point highlight (mouse-over) color | optional | any valid CSS color value. You can use HEX notation, RGB, RGBA or HSL. | false
+pointHighlightStroke | Data point stroke (outline) highlight (mouse-over) color | optional | any valid CSS color value. You can use HEX notation, RGB, RGBA or HSL. | false
 
 #### [data] parameters for Polar Area, Pie and Doughnut charts
 Parameter | Description | Required | Values | Default
@@ -69,14 +90,6 @@ Parameter | Description | Required | Values | Default
 value | Data point value | optional | any number | false
 label | Data point label | optional | any text | false
 color | Area fill color | optional | any valid CSS color value. You can use HEX notation, RGB, RGBA or HSL. | false
-
-#### [data] parameters for Line and Bar charts
-Parameter | Description | Required | Values | Default
---- | --- | --- | --- | ---
-data | Data points separated by a comma for use in Line and Bar charts. Number of data points must match the number of labels in the [chart] shortcode | optional | any text | none
-fillcolor | Line or bar fill color | optional | any valid CSS color value. You can use HEX notation, RGB, RGBA or HSL. | false
-strokecolor | Line or bar stroke (outline) color | optional | any valid CSS color value. You can use HEX notation, RGB, RGBA or HSL. | false
-highlightfill | Line or bar fill highlight (mouse-over) color | optional | any valid CSS color value. You can use HEX notation, RGB, RGBA or HSL. | false
-highlightstroke | Line or bar stroke (outline) highlight (mouse-over) color | optional | any valid CSS color value. You can use HEX notation, RGB, RGBA or HSL. | false
+highlight | Area highlight (mouse-over) color | optional | any valid CSS color value. You can use HEX notation, RGB, RGBA or HSL. | false
 
 * * *
