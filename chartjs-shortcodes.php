@@ -124,7 +124,7 @@ class ChartjsShortcodes {
   function chartjs_data( $atts, $content = null ) {
 
     extract( shortcode_atts( array(
-      "data"                  => false,
+      "values"                => false,
       "value"                 => false,
       "label"                 => false,
       "color"                 => false,
@@ -140,7 +140,7 @@ class ChartjsShortcodes {
     ), $atts ) );
       
     $attributes  = '';
-    $attributes .= ( $data )                    ? ' data: [' . $data . '],' : '';
+    $attributes .= ( $values )                  ? ' data: [' . $data . '],' : '';
     $attributes .= ( $value )                   ? ' value: ' . $value . ',' : '';
     $attributes .= ( $label )                   ? ' label: "' . $label . '",' : '';
     $attributes .= ( $color )                   ? ' color: "' . $color . '",' : '';
