@@ -70,20 +70,22 @@ class ChartjsShortcodes {
     else
       $GLOBALS['charts_count'] = 0;
       
-    extract( shortcode_atts( array(
+    $atts = shortcode_atts( array(
       "type"       => false,
       "width"      => 400,
       "height"     => 400,
       "labels"     => false,
       "legend"     => false
-    ), $atts ) );
+    ), $atts );
     
+    $type = $atts['type'];
+      
     if(strtolower($type) == "polararea")
       $type = "PolarArea";
     else
       $type = ucwords(strtolower($type));
 
-    $labels = $this->parse_labels( $labels );
+    $labels = $this->parse_labels( $atts['labels'] );
     $chartname = 'my' . $GLOBALS["charts_count"] . 'Chart';
 
     return sprintf( 
@@ -97,20 +99,20 @@ class ChartjsShortcodes {
         %6$s
        </script>',
       "chart-" . $GLOBALS['charts_count'],
-      esc_attr( $width ),
-      esc_attr( $height ),
-      ( $legend ) ? '<div class="chartjs-legend" id="' . $chartname . '-legend"></div>' : '',
+      esc_attr( $atts['width'] ),
+      esc_attr( $atts['height'] ),
+      ( $atts['legend'] ) ? '<div class="chartjs-legend" id="' . $chartname . '-legend"></div>' : '',
       $type,
-      ( $legend ) ? 'document.getElementById("' . $chartname . '-legend").innerHTML = ' . $chartname . '.generateLegend();' : '',
+      ( $atts['legend'] ) ? 'document.getElementById("' . $chartname . '-legend").innerHTML = ' . $chartname . '.generateLegend();' : '',
       sprintf(
           '%s
           %s
           %s
           %s',
-          ( $labels ) ? '{' : '[',
-          ( $labels ) ? 'labels: [' . $labels . '],' : '',
-          ( $labels ) ? 'datasets: [ ' . do_shortcode( $content ) . ']' : do_shortcode( $content ),
-          ( $labels ) ? '};' : '];'
+          ( $atts['labels'] ) ? '{' : '[',
+          ( $atts['labels'] ) ? 'labels: [' . $labels . '],' : '',
+          ( $atts['labels'] ) ? 'datasets: [ ' . do_shortcode( $content ) . ']' : do_shortcode( $content ),
+          ( $atts['labels'] ) ? '};' : '];'
       )
     );
 
@@ -123,7 +125,7 @@ class ChartjsShortcodes {
     *-------------------------------------------------------------------------------------*/
   function chartjs_data( $atts, $content = null ) {
 
-    extract( shortcode_atts( array(
+    $atts = shortcode_atts( array(
       "values"                => false,
       "value"                 => false,
       "label"                 => false,
@@ -137,22 +139,22 @@ class ChartjsShortcodes {
       "pointstrokecolor"      => false,
       "pointhighlightfill"    => false,
       "pointHighlightStroke"  => false,
-    ), $atts ) );
+    ), $atts );
       
     $attributes  = '';
-    $attributes .= ( $values )                  ? ' data: [' . $values . '],' : '';
-    $attributes .= ( $value )                   ? ' value: ' . $value . ',' : '';
-    $attributes .= ( $label )                   ? ' label: "' . $label . '",' : '';
-    $attributes .= ( $color )                   ? ' color: "' . $color . '",' : '';
-    $attributes .= ( $highlight )               ? ' highlight: "' . $highlight . '",' : '';
-    $attributes .= ( $fillcolor )               ? ' fillColor: "' . $fillcolor . '",' : '';
-    $attributes .= ( $strokecolor )             ? ' strokeColor: "' . $strokecolor . '",' : '';
-    $attributes .= ( $highlightfill )           ? ' highlightFill: "' . $highlightfill . '",' : '';
-    $attributes .= ( $highlightstroke )         ? ' highlightStroke: "' . $highlightstroke . '",' : '';
-    $attributes .= ( $pointcolor )              ? ' pointColor: "' . $pointcolor . '",' : '';
-    $attributes .= ( $pointstrokecolor )        ? ' pointStrokeColor: "' . $pointstrokecolor . '",' : '';
-    $attributes .= ( $pointhighlightfill )      ? ' pointHighlightFill: "' . $pointhighlightfill . '",' : '';
-    $attributes .= ( $pointHighlightStroke )    ? ' pointHighlightStroke: "' . $pointHighlightStroke . '",' : '';
+    $attributes .= ( $atts['values'] )                  ? ' data: [' . $atts['values'] . '],' : '';
+    $attributes .= ( $atts['value'] )                   ? ' value: ' . $atts['value'] . ',' : '';
+    $attributes .= ( $atts['label'] )                   ? ' label: "' . $atts['label'] . '",' : '';
+    $attributes .= ( $atts['color'] )                   ? ' color: "' . $atts['color'] . '",' : '';
+    $attributes .= ( $atts['highlight'] )               ? ' highlight: "' . $atts['highlight'] . '",' : '';
+    $attributes .= ( $atts['fillcolor'] )               ? ' fillColor: "' . $atts['fillcolor'] . '",' : '';
+    $attributes .= ( $atts['strokecolor'] )             ? ' strokeColor: "' . $atts['strokecolor'] . '",' : '';
+    $attributes .= ( $atts['highlightfill'] )           ? ' highlightFill: "' . $atts['highlightfill'] . '",' : '';
+    $attributes .= ( $atts['highlightstroke'] )         ? ' highlightStroke: "' . $atts['highlightstroke'] . '",' : '';
+    $attributes .= ( $atts['pointcolor'] )              ? ' pointColor: "' . $atts['pointcolor'] . '",' : '';
+    $attributes .= ( $atts['pointstrokecolor'] )        ? ' pointStrokeColor: "' . $atts['pointstrokecolor'] . '",' : '';
+    $attributes .= ( $atts['pointhighlightfill'] )      ? ' pointHighlightFill: "' . $atts['pointhighlightfill'] . '",' : '';
+    $attributes .= ( $atts['pointHighlightStroke'] )    ? ' pointHighlightStroke: "' . $atts['pointHighlightStroke'] . '",' : '';
 
     return sprintf( 
       '{ %s },',
