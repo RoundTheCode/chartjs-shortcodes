@@ -34,9 +34,18 @@ require_once( dirname( __FILE__ ) . '/includes/actions-filters.php' );
 // Begin Shortcodes
 class ChartjsShortcodes {
 
-  function __construct() {
+    function __construct() {
     add_action( 'init', array( $this, 'add_shortcodes' ) );
-  }
+    add_action( 'the_post', array( $this, 'chartjs_shortcodes_script' ) ); // Register this fxn and allow Wordpress to call it automatcally in the header
+    }
+    
+    function chartjs_shortcodes_script()  { 
+      global $post;
+      if( has_shortcode( $post->post_content, 'chart')){
+          // Chart.js
+          wp_enqueue_script( 'chartjs', plugins_url( 'chartjs-shortcodes/includes/js/chart.js/Chart.js' ), array( 'jquery' ), false, false );
+      }
+    }
 
   /*--------------------------------------------------------------------------------------
     *

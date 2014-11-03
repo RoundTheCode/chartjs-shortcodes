@@ -25,6 +25,7 @@ function chartjs_shortcodes_help_styles() {
     }
 
 }
+
 add_action( 'media_buttons', 'chartjs_shortcodes_help_styles' );
 
 add_filter('the_content', 'chartjs_fix_shortcodes');

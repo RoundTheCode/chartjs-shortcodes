@@ -26,39 +26,44 @@ This plugin contains a ```composer.json``` file for those of you who manage your
 ### Charts
 
 ### Line
-	  [chart width="600" height="400" type="line" labels="a, b, c, d"]
-        [data values="10, 50, 90, 40" label="Blue Line" fillcolor="LightBlue" strokecolor="CornflowerBlue" pointcolor="CornflowerBlue" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="CornflowerBlue"]
-        [data values="10, 20, 30, 40" label="Purple Line" fillcolor="Plum" strokecolor="MediumOrchid" pointcolor="MediumOrchid" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="MediumOrchid"]
+	  [chart width="600" height="400" type="line" labels="January, February, March, April, May, June, July"]
+        [data values="65, 59, 80, 81, 56, 55, 40" label="My First dataset" fillcolor="rgba(220,220,220,0.2)" strokecolor="rgba(220,220,220,1)" pointcolor="rgba(220,220,220,1)" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="rgba(220,220,220,1)"]
+        [data values="28, 48, 40, 19, 86, 27, 90" label="My Second dataset" fillcolor="rgba(151,187,205,0.2)" strokecolor="rgba(151,187,205,1)" pointcolor="rgba(151,187,205,1)" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="rgba(151,187,205,1)"]
 	  [/chart]
       
 ### Bar
-	  [chart width="600" height="400" type="bar" labels="a, b, c, d"]
-        [data values="10, 50, 90, 40" label="Blue Bars" fillcolor="LightBlue" strokecolor="CornflowerBlue" pointcolor="CornflowerBlue" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="CornflowerBlue"]
-        [data values="10, 20, 30, 40" label="Purple Bars" fillcolor="Plum" strokecolor="MediumOrchid" pointcolor="MediumOrchid" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="MediumOrchid"]
+	  [chart width="600" height="400" type="bar" labels="January, February, March, April, May, June, July"]
+        [data values="65, 59, 80, 81, 56, 55, 40" label="My First dataset" fillcolor="rgba(220,220,220,0.5)" strokecolor="rgba(220,220,220,0.8)" highlightfill="rgba(220,220,220,0.75)" highlightstroke="rgba(220,220,220,1)"]
+        [data values="28, 48, 40, 19, 86, 27, 90" label="My Second dataset" fillcolor="rgba(151,187,205,0.5)" strokecolor="rgba(151,187,205,0.8)" highlightfill="rgba(151,187,205,0.75)" highlightstroke="rgba(151,187,205,1)"]
 	  [/chart]
       
 ### Radar
-	  [chart width="600" height="400" type="radar" labels="a, b, c, d"]
-        [data values="10, 50, 90, 40" label="Blue Radar" fillcolor="LightBlue" strokecolor="CornflowerBlue" pointcolor="CornflowerBlue" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="CornflowerBlue"]
-        [data values="10, 20, 30, 40" label="Purple Radar" fillcolor="Plum" strokecolor="MediumOrchid" pointcolor="MediumOrchid" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="MediumOrchid"]
+	  [chart width="600" height="400" type="radar" labels="Eating, Drinking, Sleeping, Designing, Coding, Cycling, Running]
+        [data values="65, 59, 90, 81, 56, 55, 40" label="My First dataset" fillcolor="rgba(220,220,220,0.2)" strokecolor="rgba(220,220,220,1)" pointcolor="rgba(220,220,220,1)" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="rgba(220,220,220,1)"]
+        [data values="28, 48, 40, 19, 96, 27, 100" label="My Second dataset" fillcolor="rgba(151,187,205,0.2)" strokecolor="rgba(151,187,205,1)" pointcolor="rgba(151,187,205,1)" pointstrokecolor="#fff" pointhighlightfill="#fff" pointhighlightstroke="rgba(151,187,205,1)"]
 	  [/chart]
       
 ### Polar Area
 	  [chart width="600" height="400" type="polararea"]
-        [data label="Blue" value="75" color="CornflowerBlue" highlight="LightBlue"]
-	    [data label="Purple" value="25" color="MediumOrchid" highlight="Plum"]
+        [data label="Red" value="300" color="#F7464A" highlight="#FF5A5E"]
+	    [data label="Green" value="50" color="#46BFBD" highlight="#5AD3D1"]
+	    [data label="Yellow" value="100" color="#FDB45C" highlight="#FFC870"]
+	    [data label="Grey" value="40" color="#949FB1" highlight="#A8B3C5"]
+	    [data label="Dark Grey" value="120" color="#4D5360" highlight="#616774"]
 	  [/chart]
       
 ### Pie
 	  [chart width="600" height="400" type="pie"]
-        [data label="Blue" value="75" color="CornflowerBlue" highlight="LightBlue"]
-	    [data label="Purple" value="25" color="MediumOrchid" highlight="Plum"]
+        [data label="Red" value="300" color="#F7464A" highlight="#FF5A5E"]
+	    [data label="Green" value="50" color="#46BFBD" highlight="#5AD3D1"]
+	    [data label="Yellow" value="100" color="#FDB45C" highlight="#FFC870"]
 	  [/chart]
       
 ### Doughnut
 	  [chart width="600" height="400" type="doughnut"]
-        [data label="Blue" value="75" color="CornflowerBlue" highlight="LightBlue"]
-	    [data label="Purple" value="25" color="MediumOrchid" highlight="Plum"]
+        [data label="Red" value="300" color="#F7464A" highlight="#FF5A5E"]
+	    [data label="Green" value="50" color="#46BFBD" highlight="#5AD3D1"]
+	    [data label="Yellow" value="100" color="#FDB45C" highlight="#FFC870"]
 	  [/chart]
 
 ### Shortcode Parameters
