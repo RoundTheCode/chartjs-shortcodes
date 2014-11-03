@@ -98,7 +98,10 @@ class ChartjsShortcodes {
     $chartname = 'my' . $GLOBALS["charts_count"] . 'Chart';
 
     return sprintf( 
-      '<canvas id="%1$s" width="%2$s" height="%3$s"></canvas>%4$s
+      '<div class="%8$s">
+        <canvas id="%1$s" width="%2$s" height="%3$s"></canvas>
+        %4$s
+       </div>
        <script>
         var ctx = jQuery("#%1$s").get(0).getContext("2d");
         // This will get the first returned node in the jQuery collection.
@@ -122,7 +125,9 @@ class ChartjsShortcodes {
           ( $atts['labels'] ) ? 'labels: [' . $labels . '],' : '',
           ( $atts['labels'] ) ? 'datasets: [ ' . do_shortcode( $content ) . ']' : do_shortcode( $content ),
           ( $atts['labels'] ) ? '};' : '];'
-      )
+      ),
+      ( $atts['legend'] ) ? 'labeled-chart-container' : 'chart-container'
+
     );
 
   }
